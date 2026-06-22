@@ -1,0 +1,77 @@
+<header class="site-header">
+  <div class="notice-bar">
+    <div class="wrap notice-bar__inner">
+      <span class="notice-bar__icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" focusable="false">
+          <path d="M7 2v3M17 2v3M4 8h16M6 4h12a2 2 0 0 1 2 2v13a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2Z"/>
+        </svg>
+      </span>
+      <strong>Site preview:</strong>
+      <span>Meeting and event details will appear here when approved.</span>
+      <a href="{{ '/meetings/upcoming/' | relative_url }}">Upcoming meetings</a>
+    </div>
+  </div>
+  <div class="wrap header-inner">
+    <a class="brand" href="{{ '/' | relative_url }}" aria-label="{{ site.title }} home">
+      <img class="brand-mark" src="{{ '/assets/images/yg-pto-crane-sun-logo.png' | relative_url }}" alt="" width="76" height="76">
+      <span class="brand-text">
+        <span class="brand-name">Yujin Gakuen <span>PTO</span></span>
+        <span class="brand-subtitle">Kizuna - Our Connection</span>
+      </span>
+    </a>
+
+    <div class="header-actions">
+      <nav class="desktop-nav" aria-label="Primary navigation">
+        <ul class="nav-list">
+          {% for item in site.data.navigation %}
+            {% unless item.url == "/" %}
+              {% assign is_active = false %}
+              {% if page.url == item.url %}
+                {% assign is_active = true %}
+              {% elsif item.url != "/" and page.url contains item.url %}
+                {% assign is_active = true %}
+              {% endif %}
+              <li class="nav-item{% if item.children %} nav-item--has-panel{% endif %}">
+                <a class="nav-link{% if is_active %} is-active{% endif %}" href="{{ item.url | relative_url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.title }}{% if item.children %}<span class="nav-caret" aria-hidden="true">v</span>{% endif %}</a>
+                {% if item.children %}
+                  <div class="nav-panel">
+                    <ul>
+                      {% for child in item.children %}
+                        <li><a href="{{ child.url | relative_url }}">{{ child.title }}</a></li>
+                      {% endfor %}
+                    </ul>
+                  </div>
+                {% endif %}
+              </li>
+            {% endunless %}
+          {% endfor %}
+        </ul>
+      </nav>
+
+      <a class="donate-link" href="{{ '/get-involved/donate-funds/' | relative_url }}">Donate</a>
+    </div>
+
+    <button class="menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="mobile-menu">
+      <span class="menu-icon" aria-hidden="true"></span>
+    </button>
+  </div>
+
+  <nav class="mobile-nav" id="mobile-menu" aria-label="Mobile navigation" hidden>
+    <div class="wrap">
+      <ul class="mobile-nav-list">
+        {% for item in site.data.navigation %}
+          <li>
+            <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+            {% if item.children %}
+              <ul>
+                {% for child in item.children %}
+                  <li><a href="{{ child.url | relative_url }}">{{ child.title }}</a></li>
+                {% endfor %}
+              </ul>
+            {% endif %}
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </nav>
+</header>

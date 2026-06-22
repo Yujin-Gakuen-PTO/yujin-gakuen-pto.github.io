@@ -1,0 +1,22 @@
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div>
+      <a class="footer-brand" href="{{ '/' | relative_url }}">
+        <img src="{{ '/assets/images/yg-pto-crane-sun-logo.png' | relative_url }}" alt="" width="56" height="56">
+        <span>{{ site.title }}</span>
+      </a>
+      <p>Public PTO information for families, volunteers, donors, and community partners.</p>
+    </div>
+    <nav aria-label="Footer navigation">
+      <ul class="footer-nav">
+        {% for item in site.data.navigation %}
+          <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </nav>
+    <div class="footer-note">
+      <p>Content should be added only when it is confirmed and approved for public sharing.</p>
+      <a class="quiet-link" href="{{ '/sitemap/' | relative_url }}">Sitemap</a>
+    </div>
+  </div>
+</footer>

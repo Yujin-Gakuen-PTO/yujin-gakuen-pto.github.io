@@ -1,0 +1,16 @@
+{% if page.section_url and page.url != page.section_url %}
+  {% for item in site.data.navigation %}
+    {% if item.url == page.section_url and item.children %}
+      <aside class="related-links" aria-labelledby="related-title">
+        <h2 id="related-title">More in {{ item.title }}</h2>
+        <ul>
+          {% for child in item.children %}
+            {% unless child.url == page.url %}
+              <li><a href="{{ child.url | relative_url }}">{{ child.title }}</a></li>
+            {% endunless %}
+          {% endfor %}
+        </ul>
+      </aside>
+    {% endif %}
+  {% endfor %}
+{% endif %}
