@@ -1,0 +1,24 @@
+title: Yujin Gakuen PTO
+description: Public website for Yujin Gakuen PTO families, volunteers, donors, and community partners.
+url: "https://yujin-gakuen-pto.github.io"
+baseurl: ""
+lang: en
+timezone: America/Los_Angeles
+markdown: kramdown
+permalink: pretty
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: page
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .bundle
+  - .sass-cache
+  - .jekyll-cache

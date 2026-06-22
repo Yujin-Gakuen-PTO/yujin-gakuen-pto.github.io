@@ -1,0 +1,49 @@
+---
+layout: default
+---
+
+<section class="home-hero" aria-labelledby="home-title">
+  <div class="wrap home-hero__grid">
+    <div class="home-hero__copy">
+      <p class="eyebrow">Yujin Gakuen PTO</p>
+      <h1 id="home-title">A clear home for PTO meetings, events, volunteering, and support.</h1>
+      <p class="hero-summary">This public site foundation is organized for families, volunteers, donors, board members, and community partners. Confirmed details can be added page by page as they are ready.</p>
+      <div class="button-row" aria-label="Primary site paths">
+        <a class="button button--primary" href="{{ '/meetings/upcoming/' | relative_url }}">Upcoming meetings</a>
+        <a class="button button--secondary" href="{{ '/get-involved/' | relative_url }}">Get involved</a>
+      </div>
+    </div>
+    <div class="home-hero__panel" aria-label="Site priorities">
+      <div class="motif-card">
+        <span class="badge">Foundation</span>
+        <h2>Warm, organized, and easy to update</h2>
+        <p>Navigation, page shells, reusable components, and placeholder states are in place before full content migration begins.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% include alert-banner.html %}
+
+<section class="page-section" aria-labelledby="explore-the-pto-site">
+  <div class="wrap">
+    {% include section-heading.html title="Explore the PTO site" text="Use the same structure here, in the header, in the footer, and on the sitemap." %}
+    <div class="card-grid card-grid--three">
+      {% for item in site.data.navigation %}
+        {% unless item.url == "/" %}
+          <a class="action-card" href="{{ item.url | relative_url }}">
+            <span class="badge">{{ item.title }}</span>
+            <h3>{{ item.title }}</h3>
+            <p>{{ item.description }}</p>
+          </a>
+        {% endunless %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="page-section page-section--soft" aria-labelledby="built-for-confirmed-public-information">
+  <div class="wrap">
+    {% include section-heading.html title="Built for confirmed public information" text="This phase creates the structure and visual system without adding fake documents, invented contacts, or unapproved records." %}
+  </div>
+</section>

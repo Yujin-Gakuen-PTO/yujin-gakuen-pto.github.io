@@ -1,0 +1,113 @@
+- title: Home
+  url: /
+  description: Start here for the main PTO paths.
+
+- title: About
+  url: /about/
+  description: Learn what the PTO does and how it is organized.
+  children:
+    - title: PTO Impact
+      url: /about/impact/
+      description: A future home for confirmed PTO support and outcomes.
+    - title: Board Members
+      url: /about/board/
+      description: A future home for approved board information.
+    - title: Committees & Chairs
+      url: /about/committees/
+      description: A future home for committee roles and chair contacts.
+    - title: Governing Documents
+      url: /about/governing-documents/
+      description: A future home for bylaws, policies, and official records.
+
+- title: Get Involved
+  url: /get-involved/
+  description: Find clear ways to participate, help, and support the PTO.
+  children:
+    - title: Join the PTO
+      url: /get-involved/join/
+      description: A future home for membership details.
+    - title: Volunteer
+      url: /get-involved/volunteer/
+      description: A future home for volunteer needs and signups.
+    - title: Join a Committee
+      url: /get-involved/committees/
+      description: A future home for committee participation.
+    - title: UO Beverage Booth
+      url: /get-involved/uo-beverage-booth/
+      description: A future home for concession volunteer information.
+    - title: Host Interns
+      url: /get-involved/host-interns/
+      description: A future home for intern host-family information.
+    - title: Caring Crane Fund
+      url: /get-involved/caring-crane-fund/
+      description: A future home for the Caring Crane Fund.
+    - title: Donate / Funds
+      url: /get-involved/donate-funds/
+      description: A future home for giving and fund information.
+
+- title: Events
+  url: /events/
+  description: Find PTO events, festivals, and school-year traditions.
+  children:
+    - title: Calendar
+      url: /events/calendar/
+      description: A future home for confirmed PTO dates.
+    - title: Oshogatsu
+      url: /events/oshogatsu/
+      description: A future home for Oshogatsu event information.
+    - title: Kodomo no Hi
+      url: /events/kodomo-no-hi/
+      description: A future home for Kodomo no Hi event information.
+    - title: Jikyuso / Jog-a-thon
+      url: /events/jikyuso-jog-a-thon/
+      description: A future home for Jikyuso and jog-a-thon information.
+    - title: Obon & Taiko Festival
+      url: /events/obon-taiko-festival/
+      description: A future home for festival information.
+    - title: Teacher Appreciation
+      url: /events/teacher-appreciation/
+      description: A future home for appreciation-week details.
+    - title: Field Day
+      url: /events/field-day/
+      description: A future home for Field Day support information.
+
+- title: Meetings
+  url: /meetings/
+  description: Find upcoming meetings, agendas, minutes, and records.
+  children:
+    - title: Upcoming Meetings
+      url: /meetings/upcoming/
+      description: The first place for confirmed meeting dates and attendance details.
+    - title: Agendas & Minutes
+      url: /meetings/agendas-minutes/
+      description: A future home for approved agendas and minutes.
+    - title: Annual Meeting
+      url: /meetings/annual-meeting/
+      description: A future home for annual meeting information.
+    - title: Elections
+      url: /meetings/elections/
+      description: A future home for PTO election information.
+    - title: Budget Approval
+      url: /meetings/budget-approval/
+      description: A future home for approved budget-process information.
+    - title: Newsletters
+      url: /meetings/newsletters/
+      description: A future home for newsletter archives.
+
+- title: Store
+  url: /store/
+  description: Find spirit wear and PTO store links.
+  children:
+    - title: Spirit Wear
+      url: /store/spirit-wear/
+      description: A future home for spirit-wear information.
+    - title: Square Store
+      url: /store/square/
+      description: A future home for Square Store links.
+    - title: TeePublic
+      url: /store/teepublic/
+      description: A future home for TeePublic links.
+
+- title: Contact
+  url: /contact/
+  description: A future home for approved PTO contact information.

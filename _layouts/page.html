@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+{% include breadcrumbs.html %}
+{% include hero.html %}
+
+<div class="page-section">
+  <div class="wrap page-grid">
+    <article class="content-flow">
+      {{ content }}
+    </article>
+
+    {% include section-links.html %}
+
+    {% if page.status == "placeholder" %}
+      {% include empty-state.html %}
+    {% endif %}
+
+    {% include related-links.html %}
+  </div>
+</div>
