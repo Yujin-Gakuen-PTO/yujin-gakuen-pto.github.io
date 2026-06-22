@@ -2,7 +2,7 @@
   url: /
   description: Start here for the main PTO paths.
 
-- title: About
+- title: About the PTO
   url: /about/
   description: Learn what the PTO does and how it is organized.
   children:
@@ -45,7 +45,7 @@
       url: /get-involved/donate-funds/
       description: A future home for giving and fund information.
 
-- title: Events
+- title: Events & Calendar
   url: /events/
   description: Find PTO events, festivals, and school-year traditions.
   children:
@@ -71,7 +71,7 @@
       url: /events/field-day/
       description: A future home for Field Day support information.
 
-- title: Meetings
+- title: Meetings & Records
   url: /meetings/
   description: Find upcoming meetings, agendas, minutes, and records.
   children:
