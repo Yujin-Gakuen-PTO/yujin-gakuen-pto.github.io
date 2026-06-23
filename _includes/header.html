@@ -32,9 +32,9 @@
                 {% assign is_active = true %}
               {% endif %}
               <li class="nav-item{% if item.children %} nav-item--has-panel{% endif %}">
-                <a class="nav-link{% if is_active %} is-active{% endif %}" href="{{ item.url | relative_url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.title }}{% if item.children %}<span class="nav-caret" aria-hidden="true"></span>{% endif %}</a>
+                <a class="nav-link{% if is_active %} is-active{% endif %}" href="{{ item.url | relative_url }}"{% if page.url == item.url %} aria-current="page"{% endif %}{% if item.children %} aria-haspopup="true" aria-controls="nav-panel-{{ forloop.index }}"{% endif %}>{{ item.title }}{% if item.children %}<span class="nav-caret" aria-hidden="true"></span>{% endif %}</a>
                 {% if item.children %}
-                  <div class="nav-panel">
+                  <div class="nav-panel" id="nav-panel-{{ forloop.index }}">
                     <ul>
                       {% for child in item.children %}
                         <li><a href="{{ child.url | relative_url }}">{{ child.title }}</a></li>

@@ -43,8 +43,12 @@
 
   document.addEventListener("keydown", (event) => {
     if (event.key === "Escape") {
+      const wasOpen = toggle.getAttribute("aria-expanded") === "true";
       setMenu(false);
-      toggle.focus();
+
+      if (wasOpen) {
+        toggle.focus();
+      }
     }
   });
 
