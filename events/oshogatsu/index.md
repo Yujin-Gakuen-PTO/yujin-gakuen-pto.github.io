@@ -5,8 +5,8 @@ permalink: /events/oshogatsu/
 section: Events
 section_url: /events/
 hero_label: Events
-summary: A future home for Oshogatsu event information.
+summary: Oshogatsu details will be added when confirmed.
 status: placeholder
 ---
 
-Use this page for confirmed event details, volunteer roles, and public family information.
+Oshogatsu details coming soon.

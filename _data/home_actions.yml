@@ -1,0 +1,24 @@
+- title: Join the PTO
+  text: Sign up to receive PTO emails, event information, and volunteer updates.
+  url: "https://forms.gle/KqZonJcfHbNkQBJn8"
+  external: true
+  icon: join
+  color: green
+
+- title: Volunteer Now
+  text: Find current opportunities to help with events, booths, and community support.
+  url: /get-involved/volunteer/
+  icon: volunteer
+  color: terra
+
+- title: See What's Coming Up
+  text: Check the next meetings, events, family meetups, and signup dates.
+  url: /events/calendar/
+  icon: calendar
+  color: bright
+
+- title: Attend a Meeting
+  text: Find upcoming PTO meeting dates, attendance details, and agenda availability.
+  url: /meetings/upcoming/
+  icon: meeting
+  color: gold

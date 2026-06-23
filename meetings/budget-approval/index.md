@@ -5,8 +5,8 @@ permalink: /meetings/budget-approval/
 section: Meetings
 section_url: /meetings/
 hero_label: Meetings
-summary: A future home for approved budget-process information.
+summary: Budget process details will be added when ready to share.
 status: placeholder
 ---
 
-Use this page for public budget approval timelines, approved summaries, and process information.
+Budget approval details coming soon.

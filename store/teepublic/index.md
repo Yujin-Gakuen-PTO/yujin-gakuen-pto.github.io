@@ -5,8 +5,8 @@ permalink: /store/teepublic/
 section: Store
 section_url: /store/
 hero_label: Store
-summary: A future home for TeePublic links.
+summary: TeePublic links will be added when available.
 status: placeholder
 ---
 
-Use this page for approved TeePublic links and public ordering guidance.
+TeePublic links coming soon.

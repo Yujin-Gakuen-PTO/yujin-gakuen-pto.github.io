@@ -1,0 +1,17 @@
+- event_id: summer-recess-2026
+  badge: Summer
+  cta: View meetup dates
+
+- event_id: asian-celebration-2026
+  badge: Volunteer
+  cta: Sign up to volunteer
+  use_external: true
+
+- event_id: obon-taiko-festival-2026
+  badge: Festival
+  cta: Sign up to volunteer
+  use_external: true
+
+- event_id: first-pto-meeting-2026
+  badge: Meeting
+  cta: Meeting details

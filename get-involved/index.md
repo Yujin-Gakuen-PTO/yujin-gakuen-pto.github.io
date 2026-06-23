@@ -3,7 +3,7 @@ layout: page
 title: Get Involved
 permalink: /get-involved/
 hero_label: Get Involved
-summary: A clear action hub for joining, volunteering, committees, intern hosting, concessions, funds, and donations.
+summary: Join PTO emails, volunteer, help with committees, host interns, support funds, and find UO booth signups.
 ---
 
-This section is the action hub for families and community members who want to support the PTO. Each path below has its own page shell so details can be added without crowding one catch-all page.
+Start here when you want to receive PTO emails, volunteer, join a committee, host interns, help with UO booths, or support YG students.

@@ -5,8 +5,8 @@ permalink: /meetings/annual-meeting/
 section: Meetings
 section_url: /meetings/
 hero_label: Meetings
-summary: A future home for annual meeting information.
+summary: Annual meeting details will be added when confirmed.
 status: placeholder
 ---
 
-Use this page for confirmed annual meeting details, public notices, and approved records.
+Annual meeting details coming soon.

@@ -5,8 +5,8 @@ permalink: /events/field-day/
 section: Events
 section_url: /events/
 hero_label: Events
-summary: A future home for Field Day information.
+summary: Field Day support details will be added when confirmed.
 status: placeholder
 ---
 
-Use this page for confirmed Field Day support details, volunteer roles, and public reminders.
+Field Day details coming soon.

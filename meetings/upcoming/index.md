@@ -5,8 +5,9 @@ permalink: /meetings/upcoming/
 section: Meetings
 section_url: /meetings/
 hero_label: Meetings
-summary: The first place for confirmed PTO meeting dates, attendance details, and timely meeting notices.
-status: placeholder
+summary: Confirmed PTO meeting dates, times, attendance details, and timely meeting notices.
 ---
 
-Use this page for confirmed upcoming meeting dates, locations, virtual links, and agenda availability.
+Upcoming meeting dates are listed below. Locations, virtual links, and agendas will be added when confirmed.
+
+{% include event-list.html id="upcoming-meetings" title="Upcoming PTO meetings" text="Meeting dates listed here come from the shared events data used across the site." type="meeting" %}

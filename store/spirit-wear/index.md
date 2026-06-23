@@ -5,8 +5,8 @@ permalink: /store/spirit-wear/
 section: Store
 section_url: /store/
 hero_label: Store
-summary: A future home for spirit-wear information.
+summary: Spirit-wear details will be added when available.
 status: placeholder
 ---
 
-Use this page for approved spirit-wear details, ordering windows, and public store links.
+Spirit-wear details coming soon.

@@ -5,8 +5,9 @@ permalink: /get-involved/volunteer/
 section: Get Involved
 section_url: /get-involved/
 hero_label: Get Involved
-summary: A future home for volunteer needs and signup links.
-status: placeholder
+summary: Current volunteer needs and public signup links for PTO support.
 ---
 
-Use this page for current volunteer opportunities, signup links, and approved expectations for volunteers.
+PTO events are family-run. Parents and caregivers help plan, run, and clean up after events so they can happen.
+
+{% include event-list.html id="volunteer-signups" title="Current volunteer signups" text="Volunteer shifts are posted as soon as details are confirmed." signup_only="true" %}

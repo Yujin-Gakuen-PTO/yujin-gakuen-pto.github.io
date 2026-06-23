@@ -15,6 +15,8 @@ defaults:
 
 exclude:
   - README.md
+  - _internal
+  - docs/internal
   - Gemfile
   - Gemfile.lock
   - node_modules

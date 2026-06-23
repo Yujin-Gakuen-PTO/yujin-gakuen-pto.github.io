@@ -1,0 +1,6 @@
+enabled: true
+type: summer
+label: Summer Recess
+message: Summer Recess meetups are happening this summer.
+link_text: See meetup dates
+url: /events/calendar/#summer-recess-2026

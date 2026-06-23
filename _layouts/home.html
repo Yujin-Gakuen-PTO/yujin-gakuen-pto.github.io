@@ -2,20 +2,22 @@
 layout: default
 ---
 
+{% assign join_form = site.data.links.join_form %}
+
 <section class="home-hero" aria-labelledby="home-title">
   <div class="wrap home-hero__grid">
     <div class="home-hero__copy">
       <p class="eyebrow">Yujin Gakuen PTO</p>
       <h1 id="home-title">Supporting students, strengthening community.</h1>
       <span class="brush-rule" aria-hidden="true"></span>
-      <p class="hero-summary">A clear public home for PTO meetings, events, volunteering, store links, and ways to support Yujin Gakuen families.</p>
+      <p class="hero-summary">The PTO brings families together around school support, community events, volunteer needs, and timely updates for Yujin Gakuen.</p>
       <div class="button-row" aria-label="Primary site paths">
-        <a class="button button--primary" href="{{ '/meetings/upcoming/' | relative_url }}">Attend a meeting</a>
-        <a class="button button--secondary" href="{{ '/get-involved/volunteer/' | relative_url }}">Volunteer with us</a>
+        <a class="button button--primary" href="{{ join_form.url }}">Join the PTO</a>
+        <a class="button button--secondary" href="{{ '/events/calendar/' | relative_url }}">See what's coming up</a>
       </div>
     </div>
     <div class="home-hero__media">
-      <img src="{{ '/assets/images/yujin-gakuen-mural.jpg' | relative_url }}" alt="Colorful Yujin Gakuen mural with sun, waves, koi, cranes, and Mount Fuji">
+      <img src="{{ '/assets/images/yujin-gakuen-mural-hires.png' | relative_url }}" alt="Colorful Yujin Gakuen mural with sun, waves, koi, cranes, and Mount Fuji">
     </div>
   </div>
 </section>
@@ -24,50 +26,28 @@ layout: default
   <div class="wrap">
     <h2 class="visually-hidden" id="quick-actions-title">Quick actions</h2>
     <div class="action-card-row">
-      <a class="action-card action-card--feature" href="{{ '/meetings/upcoming/' | relative_url }}">
-        <span class="action-card__icon action-card__icon--green" aria-hidden="true">
-          <svg viewBox="0 0 24 24" focusable="false"><path d="M7 3v3M17 3v3M4 9h16M6 5h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2Z"/></svg>
-        </span>
-        <h3>Attend a Meeting</h3>
-        <p>Find upcoming PTO meeting information when confirmed details are posted.</p>
-        <span class="circle-link" aria-hidden="true">-></span>
-      </a>
-      <a class="action-card action-card--feature" href="{{ '/get-involved/volunteer/' | relative_url }}">
-        <span class="action-card__icon action-card__icon--terra" aria-hidden="true">
-          <svg viewBox="0 0 24 24" focusable="false"><path d="M20.4 5.6a5 5 0 0 0-7.1 0L12 6.9l-1.3-1.3a5 5 0 0 0-7.1 7.1L12 21l8.4-8.3a5 5 0 0 0 0-7.1Z"/></svg>
-        </span>
-        <h3>Volunteer</h3>
-        <p>Use the volunteer hub as the future home for signups and helper needs.</p>
-        <span class="circle-link" aria-hidden="true">-></span>
-      </a>
-      <a class="action-card action-card--feature" href="{{ '/get-involved/donate-funds/' | relative_url }}">
-        <span class="action-card__icon action-card__icon--gold" aria-hidden="true">
-          <svg viewBox="0 0 24 24" focusable="false"><path d="M12 21s-7-4.3-9-9.2C1.7 8.5 3.9 5 7.4 5c2 0 3.6 1.1 4.6 2.6C13 6.1 14.6 5 16.6 5c3.5 0 5.7 3.5 4.4 6.8C19 16.7 12 21 12 21Z"/></svg>
-        </span>
-        <h3>Donate or Support</h3>
-        <p>Keep giving and fund information separate from store shopping.</p>
-        <span class="circle-link" aria-hidden="true">-></span>
-      </a>
-      <a class="action-card action-card--feature" href="{{ '/events/calendar/' | relative_url }}">
-        <span class="action-card__icon action-card__icon--bright" aria-hidden="true">
-          <svg viewBox="0 0 24 24" focusable="false"><path d="M7 3v3M17 3v3M4 9h16M8 13h3M13 13h3M8 17h3M6 5h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2Z"/></svg>
-        </span>
-        <h3>See Events & Calendar</h3>
-        <p>Find cultural events, school-year traditions, and calendar pages.</p>
-        <span class="circle-link" aria-hidden="true">-></span>
-      </a>
+      {% for action in site.data.home_actions %}
+        <a class="action-card action-card--feature" href="{% if action.external %}{{ action.url }}{% else %}{{ action.url | relative_url }}{% endif %}">
+          <span class="action-card__icon action-card__icon--{{ action.color }}" aria-hidden="true">
+            {% include action-icon.html icon=action.icon %}
+          </span>
+          <h3>{{ action.title }}</h3>
+          <p>{{ action.text }}</p>
+          <span class="circle-link" aria-hidden="true">-></span>
+        </a>
+      {% endfor %}
     </div>
   </div>
 </section>
 
 <section class="page-section page-section--soft impact-band" aria-labelledby="what-families-can-find">
   <div class="wrap">
-    {% include section-heading.html title="What families can find" text="The site structure is ready for confirmed public information as each area is approved." %}
+    {% include section-heading.html title="What families can find" text="Start with the paths families use most: emails, volunteering, events, meetings, and ways to support students." %}
     <div class="support-grid">
       <a href="{{ '/about/impact/' | relative_url }}">
         <span>Programs</span>
         <strong>PTO Impact</strong>
-        <p>Approved summaries of how PTO support helps students and classrooms.</p>
+        <p>How PTO support helps students, classrooms, and school traditions.</p>
       </a>
       <a href="{{ '/events/' | relative_url }}">
         <span>Events</span>
@@ -79,22 +59,32 @@ layout: default
         <strong>Volunteer Paths</strong>
         <p>Clear next steps for meetings, committees, concessions, and hosting.</p>
       </a>
+      <a href="{{ '/get-involved/donate-funds/' | relative_url }}">
+        <span>Support</span>
+        <strong>Support YG Students</strong>
+        <p>Giving helps fund programs, events, appreciation, and student enrichment.</p>
+      </a>
       <a href="{{ '/meetings/' | relative_url }}">
         <span>Records</span>
         <strong>Meetings & Records</strong>
-        <p>Upcoming meetings, approved agendas, minutes, elections, and newsletters.</p>
-      </a>
-      <a href="{{ '/store/' | relative_url }}">
-        <span>Store</span>
-        <strong>Spirit Wear</strong>
-        <p>A separate store section for apparel and public shopping links.</p>
+        <p>Upcoming meetings, posted agendas, minutes, elections, and newsletters.</p>
       </a>
       <a href="{{ '/contact/' | relative_url }}">
         <span>Contact</span>
         <strong>Contact Paths</strong>
-        <p>Approved public contact information when it is ready to publish.</p>
+        <p>Ways to reach the PTO when contact details are ready to share.</p>
       </a>
     </div>
+  </div>
+</section>
+
+<section class="new-family-callout" aria-labelledby="new-family-title">
+  <div class="wrap">
+    <a class="new-family-callout__link" href="{{ '/about/' | relative_url }}">
+      <span id="new-family-title">New to Yujin Gakuen?</span>
+      <strong>Learn how the PTO supports students and families</strong>
+      <span class="circle-link" aria-hidden="true">-></span>
+    </a>
   </div>
 </section>
 
@@ -104,34 +94,37 @@ layout: default
       <p class="eyebrow">Upcoming</p>
       <h2 id="whats-coming-up">What's coming up</h2>
       <span class="brush-rule" aria-hidden="true"></span>
-      <p>Use these page shells for confirmed dates, locations, signup links, and details as soon as they are approved.</p>
+      <p>Real dates and signup paths for the next few things families can act on.</p>
       <a class="button button--secondary" href="{{ '/events/calendar/' | relative_url }}">View full calendar</a>
     </div>
     <div class="mini-card-grid">
-      <a class="mini-card" href="{{ '/meetings/upcoming/' | relative_url }}">
-        <span class="badge">Meetings</span>
-        <h3>Upcoming Meetings</h3>
-        <p>Dates and attendance details coming soon.</p>
-        <strong>View details -></strong>
-      </a>
-      <a class="mini-card" href="{{ '/events/kodomo-no-hi/' | relative_url }}">
-        <span class="badge badge--gold">Events</span>
-        <h3>Kodomo no Hi</h3>
-        <p>Event information page ready for public details.</p>
-        <strong>View details -></strong>
-      </a>
-      <a class="mini-card" href="{{ '/events/jikyuso-jog-a-thon/' | relative_url }}">
-        <span class="badge">Fundraising</span>
-        <h3>Jikyuso / Jog-a-thon</h3>
-        <p>Details and volunteer needs can be added here.</p>
-        <strong>View details -></strong>
-      </a>
-      <a class="mini-card" href="{{ '/events/obon-taiko-festival/' | relative_url }}">
-        <span class="badge">Festival</span>
-        <h3>Obon & Taiko Festival</h3>
-        <p>Festival information page ready for confirmed content.</p>
-        <strong>View details -></strong>
-      </a>
+      {% assign today_seconds = site.time | date: "%s" | plus: 0 %}
+      {% for home_item in site.data.home_upcoming %}
+        {% assign event = site.data.events | where: "id", home_item.event_id | first %}
+        {% if event %}
+          {% assign event_end = event.end_date | default: event.date %}
+          {% assign event_seconds = event_end | date: "%s" | plus: 0 %}
+          {% unless event.needs_confirmation == true or event_seconds < today_seconds %}
+            {% assign card_url = event.detail_url %}
+            {% if home_item.use_external and event.external_url %}
+              {% assign card_url = event.external_url %}
+            {% endif %}
+            <a class="mini-card" href="{% if card_url contains '://' %}{{ card_url }}{% else %}{{ card_url | relative_url }}{% endif %}">
+              <span class="badge{% if home_item.badge == 'Festival' or home_item.badge == 'Summer' %} badge--gold{% endif %}">{{ home_item.badge }}</span>
+              <p class="mini-card__date">
+                {{ event.date | date: "%b %-d, %Y" }}
+                {% if event.end_date %}- {{ event.end_date | date: "%b %-d, %Y" }}{% endif %}
+              </p>
+              <h3>{{ event.title }}</h3>
+              {% if event.time %}
+                <p>{{ event.time }}</p>
+              {% endif %}
+              <p>{{ event.summary }}</p>
+              <strong>{{ home_item.cta }} -></strong>
+            </a>
+          {% endunless %}
+        {% endif %}
+      {% endfor %}
     </div>
   </div>
 </section>

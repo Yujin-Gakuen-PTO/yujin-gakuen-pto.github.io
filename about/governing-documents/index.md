@@ -5,8 +5,8 @@ permalink: /about/governing-documents/
 section: About
 section_url: /about/
 hero_label: About
-summary: A future home for bylaws, policies, and official PTO documents.
+summary: PTO bylaws, policies, and official records will be posted when ready to share.
 status: placeholder
 ---
 
-Use this page for approved public governance documents. Do not add drafts or private working records here.
+Governing documents coming soon.

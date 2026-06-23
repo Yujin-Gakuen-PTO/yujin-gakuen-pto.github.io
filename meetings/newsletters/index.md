@@ -5,8 +5,8 @@ permalink: /meetings/newsletters/
 section: Meetings
 section_url: /meetings/
 hero_label: Meetings
-summary: A future home for newsletter archives.
+summary: Newsletter links will be added when ready to share.
 status: placeholder
 ---
 
-Use this page for approved public newsletters and archive links.
+Newsletter links coming soon.

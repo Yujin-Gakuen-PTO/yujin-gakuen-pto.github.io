@@ -5,8 +5,8 @@ permalink: /store/square/
 section: Store
 section_url: /store/
 hero_label: Store
-summary: A future home for Square Store links.
+summary: Square Store links will be added when available.
 status: placeholder
 ---
 
-Use this page for approved Square Store links and any public ordering guidance.
+Square Store links coming soon.

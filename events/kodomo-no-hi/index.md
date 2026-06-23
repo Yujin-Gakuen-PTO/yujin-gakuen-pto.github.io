@@ -5,8 +5,8 @@ permalink: /events/kodomo-no-hi/
 section: Events
 section_url: /events/
 hero_label: Events
-summary: A future home for Kodomo no Hi event information.
+summary: Kodomo no Hi details will be added when confirmed.
 status: placeholder
 ---
 
-Use this page for confirmed event details, volunteer roles, and public family information.
+Kodomo no Hi details coming soon.

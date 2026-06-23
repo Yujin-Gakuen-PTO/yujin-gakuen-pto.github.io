@@ -8,16 +8,16 @@
   children:
     - title: PTO Impact
       url: /about/impact/
-      description: A future home for confirmed PTO support and outcomes.
+      description: How PTO support helps students, classrooms, and school traditions.
     - title: Board Members
       url: /about/board/
-      description: A future home for approved board information.
+      description: Board roles and contact details will be added when confirmed.
     - title: Committees & Chairs
       url: /about/committees/
-      description: A future home for committee roles and chair contacts.
+      description: Committee roles and chair details will be added when confirmed.
     - title: Governing Documents
       url: /about/governing-documents/
-      description: A future home for bylaws, policies, and official records.
+      description: Bylaws, policies, and official records will be posted when ready to share.
 
 - title: Get Involved
   url: /get-involved/
@@ -25,25 +25,25 @@
   children:
     - title: Join the PTO
       url: /get-involved/join/
-      description: A future home for membership details.
+      description: Sign up to receive PTO emails, event information, and volunteer updates.
     - title: Volunteer
       url: /get-involved/volunteer/
-      description: A future home for volunteer needs and signups.
+      description: Current volunteer opportunities and signup links.
     - title: Join a Committee
       url: /get-involved/committees/
-      description: A future home for committee participation.
+      description: Committee details and next steps for interested volunteers.
     - title: UO Beverage Booth
       url: /get-involved/uo-beverage-booth/
-      description: A future home for concession volunteer information.
+      description: Confirmed UO Beverage Booth volunteer signup dates.
     - title: Host Interns
       url: /get-involved/host-interns/
-      description: A future home for intern host-family information.
+      description: Host-family information will be added when confirmed.
     - title: Caring Crane Fund
       url: /get-involved/caring-crane-fund/
-      description: A future home for the Caring Crane Fund.
+      description: Fund details will be added when ready to share.
     - title: Donate / Funds
       url: /get-involved/donate-funds/
-      description: A future home for giving and fund information.
+      description: Public support and fund information, separate from store shopping.
 
 - title: Events
   url: /events/
@@ -51,25 +51,25 @@
   children:
     - title: Calendar
       url: /events/calendar/
-      description: A future home for confirmed PTO dates.
+      description: Confirmed PTO dates, meetings, events, and signup links.
     - title: Oshogatsu
       url: /events/oshogatsu/
-      description: A future home for Oshogatsu event information.
+      description: Oshogatsu details will be added when confirmed.
     - title: Kodomo no Hi
       url: /events/kodomo-no-hi/
-      description: A future home for Kodomo no Hi event information.
+      description: Kodomo no Hi details will be added when confirmed.
     - title: Jikyuso / Jog-a-thon
       url: /events/jikyuso-jog-a-thon/
-      description: A future home for Jikyuso and jog-a-thon information.
+      description: Jikyuso and jog-a-thon details will be added when confirmed.
     - title: Obon & Taiko Festival
       url: /events/obon-taiko-festival/
-      description: A future home for festival information.
+      description: Confirmed festival date and volunteer signup path.
     - title: Teacher Appreciation
       url: /events/teacher-appreciation/
-      description: A future home for appreciation-week details.
+      description: Appreciation-week details will be added when confirmed.
     - title: Field Day
       url: /events/field-day/
-      description: A future home for Field Day support information.
+      description: Field Day support details will be added when confirmed.
 
 - title: Meetings
   url: /meetings/
@@ -77,22 +77,22 @@
   children:
     - title: Upcoming Meetings
       url: /meetings/upcoming/
-      description: The first place for confirmed meeting dates and attendance details.
+      description: Confirmed PTO meeting dates and attendance details.
     - title: Agendas & Minutes
       url: /meetings/agendas-minutes/
-      description: A future home for approved agendas and minutes.
+      description: Meeting materials will be added when they are ready to share.
     - title: Annual Meeting
       url: /meetings/annual-meeting/
-      description: A future home for annual meeting information.
+      description: Annual meeting details will be added when confirmed.
     - title: Elections
       url: /meetings/elections/
-      description: A future home for PTO election information.
+      description: Election details will be added when confirmed.
     - title: Budget Approval
       url: /meetings/budget-approval/
-      description: A future home for approved budget-process information.
+      description: Budget process details will be added when ready to share.
     - title: Newsletters
       url: /meetings/newsletters/
-      description: A future home for newsletter archives.
+      description: Newsletter links will be added when ready to share.
 
 - title: Store
   url: /store/
@@ -100,14 +100,14 @@
   children:
     - title: Spirit Wear
       url: /store/spirit-wear/
-      description: A future home for spirit-wear information.
+      description: Spirit-wear details will be added when available.
     - title: Square Store
       url: /store/square/
-      description: A future home for Square Store links.
+      description: Square Store links will be added when available.
     - title: TeePublic
       url: /store/teepublic/
-      description: A future home for TeePublic links.
+      description: TeePublic links will be added when available.
 
 - title: Contact
   url: /contact/
-  description: A future home for approved PTO contact information.
+  description: Contact details will be added when ready to share.

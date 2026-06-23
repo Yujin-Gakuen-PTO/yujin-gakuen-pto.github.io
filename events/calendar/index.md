@@ -5,8 +5,9 @@ permalink: /events/calendar/
 section: Events
 section_url: /events/
 hero_label: Events
-summary: A future home for confirmed PTO calendar information.
-status: placeholder
+summary: Confirmed public PTO dates, events, meetings, volunteer signups, and schedule notes.
 ---
 
-Use this page for approved public calendar links, event dates, and schedule notes.
+Confirmed dates are listed below. More details will be added as they are ready to share.
+
+{% include event-list.html id="confirmed-dates" title="Confirmed dates" text="Dates, times, locations, and signup links are listed when confirmed." show_sessions="true" %}

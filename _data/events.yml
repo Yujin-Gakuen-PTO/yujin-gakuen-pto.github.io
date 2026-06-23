@@ -1,0 +1,227 @@
+- id: summer-recess-2026
+  title: Summer Recess Meetups
+  type: summer
+  category: Community
+  date: 2026-07-10
+  end_date: 2026-08-22
+  time: Select Fridays and Saturdays
+  location: Yujin Gakuen School Playground and Emerald Park
+  summary: Summer playground meetups for Yujin Gakuen families.
+  detail_url: /events/calendar/#summer-recess-2026
+  link_label: See meetup dates
+  sessions:
+    - date: 2026-07-10
+      day: Friday
+      time: 4:00 PM - 6:00 PM
+      group: K/1
+      location: Yujin Gakuen School Playground
+    - date: 2026-07-17
+      day: Friday
+      time: 4:00 PM - 6:00 PM
+      group: 2/3
+      location: Yujin Gakuen School Playground
+    - date: 2026-07-24
+      day: Friday
+      time: 4:00 PM - 6:00 PM
+      group: 4/5
+      location: Yujin Gakuen School Playground
+    - date: 2026-08-01
+      day: Saturday
+      time: 2:00 PM - 4:00 PM
+      group: K/1
+      location: Yujin Gakuen School Playground
+    - date: 2026-08-08
+      day: Saturday
+      time: 2:00 PM - 4:00 PM
+      group: 2/3
+      location: Yujin Gakuen School Playground
+    - date: 2026-08-15
+      day: Saturday
+      time: 2:00 PM - 4:00 PM
+      group: 4/5
+      location: Yujin Gakuen School Playground
+    - date: 2026-08-22
+      day: Saturday
+      time: 2:00 PM - 4:00 PM
+      group: Everyone
+      location: Emerald Park
+
+- id: asian-celebration-2026
+  title: 41st Annual Asian Celebration
+  type: volunteer
+  category: Volunteer
+  date: 2026-07-18
+  summary: Volunteer signup is available for YG PTO support at Asian Celebration.
+  detail_url: /get-involved/volunteer/
+  external_url: "https://volunteersignup.org/BXQ37"
+  link_label: Sign up to volunteer
+
+- id: obon-taiko-festival-2026
+  title: Obon and Taiko Festival
+  type: event
+  category: Festival
+  date: 2026-08-29
+  summary: Volunteer signup is available for the Obon and Taiko Festival.
+  detail_url: /events/obon-taiko-festival/
+  external_url: "https://volunteersignup.org/A9PM4"
+  link_label: Sign up to volunteer
+
+- id: uo-game-2026-09-05
+  title: UO Beverage Booth
+  type: volunteer
+  category: UO Booth
+  date: 2026-09-05
+  summary: Volunteer signup is available for this UO game.
+  detail_url: /get-involved/uo-beverage-booth/
+  external_url: "https://volunteersignup.org/9DMTM"
+  link_label: Sign up for this game
+
+- id: first-pto-meeting-2026
+  title: First PTO Meeting of the Year
+  type: meeting
+  category: Meeting
+  date: 2026-09-17
+  time: 6:30 PM - 7:30 PM
+  summary: The first PTO meeting of the school year.
+  detail_url: /meetings/upcoming/
+  link_label: Meeting details
+
+- id: uo-game-2026-09-18
+  title: UO Beverage Booth
+  type: volunteer
+  category: UO Booth
+  date: 2026-09-18
+  summary: Volunteer signup is available for this UO game.
+  detail_url: /get-involved/uo-beverage-booth/
+  external_url: "https://volunteersignup.org/H7PK7"
+  link_label: Sign up for this game
+
+- id: back-to-school-picnic-2026
+  title: Back to School Picnic
+  type: event
+  category: Community
+  date: 2026-09-25
+  summary: Volunteer signup is available for the Back to School Picnic.
+  detail_url: /events/calendar/
+  external_url: "https://volunteersignup.org/4CBQK"
+  link_label: Sign up to volunteer
+
+- id: uo-game-2026-10-10
+  title: UO Beverage Booth
+  type: volunteer
+  category: UO Booth
+  date: 2026-10-10
+  summary: Volunteer signup is available for this UO game.
+  detail_url: /get-involved/uo-beverage-booth/
+  external_url: "https://volunteersignup.org/F47YE"
+  link_label: Sign up for this game
+
+- id: october-pto-meeting-2026
+  title: October PTO General Assembly Meeting
+  type: meeting
+  category: Meeting
+  date: 2026-10-15
+  time: 6:30 PM - 7:30 PM
+  summary: October PTO general assembly meeting.
+  detail_url: /meetings/upcoming/
+  link_label: Meeting details
+
+- id: uo-game-2026-10-17
+  title: UO Beverage Booth
+  type: volunteer
+  category: UO Booth
+  date: 2026-10-17
+  summary: Volunteer signup is available for this UO game.
+  detail_url: /get-involved/uo-beverage-booth/
+  external_url: "https://volunteersignup.org/DKEMF"
+  link_label: Sign up for this game
+
+- id: uo-game-2026-10-31
+  title: UO Beverage Booth
+  type: volunteer
+  category: UO Booth
+  date: 2026-10-31
+  summary: Volunteer signup is available for this UO game.
+  detail_url: /get-involved/uo-beverage-booth/
+  external_url: "https://volunteersignup.org/Q7QHY"
+  link_label: Sign up for this game
+
+- id: uo-game-2026-11-14
+  title: UO Beverage Booth
+  type: volunteer
+  category: UO Booth
+  date: 2026-11-14
+  summary: Volunteer signup is available for this UO game.
+  detail_url: /get-involved/uo-beverage-booth/
+  external_url: "https://volunteersignup.org/TYFTC"
+  link_label: Sign up for this game
+
+- id: november-pto-meeting-2026
+  title: November PTO General Assembly Meeting
+  type: meeting
+  category: Meeting
+  date: 2026-11-19
+  time: 6:30 PM - 7:30 PM
+  summary: November PTO general assembly meeting.
+  detail_url: /meetings/upcoming/
+  link_label: Meeting details
+
+- id: uo-game-2026-11-28
+  title: UO Beverage Booth
+  type: volunteer
+  category: UO Booth
+  date: 2026-11-28
+  summary: Volunteer signup is available for this UO game.
+  detail_url: /get-involved/uo-beverage-booth/
+  external_url: "https://volunteersignup.org/XRWTF"
+  link_label: Sign up for this game
+
+- id: school-choice-tour-2027
+  title: School Choice Presentation and Tour
+  type: event
+  category: Prospective Families
+  date: 2027-01-22
+  time: 5:00 PM - 5:30 PM
+  summary: School choice presentation and tour before Oshogatsu.
+  detail_url: /events/calendar/
+  link_label: View details
+
+- id: oshogatsu-2027
+  title: Oshogatsu
+  type: event
+  category: Cultural Event
+  date: 2027-01-22
+  time: 5:30 PM - 7:30 PM
+  summary: Oshogatsu event date.
+  detail_url: /events/oshogatsu/
+  link_label: View details
+
+- id: classified-staff-appreciation-2027
+  title: Classified Staff Appreciation Week
+  type: appreciation
+  category: Appreciation
+  date: 2027-03-01
+  end_date: 2027-03-05
+  summary: Classified Staff Appreciation Week.
+  detail_url: /events/calendar/
+  link_label: View details
+
+- id: kodomo-no-hi-2027
+  title: Kodomo No Hi
+  type: event
+  category: Cultural Event
+  date: 2027-04-30
+  time: 5:00 PM - 7:00 PM
+  summary: Kodomo No Hi event date.
+  detail_url: /events/kodomo-no-hi/
+  link_label: View details
+
+- id: teacher-appreciation-2027
+  title: Teacher Appreciation Week
+  type: appreciation
+  category: Appreciation
+  date: 2027-05-03
+  end_date: 2027-05-07
+  summary: Teacher Appreciation Week.
+  detail_url: /events/teacher-appreciation/
+  link_label: View details

@@ -1,0 +1,85 @@
+{% assign today_seconds = site.time | date: "%s" | plus: 0 %}
+{% assign list_id = include.id | default: "event-list-title" %}
+
+<section class="data-section" aria-labelledby="{{ list_id }}">
+  {% if include.title %}
+    <h2 id="{{ list_id }}">{{ include.title }}</h2>
+  {% endif %}
+  {% if include.text %}
+    <p>{{ include.text }}</p>
+  {% endif %}
+
+  <div class="data-card-grid">
+    {% assign rendered_count = 0 %}
+    {% for event in site.data.events %}
+      {% assign show_event = true %}
+      {% assign event_end = event.end_date | default: event.date %}
+      {% assign event_seconds = event_end | date: "%s" | plus: 0 %}
+
+      {% if event.needs_confirmation == true %}
+        {% assign show_event = false %}
+      {% endif %}
+      {% if event_seconds < today_seconds %}
+        {% assign show_event = false %}
+      {% endif %}
+      {% if include.type and event.type != include.type %}
+        {% assign show_event = false %}
+      {% endif %}
+      {% if include.category and event.category != include.category %}
+        {% assign show_event = false %}
+      {% endif %}
+      {% if include.signup_only == "true" and event.external_url == nil %}
+        {% assign show_event = false %}
+      {% endif %}
+
+      {% if show_event %}
+        {% assign rendered_count = rendered_count | plus: 1 %}
+        <article class="data-card" id="{{ event.id }}">
+          <div class="data-card__meta">
+            <span class="badge{% if event.type == 'event' or event.type == 'summer' %} badge--gold{% endif %}">{{ event.category }}</span>
+            <span>
+              {{ event.date | date: "%b %-d, %Y" }}
+              {% if event.end_date %}- {{ event.end_date | date: "%b %-d, %Y" }}{% endif %}
+            </span>
+          </div>
+          <h3>{{ event.title }}</h3>
+          {% if event.time or event.location %}
+            <p class="data-card__details">
+              {% if event.time %}{{ event.time }}{% endif %}
+              {% if event.time and event.location %}<br>{% endif %}
+              {% if event.location %}{{ event.location }}{% endif %}
+            </p>
+          {% endif %}
+          <p>{{ event.summary }}</p>
+          <div class="data-card__links">
+            {% if event.detail_url %}
+              {% if event.external_url %}
+                <a href="{{ event.detail_url | relative_url }}">{{ event.detail_label | default: "View details" }}</a>
+              {% else %}
+                <a href="{{ event.detail_url | relative_url }}">{{ event.detail_label | default: event.link_label | default: "View details" }}</a>
+              {% endif %}
+            {% endif %}
+            {% if event.external_url %}
+              <a href="{{ event.external_url }}">{{ event.external_label | default: event.link_label | default: "Sign up" }}</a>
+            {% endif %}
+          </div>
+
+          {% if include.show_sessions == "true" and event.sessions %}
+            <ul class="compact-list">
+              {% for session in event.sessions %}
+                <li>
+                  <strong>{{ session.date | date: "%b %-d" }}:</strong>
+                  {{ session.time }}{% if session.group %}, {{ session.group }}{% endif %}{% if session.location %}, {{ session.location }}{% endif %}
+                </li>
+              {% endfor %}
+            </ul>
+          {% endif %}
+        </article>
+      {% endif %}
+    {% endfor %}
+  </div>
+
+  {% if rendered_count == 0 %}
+    <p class="empty-note">{{ include.empty_text | default: "Details coming soon." }}</p>
+  {% endif %}
+</section>

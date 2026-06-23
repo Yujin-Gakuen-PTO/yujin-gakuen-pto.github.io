@@ -5,8 +5,8 @@ permalink: /get-involved/host-interns/
 section: Get Involved
 section_url: /get-involved/
 hero_label: Get Involved
-summary: A future home for intern host-family information.
+summary: Host-family information will be added when confirmed.
 status: placeholder
 ---
 
-Use this page for approved intern hosting information, host-family expectations, and contact steps.
+Host-family details coming soon.

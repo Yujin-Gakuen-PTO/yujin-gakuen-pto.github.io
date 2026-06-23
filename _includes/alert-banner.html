@@ -1,14 +1,15 @@
 <section class="action-banner" aria-labelledby="stay-connected">
+  {% assign join_form = site.data.links.join_form %}
   <div class="wrap">
     <div class="action-banner__panel">
       <img class="action-banner__mark" src="{{ '/assets/images/yg-pto-crane-sun-logo.png' | relative_url }}" alt="" width="80" height="80">
       <div class="action-banner__content">
         <span class="badge badge--gold">Stay connected</span>
-        <h2 id="stay-connected">Updates, events, and ways to get involved.</h2>
-        <p>Find the next PTO meeting or reach out with questions while fuller updates are being added.</p>
+        <h2 id="stay-connected">Get PTO emails and updates.</h2>
+        <p>{{ join_form.description }}</p>
       </div>
       <div class="action-banner__actions" aria-label="Stay connected actions">
-        <a class="button button--light" href="{{ '/meetings/upcoming/' | relative_url }}">Next meeting</a>
+        <a class="button button--light" href="{{ join_form.url }}">Join the PTO</a>
         <a class="button button--outline-light" href="{{ '/contact/' | relative_url }}">Contact PTO</a>
       </div>
     </div>
