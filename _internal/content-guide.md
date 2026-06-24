@@ -7,7 +7,7 @@ This guide is for site editors. It should not publish on the website.
 - Write like an organized YG PTO parent helping other busy parents.
 - Keep copy warm, direct, practical, and scannable on phones.
 - Make the next action obvious.
-- Say clearly when families need to sign up for PTO emails.
+- Say clearly that families need to sign up in order to receive PTO emails.
 - Use Japanese terms that are already part of YG community vocabulary, and explain unfamiliar terms briefly when helpful.
 - Write about the PTO, event, record, or action. Do not describe the website's organization or publishing process.
 

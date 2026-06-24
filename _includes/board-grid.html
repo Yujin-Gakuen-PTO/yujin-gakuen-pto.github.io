@@ -1,0 +1,10 @@
+{% assign board_members = site.data.board | sort: "display_order" %}
+<div class="board-grid">
+  {% for member in board_members %}
+    <article class="board-card">
+      <p class="board-card__role">{{ member.role }}</p>
+      <h2>{{ member.name }}</h2>
+      <p class="board-card__term">Term: {{ member.term }}</p>
+    </article>
+  {% endfor %}
+</div>

@@ -13,11 +13,45 @@ Answers and editorial direction in this file came from Hannah. Last reorganized 
 
 ## Current Priorities
 
-1. **Board Members:** Ready to draft after a quick roster and contact check.
+1. **Committees + Join a Committee:** Build together from one shared committee source after chairs and openings are confirmed.
 2. **Caring Crane Fund:** Substantial draft exists, but privacy, contact, and process language need careful confirmation.
-3. **Committees & Chairs + Join a Committee:** Build together from one shared committee source after chairs and openings are confirmed.
-4. **Donate / Funds:** Draft the structure after real Zeffy URLs are available.
-5. **Oshogatsu and Kodomo no Hi:** Expand as locations, volunteer needs, and contribution links are confirmed.
+3. **Donate / Funds:** Draft the structure after real Zeffy URLs are available.
+4. **Oshogatsu and Kodomo no Hi:** Expand as locations, volunteer needs, and contribution links are confirmed.
+
+<!-- PTO President Command Center automation section: start -->
+## Weekly Website Planning Notes (Automation)
+
+This section is maintained by `PTO President Command Center automation`.
+
+- **Last updated:** June 24, 2026.
+- **Source run used:** June 21, 2026.
+- **Signed:** PTO President Command Center automation.
+
+### Current website-safe watch items
+
+- UO Beverage Booth is the clearest near-term public-safe refresh item. Fall game listings and volunteer signups should be checked weekly as dates approach.
+- Caring Crane Fund remains the strongest giving page that looks close to draftable, but public contact wording and donation-button language still need a final website pass.
+- Waka Daiko fall workshop still needs a short family-facing blurb once the public wording is ready.
+
+### Stale-risk warnings
+
+- Summer Recess is already more concrete in website data than the latest command-center source run could fully confirm. Recheck dates, locations, and wording before the next homepage or calendar refresh.
+- Back to School Picnic appears on the website with a date and volunteer signup, but the latest command-center signal still treated the date as tentative.
+- Meetings and records remain a drift risk because public agendas, minutes, and archive structure are still missing from the website tracker.
+- Committee pages remain likely to drift because the shared committee source and current openings are still incomplete.
+
+### Missing content candidates
+
+- Build the shared committee source for Committees and Join a Committee.
+- Expand Oshogatsu and Kodomo no Hi with location, volunteer, and contribution details as those become confirmed.
+- Add a public agendas and minutes archive once files and preferred ordering are ready.
+- Keep Annual Meeting, Elections, and Budget Approval in the watch lane until public-ready dates and documents exist.
+
+### Not ready for publication
+
+- Do not refresh Summer Recess or Back to School Picnic copy from internal PTO notes alone.
+- Do not use Kimiko donation ideas, internal handoff cleanup, or Google Group testing as public website content.
+<!-- PTO President Command Center automation section: end -->
 
 ## About
 
@@ -49,7 +83,7 @@ Answers and editorial direction in this file came from Hannah. Last reorganized 
 
 ### Board Members
 
-- **Status:** Ready to draft.
+- **Status:** Published.
 - **Proposed public roster:**
   - Hannah Felton — President, 2025-2027
   - Ariann Harrelson — Secretary, 2026-2027
@@ -70,15 +104,11 @@ Answers and editorial direction in this file came from Hannah. Last reorganized 
   - Volunteer Coordinator: `volunteercoordinator@yujingakuenpto.com`
   - Communications and Marketing Secretary: `info@yujingakuenpto.com`
   - Curator: `curator@yujingakuenpto.com`
-- **Contact decision:** Default to the general PTO email on the public page. Role aliases exist for president, vice president, secretary, treasurer, volunteer coordinator, and curator, but should appear only where there is a clear reason.
-- **Before publishing:**
-  - Confirm every name, spelling, role, and term.
-  - Confirm whether the seven-person list is the complete current board.
-  - Confirm whether any role-specific email should appear.
-- **Recommended implementation:** `_data/board.yml` feeding a simple roster component.
-- **Source/review:** Hannah; needs final roster check.
+- **Public contact:** The page uses `info@yujingakuenpto.com`; role aliases remain internal references.
+- **Shared source:** `_data/board.yml`.
+- **Source/review:** Hannah; published June 24, 2026.
 
-### Committees & Chairs
+### Committees
 
 - **Status:** Needs confirmation.
 - **Known committees and work groups:**
@@ -99,7 +129,7 @@ Answers and editorial direction in this file came from Hannah. Last reorganized 
   - Which committees are active in 2026-27: All of the above
   - Which are accepting volunteers now: All of the above
   - One-sentence description and commitment level for each: ?? No one knows this tho
-- **Shared uses:** Committees & Chairs, Join a Committee, Volunteer, and event pages.
+- **Shared uses:** Committees, Join a Committee, Volunteer, and event pages.
 - **Recommended implementation:** One `_data/committees.yml` source for both committee pages.
 - **Source/review:** Hannah; partial as of June 24, 2026.
 
@@ -117,7 +147,7 @@ Answers and editorial direction in this file came from Hannah. Last reorganized 
 - **Status:** Needs confirmation.
 - **Direction:** Keep the page practical and low-pressure. Name actual work instead of asking families to join an abstract committee.
 - **Still needed:** Current openings, commitment labels, seasonal timing, chair or contact, and which roles can be completed as one-time tasks.
-- **Shared source:** Build from the same committee data as Committees & Chairs.
+- **Shared source:** Build from the same committee data as Committees.
 
 ### Host Interns
 
