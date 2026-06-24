@@ -11,7 +11,7 @@ layout: default
       <h1 id="home-title">Supporting students, strengthening community.</h1>
       <span class="brush-rule" aria-hidden="true"></span>
       <p class="hero-summary">The PTO brings families together around school support, community events, volunteer needs, and timely updates for Yujin Gakuen.</p>
-      <div class="button-row" aria-label="Primary site paths">
+      <div class="button-row" aria-label="Primary actions">
         <a class="button button--primary" href="{{ join_form.url }}">Join the PTO</a>
         <a class="button button--secondary" href="{{ '/events/calendar/' | relative_url }}">See what's coming up</a>
       </div>
@@ -40,48 +40,10 @@ layout: default
   </div>
 </section>
 
-<section class="page-section page-section--soft impact-band" aria-labelledby="what-families-can-find">
-  <div class="wrap">
-    {% include section-heading.html title="What families can find" text="Start with the paths families use most: emails, volunteering, events, meetings, and ways to support students." %}
-    <div class="support-grid">
-      <a href="{{ '/about/impact/' | relative_url }}">
-        <span>Programs</span>
-        <strong>PTO Impact</strong>
-        <p>How PTO support helps students, classrooms, and school traditions.</p>
-      </a>
-      <a href="{{ '/events/' | relative_url }}">
-        <span>Events</span>
-        <strong>Cultural Events</strong>
-        <p>Dedicated homes for Oshogatsu, Kodomo no Hi, Obon & Taiko, and more.</p>
-      </a>
-      <a href="{{ '/get-involved/' | relative_url }}">
-        <span>Help</span>
-        <strong>Volunteer Paths</strong>
-        <p>Clear next steps for meetings, committees, concessions, and hosting.</p>
-      </a>
-      <a href="{{ '/get-involved/donate-funds/' | relative_url }}">
-        <span>Support</span>
-        <strong>Support YG Students</strong>
-        <p>Giving helps fund programs, events, appreciation, and student enrichment.</p>
-      </a>
-      <a href="{{ '/meetings/' | relative_url }}">
-        <span>Records</span>
-        <strong>Meetings & Records</strong>
-        <p>Upcoming meetings, posted agendas, minutes, elections, and newsletters.</p>
-      </a>
-      <a href="{{ '/contact/' | relative_url }}">
-        <span>Contact</span>
-        <strong>Contact Paths</strong>
-        <p>Ways to reach the PTO when contact details are ready to share.</p>
-      </a>
-    </div>
-  </div>
-</section>
-
 <section class="new-family-callout" aria-labelledby="new-family-title">
   <div class="wrap">
     <a class="new-family-callout__link" href="{{ '/about/' | relative_url }}">
-      <span id="new-family-title">New to Yujin Gakuen?</span>
+      <span id="new-family-title">New to Yujin Gakuen PTO?</span>
       <strong>Learn how the PTO supports students and families</strong>
       <span class="circle-link" aria-hidden="true">-></span>
     </a>
@@ -94,14 +56,15 @@ layout: default
       <p class="eyebrow">Upcoming</p>
       <h2 id="whats-coming-up">What's coming up</h2>
       <span class="brush-rule" aria-hidden="true"></span>
-      <p>Real dates and signup paths for the next few things families can act on.</p>
+      <p>See the next family meetups, volunteer signups, events, and PTO meetings.</p>
       <a class="button button--secondary" href="{{ '/events/calendar/' | relative_url }}">View full calendar</a>
     </div>
     <div class="mini-card-grid">
       {% assign today_seconds = site.time | date: "%s" | plus: 0 %}
+      {% assign cards_shown = 0 %}
       {% for home_item in site.data.home_upcoming %}
         {% assign event = site.data.events | where: "id", home_item.event_id | first %}
-        {% if event %}
+        {% if event and cards_shown < 4 %}
           {% assign event_end = event.end_date | default: event.date %}
           {% assign event_seconds = event_end | date: "%s" | plus: 0 %}
           {% unless event.needs_confirmation == true or event_seconds < today_seconds %}
@@ -122,9 +85,48 @@ layout: default
               <p>{{ event.summary }}</p>
               <strong>{{ home_item.cta }} -></strong>
             </a>
+            {% assign cards_shown = cards_shown | plus: 1 %}
           {% endunless %}
         {% endif %}
       {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="page-section page-section--soft impact-band" aria-labelledby="what-families-can-find">
+  <div class="wrap">
+    {% include section-heading.html title="What families can find" text="Find PTO programs, cultural events, ways to help, meeting records, and support for YG students." %}
+    <div class="support-grid">
+      <a href="{{ '/about/impact/' | relative_url }}">
+        <span>Programs</span>
+        <strong>PTO Impact</strong>
+        <p>How PTO support helps students, classrooms, and school traditions.</p>
+      </a>
+      <a href="{{ '/events/' | relative_url }}">
+        <span>Events</span>
+        <strong>Cultural Events</strong>
+        <p>Oshogatsu, Kodomo no Hi, Obon & Taiko, and other YG traditions.</p>
+      </a>
+      <a href="{{ '/get-involved/' | relative_url }}">
+        <span>Help</span>
+        <strong>Volunteer with the PTO</strong>
+        <p>Help with events, committees, UO concession booths, or hosting interns.</p>
+      </a>
+      <a href="{{ '/get-involved/donate-funds/' | relative_url }}">
+        <span>Support</span>
+        <strong>Support YG Students</strong>
+        <p>Giving helps fund programs, events, appreciation, and student enrichment.</p>
+      </a>
+      <a href="{{ '/meetings/' | relative_url }}">
+        <span>Records</span>
+        <strong>Meetings & Records</strong>
+        <p>Upcoming meetings, agendas, minutes, elections, and newsletters.</p>
+      </a>
+      <a href="{{ site.data.links.contact.url }}">
+        <span>Contact</span>
+        <strong>Contact the PTO</strong>
+        <p>Email {{ site.data.links.contact.email }} with questions for the PTO.</p>
+      </a>
     </div>
   </div>
 </section>

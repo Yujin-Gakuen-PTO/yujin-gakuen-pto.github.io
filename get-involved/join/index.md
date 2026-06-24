@@ -11,5 +11,3 @@ summary: Sign up to receive PTO emails, event information, volunteer needs, and 
 Families are not automatically added to PTO emails. Please sign up so you can receive PTO updates, event information, volunteer needs, and meeting reminders.
 
 <p><a class="button button--primary" href="{{ site.data.links.join_form.url }}">Join the PTO</a></p>
-
-More membership details will be added when ready.

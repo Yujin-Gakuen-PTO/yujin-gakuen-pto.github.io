@@ -5,8 +5,8 @@ permalink: /about/board/
 section: About
 section_url: /about/
 hero_label: About
-summary: PTO board roles and contact details will be added when confirmed.
+summary: Meet the volunteers who serve on the Yujin Gakuen PTO board.
 status: placeholder
+placeholder_title: Board information is coming soon
+placeholder_text: We have not added the current board members, roles, or contact information yet.
 ---
-
-Board details coming soon.

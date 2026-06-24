@@ -51,7 +51,7 @@
   type: volunteer
   category: Volunteer
   date: 2026-07-18
-  summary: Volunteer signup is available for YG PTO support at Asian Celebration.
+  summary: Volunteer with YG PTO at the 41st Annual Asian Celebration.
   detail_url: /get-involved/volunteer/
   external_url: "https://volunteersignup.org/BXQ37"
   link_label: Sign up to volunteer
@@ -61,7 +61,7 @@
   type: event
   category: Festival
   date: 2026-08-29
-  summary: Volunteer signup is available for the Obon and Taiko Festival.
+  summary: Volunteer at the Obon and Taiko Festival.
   detail_url: /events/obon-taiko-festival/
   external_url: "https://volunteersignup.org/A9PM4"
   link_label: Sign up to volunteer
@@ -71,7 +71,7 @@
   type: volunteer
   category: UO Booth
   date: 2026-09-05
-  summary: Volunteer signup is available for this UO game.
+  summary: Choose a volunteer shift for this UO game.
   detail_url: /get-involved/uo-beverage-booth/
   external_url: "https://volunteersignup.org/9DMTM"
   link_label: Sign up for this game
@@ -91,7 +91,7 @@
   type: volunteer
   category: UO Booth
   date: 2026-09-18
-  summary: Volunteer signup is available for this UO game.
+  summary: Choose a volunteer shift for this UO game.
   detail_url: /get-involved/uo-beverage-booth/
   external_url: "https://volunteersignup.org/H7PK7"
   link_label: Sign up for this game
@@ -101,7 +101,7 @@
   type: event
   category: Community
   date: 2026-09-25
-  summary: Volunteer signup is available for the Back to School Picnic.
+  summary: Families can sign up to help with the Back to School Picnic.
   detail_url: /events/calendar/
   external_url: "https://volunteersignup.org/4CBQK"
   link_label: Sign up to volunteer
@@ -111,7 +111,7 @@
   type: volunteer
   category: UO Booth
   date: 2026-10-10
-  summary: Volunteer signup is available for this UO game.
+  summary: Choose a volunteer shift for this UO game.
   detail_url: /get-involved/uo-beverage-booth/
   external_url: "https://volunteersignup.org/F47YE"
   link_label: Sign up for this game
@@ -131,7 +131,7 @@
   type: volunteer
   category: UO Booth
   date: 2026-10-17
-  summary: Volunteer signup is available for this UO game.
+  summary: Choose a volunteer shift for this UO game.
   detail_url: /get-involved/uo-beverage-booth/
   external_url: "https://volunteersignup.org/DKEMF"
   link_label: Sign up for this game
@@ -141,7 +141,7 @@
   type: volunteer
   category: UO Booth
   date: 2026-10-31
-  summary: Volunteer signup is available for this UO game.
+  summary: Choose a volunteer shift for this UO game.
   detail_url: /get-involved/uo-beverage-booth/
   external_url: "https://volunteersignup.org/Q7QHY"
   link_label: Sign up for this game
@@ -151,7 +151,7 @@
   type: volunteer
   category: UO Booth
   date: 2026-11-14
-  summary: Volunteer signup is available for this UO game.
+  summary: Choose a volunteer shift for this UO game.
   detail_url: /get-involved/uo-beverage-booth/
   external_url: "https://volunteersignup.org/TYFTC"
   link_label: Sign up for this game
@@ -171,7 +171,7 @@
   type: volunteer
   category: UO Booth
   date: 2026-11-28
-  summary: Volunteer signup is available for this UO game.
+  summary: Choose a volunteer shift for this UO game.
   detail_url: /get-involved/uo-beverage-booth/
   external_url: "https://volunteersignup.org/XRWTF"
   link_label: Sign up for this game
@@ -192,7 +192,7 @@
   category: Cultural Event
   date: 2027-01-22
   time: 5:30 PM - 7:30 PM
-  summary: Oshogatsu event date.
+  summary: Yujin Gakuen's Oshogatsu celebration.
   detail_url: /events/oshogatsu/
   link_label: View details
 
@@ -207,12 +207,12 @@
   link_label: View details
 
 - id: kodomo-no-hi-2027
-  title: Kodomo No Hi
+  title: Kodomo no Hi
   type: event
   category: Cultural Event
   date: 2027-04-30
   time: 5:00 PM - 7:00 PM
-  summary: Kodomo No Hi event date.
+  summary: Yujin Gakuen's Kodomo no Hi celebration.
   detail_url: /events/kodomo-no-hi/
   link_label: View details
 
@@ -222,6 +222,6 @@
   category: Appreciation
   date: 2027-05-03
   end_date: 2027-05-07
-  summary: Teacher Appreciation Week.
+  summary: A week to recognize Yujin Gakuen teachers and staff.
   detail_url: /events/teacher-appreciation/
   link_label: View details

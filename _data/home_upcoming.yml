@@ -12,6 +12,11 @@
   cta: Sign up to volunteer
   use_external: true
 
+- event_id: back-to-school-picnic-2026
+  badge: Community
+  cta: Sign up to volunteer
+  use_external: true
+
 - event_id: first-pto-meeting-2026
   badge: Meeting
   cta: Meeting details

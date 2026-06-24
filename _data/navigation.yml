@@ -1,6 +1,6 @@
 - title: Home
   url: /
-  description: Start here for the main PTO paths.
+  description: Current PTO updates, upcoming dates, and ways to take part.
 
 - title: About
   url: /about/
@@ -11,13 +11,13 @@
       description: How PTO support helps students, classrooms, and school traditions.
     - title: Board Members
       url: /about/board/
-      description: Board roles and contact details will be added when confirmed.
+      description: PTO board roles, responsibilities, and contact information.
     - title: Committees & Chairs
       url: /about/committees/
-      description: Committee roles and chair details will be added when confirmed.
+      description: PTO committees, their work, and the volunteers who lead them.
     - title: Governing Documents
       url: /about/governing-documents/
-      description: Bylaws, policies, and official records will be posted when ready to share.
+      description: PTO bylaws, policies, and other governing documents.
 
 - title: Get Involved
   url: /get-involved/
@@ -37,13 +37,13 @@
       description: Confirmed UO Beverage Booth volunteer signup dates.
     - title: Host Interns
       url: /get-involved/host-interns/
-      description: Host-family information will be added when confirmed.
+      description: Information for families interested in hosting a classroom intern.
     - title: Caring Crane Fund
       url: /get-involved/caring-crane-fund/
-      description: Fund details will be added when ready to share.
+      description: How the Caring Crane Fund supports YG families.
     - title: Donate / Funds
       url: /get-involved/donate-funds/
-      description: Public support and fund information, separate from store shopping.
+      description: Ways to support YG students through PTO giving and funds.
 
 - title: Events
   url: /events/
@@ -54,22 +54,22 @@
       description: Confirmed PTO dates, meetings, events, and signup links.
     - title: Oshogatsu
       url: /events/oshogatsu/
-      description: Oshogatsu details will be added when confirmed.
+      description: Dates, activities, and volunteer information for Oshogatsu.
     - title: Kodomo no Hi
       url: /events/kodomo-no-hi/
-      description: Kodomo no Hi details will be added when confirmed.
+      description: Dates, activities, and volunteer information for Kodomo no Hi.
     - title: Jikyuso / Jog-a-thon
       url: /events/jikyuso-jog-a-thon/
-      description: Jikyuso and jog-a-thon details will be added when confirmed.
+      description: Event information, student participation, and volunteer needs.
     - title: Obon & Taiko Festival
       url: /events/obon-taiko-festival/
-      description: Confirmed festival date and volunteer signup path.
+      description: Festival date, activities, and volunteer signup.
     - title: Teacher Appreciation
       url: /events/teacher-appreciation/
-      description: Appreciation-week details will be added when confirmed.
+      description: Ways families can help celebrate YG teachers and staff.
     - title: Field Day
       url: /events/field-day/
-      description: Field Day support details will be added when confirmed.
+      description: Field Day schedule, family information, and volunteer needs.
 
 - title: Meetings
   url: /meetings/
@@ -80,19 +80,19 @@
       description: Confirmed PTO meeting dates and attendance details.
     - title: Agendas & Minutes
       url: /meetings/agendas-minutes/
-      description: Meeting materials will be added when they are ready to share.
+      description: PTO meeting agendas and approved minutes.
     - title: Annual Meeting
       url: /meetings/annual-meeting/
-      description: Annual meeting details will be added when confirmed.
+      description: Annual meeting date, participation information, and materials.
     - title: Elections
       url: /meetings/elections/
-      description: Election details will be added when confirmed.
+      description: PTO election schedule, open roles, and voting information.
     - title: Budget Approval
       url: /meetings/budget-approval/
-      description: Budget process details will be added when ready to share.
+      description: PTO budget proposal, review, and approval information.
     - title: Newsletters
       url: /meetings/newsletters/
-      description: Newsletter links will be added when ready to share.
+      description: Current and past PTO newsletters.
 
 - title: Store
   url: /store/
@@ -100,14 +100,14 @@
   children:
     - title: Spirit Wear
       url: /store/spirit-wear/
-      description: Spirit-wear details will be added when available.
+      description: Yujin Gakuen spirit-wear options and ordering information.
     - title: Square Store
       url: /store/square/
-      description: Square Store links will be added when available.
+      description: PTO items available through the Square Store.
     - title: TeePublic
       url: /store/teepublic/
-      description: TeePublic links will be added when available.
+      description: Yujin Gakuen designs and products available on TeePublic.
 
 - title: Contact
   url: /contact/
-  description: Contact details will be added when ready to share.
+  description: Email the PTO with questions, ideas, or requests for help.

@@ -6,7 +6,7 @@
   color: green
 
 - title: Volunteer Now
-  text: Find current opportunities to help with events, booths, and community support.
+  text: Help with family events, UO booths, and other PTO work.
   url: /get-involved/volunteer/
   icon: volunteer
   color: terra
@@ -18,7 +18,7 @@
   color: bright
 
 - title: Attend a Meeting
-  text: Find upcoming PTO meeting dates, attendance details, and agenda availability.
+  text: See the date, time, and details for the next PTO meeting.
   url: /meetings/upcoming/
   icon: meeting
   color: gold

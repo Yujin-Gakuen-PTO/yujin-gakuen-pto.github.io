@@ -3,7 +3,7 @@ layout: page
 title: Sitemap
 permalink: /sitemap/
 hero_label: Sitemap
-summary: A complete list of site sections and pages, generated from the same navigation structure used across the website.
+summary: Browse every section and page on the Yujin Gakuen PTO website.
 ---
 
 {% for item in site.data.navigation %}

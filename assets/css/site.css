@@ -1254,6 +1254,10 @@ button {
   margin-top: 0.75rem;
 }
 
+.footer-note .quiet-link + .quiet-link {
+  margin-left: 0.9rem;
+}
+
 @media (min-width: 640px) {
   .card-grid--two,
   .card-grid--three,

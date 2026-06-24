@@ -6,4 +6,4 @@ hero_label: Get Involved
 summary: Join PTO emails, volunteer, help with committees, host interns, support funds, and find UO booth signups.
 ---
 
-Start here when you want to receive PTO emails, volunteer, join a committee, host interns, help with UO booths, or support YG students.
+Sign up for PTO emails, volunteer at events or UO booths, join a committee, host an intern, or support YG students.

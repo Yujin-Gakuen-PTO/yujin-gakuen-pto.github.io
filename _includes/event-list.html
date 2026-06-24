@@ -28,6 +28,9 @@
       {% if include.category and event.category != include.category %}
         {% assign show_event = false %}
       {% endif %}
+      {% if include.event_id and event.id != include.event_id %}
+        {% assign show_event = false %}
+      {% endif %}
       {% if include.signup_only == "true" and event.external_url == nil %}
         {% assign show_event = false %}
       {% endif %}
@@ -52,7 +55,7 @@
           {% endif %}
           <p>{{ event.summary }}</p>
           <div class="data-card__links">
-            {% if event.detail_url %}
+            {% if event.detail_url and include.hide_detail != "true" %}
               {% if event.external_url %}
                 <a href="{{ event.detail_url | relative_url }}">{{ event.detail_label | default: "View details" }}</a>
               {% else %}

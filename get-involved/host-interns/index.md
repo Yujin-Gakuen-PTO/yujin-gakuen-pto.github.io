@@ -5,8 +5,8 @@ permalink: /get-involved/host-interns/
 section: Get Involved
 section_url: /get-involved/
 hero_label: Get Involved
-summary: Host-family information will be added when confirmed.
+summary: Learn what is involved in hosting a Yujin Gakuen classroom intern.
 status: placeholder
+placeholder_title: Host-family information is coming soon
+placeholder_text: We have not added hosting expectations, timing, application steps, or contact information yet.
 ---
-
-Host-family details coming soon.

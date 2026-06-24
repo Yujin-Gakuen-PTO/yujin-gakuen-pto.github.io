@@ -5,9 +5,9 @@ permalink: /events/obon-taiko-festival/
 section: Events
 section_url: /events/
 hero_label: Events
-summary: Confirmed Obon and Taiko Festival date, volunteer signup path, and public family information.
+summary: Festival date and volunteer information for Obon and Taiko Festival.
 ---
 
-Obon and Taiko Festival details will be added as they are confirmed.
+The 2026 Obon and Taiko Festival is scheduled for Saturday, August 29. Families can use the signup below to volunteer.
 
 {% include event-list.html id="obon-taiko-date" title="Confirmed festival date" category="Festival" %}

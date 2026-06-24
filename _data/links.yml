@@ -5,7 +5,8 @@ join_form:
 
 contact:
   label: Contact PTO
-  url: /contact/
+  email: info@yujingakuenpto.com
+  url: "mailto:info@yujingakuenpto.com"
 
 calendar:
   label: See what is coming up

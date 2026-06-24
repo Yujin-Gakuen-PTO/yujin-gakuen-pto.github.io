@@ -5,9 +5,9 @@ permalink: /events/calendar/
 section: Events
 section_url: /events/
 hero_label: Events
-summary: Confirmed public PTO dates, events, meetings, volunteer signups, and schedule notes.
+summary: PTO dates, family events, meetings, volunteer signups, and school-year traditions.
 ---
 
-Confirmed dates are listed below. More details will be added as they are ready to share.
+Use this calendar to find upcoming PTO meetings, family events, volunteer signups, and school-year traditions.
 
-{% include event-list.html id="confirmed-dates" title="Confirmed dates" text="Dates, times, locations, and signup links are listed when confirmed." show_sessions="true" %}
+{% include event-list.html id="confirmed-dates" title="Upcoming dates" text="Open an event or signup link for the details currently available." show_sessions="true" %}
