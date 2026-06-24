@@ -1,0 +1,43 @@
+- id: japanese-learning
+  label: Classrooms
+  title: Japanese-language learning
+  summary: PTO support helps fund tools used for Japanese-language classroom instruction.
+  details: These resources help teachers support students as they build reading, writing, listening, and speaking skills in Japanese.
+
+- id: classroom-interns
+  label: Cultural exchange
+  title: Classroom interns
+  summary: PTO supports a year-long intern and three short-term intern groups from Japan during the school year.
+  details: Interns support Japanese-language learning in classrooms and give students and families meaningful opportunities for cultural exchange.
+  url: /get-involved/host-interns/
+  link_label: Learn about hosting interns
+
+- id: cultural-events
+  label: Traditions
+  title: Cultural events
+  summary: PTO organizes Oshogatsu and Kodomo no Hi and helps YG participate in community cultural events.
+  details: PTO also coordinates YG children's activities at events such as Asian Celebration, Asian Night Market, and Obon and Taiko Festival. These events depend on family volunteers.
+  url: /events/
+  link_label: See PTO events
+
+- id: student-support
+  label: Student support
+  title: Classroom needs and school experiences
+  summary: PTO helps fund staff-directed classroom needs, a second field trip for each grade, and promotion support for kindergarten and fifth grade.
+  details: This support helps teachers respond to practical classroom needs and gives students additional opportunities beyond the regular school day.
+
+- id: appreciation
+  label: Appreciation
+  title: Teachers and staff
+  summary: PTO coordinates family support for Teacher Appreciation Week and Classified Staff Appreciation Week.
+  details: Families can participate in ways that fit their time and circumstances while helping the school community recognize YG teachers and staff.
+  url: /events/teacher-appreciation/
+  link_label: See appreciation information
+
+- id: family-connection
+  label: Community
+  title: Family connection
+  summary: Summer Recess meetups, the Back-to-School Picnic, and volunteer opportunities help YG families connect.
+  details: These activities give families practical ways to meet one another, stay informed, and take part outside the school day.
+  url: /events/calendar/
+  link_label: View upcoming dates

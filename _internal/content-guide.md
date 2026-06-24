@@ -24,6 +24,7 @@ This guide is for site editors. It should not publish on the website.
 - `_data/announcement.yml`: current sitewide announcement.
 - `_data/links.yml`: join form and repeated shared links.
 - `_data/events.yml`: confirmed dates, times, locations, and signup URLs.
+- `_data/impact.yml`: shared PTO impact categories used on About and PTO Impact.
 - `_data/home_actions.yml`: homepage action cards.
 - `_data/home_upcoming.yml`: priority order for homepage upcoming cards. The homepage shows the first four eligible future items.
 

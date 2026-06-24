@@ -1,7 +1,7 @@
 {% for item in site.data.navigation %}
   {% if item.url == page.url and item.children %}
     <section class="link-section" aria-labelledby="section-links-title">
-      <h2 id="section-links-title">Pages in this section</h2>
+      <h2 id="section-links-title">{{ page.section_links_title | default: "Pages in this section" }}</h2>
       <div class="card-grid card-grid--two">
         {% for child in item.children %}
           <a class="action-card" href="{{ child.url | relative_url }}">

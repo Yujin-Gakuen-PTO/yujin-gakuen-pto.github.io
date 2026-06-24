@@ -7,7 +7,7 @@ layout: default
 
 <div class="page-section">
   <div class="wrap page-grid">
-    <article class="content-flow">
+    <article class="content-flow{% if page.wide_content %} content-flow--wide{% endif %}">
       {{ content }}
     </article>
 

@@ -6,9 +6,18 @@ section: About
 section_url: /about/
 hero_label: About
 summary: How PTO support helps YG students, classrooms, and school traditions.
-status: placeholder
-placeholder_title: More PTO impact information is coming soon
-placeholder_text: We still need current examples and specific details about the programs and resources PTO support provides.
+wide_content: true
 ---
 
-PTO support helps fund Japanese curriculum tools, classroom interns, cultural events, teacher and staff support, and family connection.
+PTO support reaches classrooms, school traditions, staff appreciation, and the everyday experiences that help Yujin Gakuen families feel connected.
+
+{% include impact-grid.html mode="expanded" %}
+
+## Family support makes this possible
+
+PTO events are family-run. Parents and caregivers help plan, set up, staff, and clean up after events so they can happen. Families can choose one-time shifts, short seasonal projects, or other work that fits their availability.
+
+<div class="button-row">
+  <a class="button button--primary" href="{{ '/get-involved/volunteer/' | relative_url }}">See volunteer opportunities</a>
+  <a class="button button--secondary" href="{{ '/get-involved/donate-funds/' | relative_url }}">Support YG students</a>
+</div>
