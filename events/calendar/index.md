@@ -1,142 +1,83 @@
 ---
 layout: page
-title: Calendar
+title: Events & Calendar
 permalink: /events/calendar/
 section: Events
 section_url: /events/
 hero_label: Events
-summary: Find YG events, PTO meetings, volunteer signups, and school-year traditions.
+summary: PTO meetings, school events, volunteer opportunities, and community celebrations.
 wide_content: true
 ---
 
-<nav class="jump-nav" aria-label="Jump to calendar section">
-  <span>Jump to:</span>
-  <a href="#coming-up">Coming up soon</a>
-  <a href="#summer-recess">Summer Recess</a>
-  <a href="#uo-games">UO games</a>
-  <a href="#school-year">School-year highlights</a>
-  <a href="#meetings">Meetings</a>
-  <a href="#appreciation">Appreciation</a>
-</nav>
-
-<section id="coming-up" class="calendar-group">
-  <div class="section-heading">
-    <p class="eyebrow">Next dates</p>
-    <h2>Coming up soon</h2>
-  </div>
-  <div class="calendar-list">
-    {% assign event = site.data.events | where: "id", "summer-recess-2026" | first %}
-    {% include calendar-row.html event=event %}
-    {% assign event = site.data.events | where: "id", "asian-celebration-2026" | first %}
-    {% include calendar-row.html event=event %}
-    {% assign event = site.data.events | where: "id", "obon-taiko-festival-2026" | first %}
-    {% include calendar-row.html event=event %}
-  </div>
-</section>
-
-{% assign summer = site.data.events | where: "id", "summer-recess-2026" | first %}
-<section id="summer-recess" class="calendar-group">
-  <div class="section-heading">
-    <p class="eyebrow">Summer 2026</p>
-    <h2>Summer Recess playground meetups</h2>
-    <p>Grade groups refer to students' rising grades for the 2026-2027 school year. A parent, guardian, or responsible adult stays with each child.</p>
+<div class="calendar-dashboard">
+  <div class="calendar-dashboard__intro">
+    <nav class="calendar-dashboard__jumps" aria-label="Jump to calendar section">
+      <a href="#coming-up">Coming Up Soon</a>
+      <a href="#summer-recess">Summer Recess</a>
+      <a href="#uo-games">UO Games</a>
+      <a href="#school-year">School-Year Highlights</a>
+    </nav>
+    <div class="calendar-dashboard__actions">
+      <a class="button button--primary" href="{{ '/events/' | relative_url }}">Browse Event Pages</a>
+      <a class="button button--secondary" href="{{ '/get-involved/volunteer/' | relative_url }}">Volunteer Signups</a>
+    </div>
   </div>
 
-  <div class="summer-groups">
-    <section class="summer-group" aria-labelledby="july-meetups">
-      <h3 id="july-meetups">July meetups</h3>
-      <ul>
-        {% for session in summer.sessions %}
-          {% assign month = session.date | date: "%-m" %}
-          {% if month == "7" %}
-            <li>
-              <time datetime="{{ session.date }}">{{ session.date | date: "%A, %B %-d, %Y" }}</time>
-              <span>{{ session.time }}</span>
-              <strong>{% if session.group == "K/1" %}Kindergarten and 1st Grade{% elsif session.group == "2/3" %}2nd and 3rd Grade{% elsif session.group == "4/5/6" %}4th, 5th, and 6th Grade{% endif %}</strong>
-            </li>
-          {% endif %}
+  <section class="calendar-dashboard-panel calendar-coming-up" id="coming-up" aria-labelledby="coming-up-title">
+    <div class="calendar-panel-heading">
+      <div>
+        <p class="eyebrow">Next dates</p>
+        <h2 id="coming-up-title">Coming Up Soon</h2>
+      </div>
+      <span class="calendar-panel-heading__art">{% include calendar-icon.html icon="calendar" %}</span>
+    </div>
+    <div class="calendar-feature-grid">
+      {% for item in site.data.calendar.featured %}
+        {% include calendar-feature-card.html item=item %}
+      {% endfor %}
+    </div>
+  </section>
+
+  <div class="calendar-dashboard__middle">
+    {% include calendar-summer-card.html %}
+
+    <section class="calendar-dashboard-panel calendar-uo" id="uo-games" aria-labelledby="uo-games-title">
+      <div class="calendar-panel-heading">
+        <div>
+          <p class="eyebrow">Volunteer fundraiser</p>
+          <h2 id="uo-games-title">UO Games Volunteer Opportunities</h2>
+          <p>Every home game needs at least 21 OLCC-permitted adult volunteers.</p>
+        </div>
+        <span class="calendar-panel-heading__art calendar-panel-heading__art--hands">{% include calendar-icon.html icon="hands" %}</span>
+      </div>
+      <ul class="calendar-uo-list">
+        {% for event_id in site.data.calendar.uo_games %}
+          {% include calendar-uo-row.html event_id=event_id %}
         {% endfor %}
       </ul>
-    </section>
-
-    <section class="summer-group" aria-labelledby="august-meetups">
-      <h3 id="august-meetups">August meetups</h3>
-      <ul>
-        {% for session in summer.sessions %}
-          {% assign month = session.date | date: "%-m" %}
-          {% if month == "8" and session.group != "Everyone" %}
-            <li>
-              <time datetime="{{ session.date }}">{{ session.date | date: "%A, %B %-d, %Y" }}</time>
-              <span>{{ session.time }}</span>
-              <strong>{% if session.group == "K/1" %}Kindergarten and 1st Grade{% elsif session.group == "2/3" %}2nd and 3rd Grade{% elsif session.group == "4/5/6" %}4th, 5th, and 6th Grade{% endif %}</strong>
-            </li>
-          {% endif %}
-        {% endfor %}
-      </ul>
-    </section>
-
-    <section class="summer-group summer-group--everyone" aria-labelledby="everyone-meetup">
-      <p class="eyebrow">All YG families</p>
-      <h3 id="everyone-meetup">Everyone meetup</h3>
-      <p><strong>Saturday, August 22, 2026</strong></p>
-      <p>2:00-4:00 PM</p>
-      <p>Everyone at Emerald Park</p>
+      <a class="calendar-panel-link" href="{{ '/get-involved/uo-beverage-booth/' | relative_url }}">How the UO Beverage Booth works</a>
     </section>
   </div>
-</section>
 
-<section id="uo-games" class="calendar-group">
-  <div class="section-heading">
-    <h2>UO game volunteer opportunities</h2>
-    <p>Every home game needs at least 21 OLCC-permitted adult volunteers.</p>
-  </div>
-  <div class="calendar-list">
-    {% for event in site.data.events %}
-      {% if event.calendar_section == "uo" %}
-        {% include calendar-row.html event=event %}
-      {% endif %}
-    {% endfor %}
-  </div>
-  <p><a class="button button--secondary" href="{{ '/get-involved/uo-beverage-booth/' | relative_url }}">How the UO Beverage Booth works</a></p>
-</section>
-
-<section id="school-year" class="calendar-group">
-  <div class="section-heading">
-    <h2>School-year highlights</h2>
-  </div>
-  <div class="calendar-list">
-    {% assign highlight_ids = "back-to-school-picnic-2026,school-choice-tour-2027,oshogatsu-2027,kodomo-no-hi-2027" | split: "," %}
-    {% for event_id in highlight_ids %}
-      {% assign event = site.data.events | where: "id", event_id | first %}
-      {% include calendar-row.html event=event %}
-    {% endfor %}
-  </div>
-</section>
-
-<section id="meetings" class="calendar-group">
-  <div class="section-heading">
-    <h2>PTO meetings</h2>
-    <p>General Assembly meetings are where PTO members ask questions, discuss proposals, and vote on organization-wide business.</p>
-  </div>
-  <div class="calendar-list">
-    {% for event in site.data.events %}
-      {% if event.calendar_section == "meetings" %}
-        {% include calendar-row.html event=event %}
-      {% endif %}
-    {% endfor %}
-  </div>
-</section>
-
-<section id="appreciation" class="calendar-group">
-  <div class="section-heading">
-    <h2>Appreciation weeks</h2>
-    <p>Ways to participate will be added when each plan is ready.</p>
-  </div>
-  <div class="calendar-list">
-    {% for event in site.data.events %}
-      {% if event.calendar_section == "appreciation" %}
-        {% include calendar-row.html event=event %}
-      {% endif %}
-    {% endfor %}
-  </div>
-</section>
+  <section class="calendar-dashboard-panel calendar-highlights" id="school-year" aria-labelledby="school-year-title">
+    <div class="calendar-panel-heading">
+      <div>
+        <p class="eyebrow">2026-2027</p>
+        <h2 id="school-year-title">School-Year Highlights</h2>
+      </div>
+      <span class="calendar-panel-heading__art calendar-panel-heading__art--school">{% include calendar-icon.html icon="school" %}</span>
+    </div>
+    <div class="calendar-highlight-groups">
+      {% for group in site.data.calendar.highlights %}
+        <section class="calendar-highlight-group calendar-highlight-group--{{ group.tone }}">
+          <h3>{{ group.title }}</h3>
+          <ul>
+            {% for event_id in group.events %}
+              {% include calendar-highlight-row.html event_id=event_id %}
+            {% endfor %}
+          </ul>
+        </section>
+      {% endfor %}
+    </div>
+  </section>
+</div>

@@ -1,0 +1,8 @@
+{% assign event = site.data.events | where: "id", include.event_id | first %}
+{% if event %}
+  <li class="calendar-uo-row">
+    <time datetime="{{ event.date }}">{{ event.date | date: "%a, %b %-d" }}</time>
+    <strong>{{ event.opponent }}</strong>
+    <a href="{{ event.external_url }}">Sign up</a>
+  </li>
+{% endif %}

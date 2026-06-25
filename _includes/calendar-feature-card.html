@@ -1,0 +1,19 @@
+{% assign event = site.data.events | where: "id", include.item.event_id | first %}
+{% if event %}
+  <article class="calendar-feature-card calendar-feature-card--{{ include.item.tone }}">
+    <div class="calendar-feature-card__icon">
+      {% include calendar-icon.html icon=include.item.icon %}
+    </div>
+    <div class="calendar-feature-card__body">
+      <span class="badge">{{ event.category }}</span>
+      <h3>{{ event.title }}</h3>
+      <p class="calendar-feature-card__date">{{ event.date | date: "%A, %B %-d, %Y" }}</p>
+      {% if event.time %}<p>{{ event.time }}</p>{% endif %}
+      {% if event.location %}<p>{{ event.location }}</p>{% endif %}
+      <div class="calendar-feature-card__actions">
+        {% if event.detail_url %}<a href="{{ event.detail_url | relative_url }}">{{ event.detail_label | default: event.link_label | default: "Event information" }}</a>{% endif %}
+        {% if event.external_url %}<a href="{{ event.external_url }}">{{ event.link_label | default: "Sign up" }}</a>{% endif %}
+      </div>
+    </div>
+  </article>
+{% endif %}

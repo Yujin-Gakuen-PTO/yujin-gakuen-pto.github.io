@@ -22,7 +22,7 @@ This file records publication status, canonical sources, reuse, verification dat
 | `/get-involved/caring-crane-fund/` | Published | Approved page copy and `_data/links.yml` | Fund process, contact path, or donation link changes |
 | `/get-involved/donate-funds/` | Partial | Impact data and `_data/links.yml` | New donation links or payment language is approved |
 | `/events/` | Published | Navigation and page copy | Route or event ownership changes |
-| `/events/calendar/` | Published | `_data/events.yml` grouped by family use | Weekly; rotate expired items and hide empty groups |
+| `/events/calendar/` | Published | `_data/events.yml` for facts and `_data/calendar.yml` for dashboard placement | Weekly; rotate expired items and review seasonal groups |
 | `/events/oshogatsu/` | Partial | `_data/events.yml` and confirmed event facts | 2027 location, schedule, activities, or signup is confirmed |
 | `/events/kodomo-no-hi/` | Partial | `_data/events.yml` and confirmed event facts | 2027 location, schedule, activities, or signup is confirmed |
 | `/events/jikyuso-jog-a-thon/` | Partial | Page copy and confirmed participation model | School releases the next schedule, pledge, or volunteer links |
@@ -51,6 +51,7 @@ All routes were reviewed on June 24, 2026.
 | `_data/announcement.yml` | Current sitewide announcement and type | Header notice | Weekly and when announcement expires |
 | `_data/links.yml` | PTO email, forms, donations, stores, and repeated URLs | Homepage and section pages | Change-only |
 | `_data/events.yml` | Confirmed dates, times, locations, and signup links | Homepage, Calendar, meetings, volunteer and event pages | Weekly during active seasons |
+| `_data/calendar.yml` | Calendar featured items, UO order, and seasonal highlight groups | Calendar dashboard | When homepage priorities or school terms change |
 | `_data/home_upcoming.yml` | Homepage event priority | Homepage | When an item expires or priority changes |
 | `_data/home_actions.yml` | Homepage primary actions | Homepage | Seasonal or strategic review |
 | `_data/impact.yml` | PTO support categories | About, Impact, support and staff pages | Annual or program change |

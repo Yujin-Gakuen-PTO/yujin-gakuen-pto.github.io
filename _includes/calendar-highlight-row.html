@@ -1,0 +1,16 @@
+{% assign event = site.data.events | where: "id", include.event_id | first %}
+{% if event %}
+  {% assign icon = "festival" %}
+  {% if event.type == "meeting" %}{% assign icon = "meeting" %}{% endif %}
+  {% if event.type == "appreciation" %}{% assign icon = "heart" %}{% endif %}
+  {% if event.category == "Prospective Families" %}{% assign icon = "school" %}{% endif %}
+  <li class="calendar-highlight-row">
+    <span class="calendar-highlight-row__icon">{% include calendar-icon.html icon=icon %}</span>
+    <div>
+      <strong>{{ event.title }}</strong>
+      <span>{{ event.date | date: "%B %-d, %Y" }}{% if event.end_date %} - {{ event.end_date | date: "%B %-d, %Y" }}{% endif %}</span>
+    </div>
+    {% if event.time %}<span class="calendar-highlight-row__time">{{ event.time }}</span>{% endif %}
+    {% if event.detail_url %}<a href="{{ event.detail_url | relative_url }}">{{ event.detail_label | default: "Details" }}</a>{% endif %}
+  </li>
+{% endif %}

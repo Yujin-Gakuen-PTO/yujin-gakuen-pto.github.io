@@ -1,0 +1,38 @@
+featured:
+  - event_id: asian-celebration-2026
+    icon: lantern
+    tone: terracotta
+  - event_id: obon-taiko-festival-2026
+    icon: drum
+    tone: gold
+  - event_id: first-pto-meeting-2026
+    icon: meeting
+    tone: green
+
+summer_recess:
+  event_id: summer-recess-2026
+
+uo_games:
+  - uo-game-2026-09-05
+  - uo-game-2026-09-18
+  - uo-game-2026-10-10
+  - uo-game-2026-10-17
+  - uo-game-2026-10-31
+  - uo-game-2026-11-14
+  - uo-game-2026-11-28
+
+highlights:
+  - title: Fall 2026
+    tone: fall
+    events:
+      - back-to-school-picnic-2026
+      - october-pto-meeting-2026
+      - november-pto-meeting-2026
+  - title: Winter / Spring 2027
+    tone: spring
+    events:
+      - school-choice-tour-2027
+      - oshogatsu-2027
+      - classified-staff-appreciation-2027
+      - kodomo-no-hi-2027
+      - teacher-appreciation-2027

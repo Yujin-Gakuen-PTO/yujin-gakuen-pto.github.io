@@ -1,0 +1,55 @@
+{% case include.icon %}
+{% when "lantern" %}
+  <svg viewBox="0 0 48 48" focusable="false" aria-hidden="true">
+    <path d="M17 8h14M19 4h10M18 40h12M20 44h8"/>
+    <path d="M15 12c2-3 16-3 18 0l2 6-2 18c-2 3-16 3-18 0l-2-18 2-6Z"/>
+    <path d="M14 18h20M14 30h20M24 12v24"/>
+  </svg>
+{% when "drum" %}
+  <svg viewBox="0 0 48 48" focusable="false" aria-hidden="true">
+    <path d="M14 12c0-5 20-5 20 0v24c0 5-20 5-20 0V12Z"/>
+    <path d="M14 12c0 5 20 5 20 0M14 36c0-5 20-5 20 0M17 17l14 14M31 17 17 31"/>
+    <path d="m8 8 9 9M40 8l-9 9"/>
+  </svg>
+{% when "meeting" %}
+  <svg viewBox="0 0 48 48" focusable="false" aria-hidden="true">
+    <circle cx="24" cy="15" r="6"/>
+    <circle cx="11" cy="20" r="4"/>
+    <circle cx="37" cy="20" r="4"/>
+    <path d="M13 39c0-8 4-13 11-13s11 5 11 13M4 39c0-6 2-10 7-10 3 0 5 1 6 3M44 39c0-6-2-10-7-10-3 0-5 1-6 3"/>
+  </svg>
+{% when "playground" %}
+  <svg viewBox="0 0 48 48" focusable="false" aria-hidden="true">
+    <path d="M8 40h32M12 40V18h20v22M10 18h24L22 7 10 18Z"/>
+    <path d="M18 40V26h8v14M34 24h6v16M34 30h6"/>
+  </svg>
+{% when "hands" %}
+  <svg viewBox="0 0 48 48" focusable="false" aria-hidden="true">
+    <path d="M10 40V24c0-3 4-3 4 0v7-15c0-3 4-3 4 0v13-17c0-3 4-3 4 0v17-14c0-3 4-3 4 0v16l3-4c3-4 7-1 5 3l-7 11H17l-7-1Z"/>
+    <path d="M4 16v-5M8 18l-3-4M34 13V8M39 15l3-4"/>
+  </svg>
+{% when "calendar" %}
+  <svg viewBox="0 0 48 48" focusable="false" aria-hidden="true">
+    <path d="M10 11h28v29H10zM10 19h28M17 7v8M31 7v8"/>
+    <path d="M16 25h5M27 25h5M16 32h5M27 32h5"/>
+  </svg>
+{% when "school" %}
+  <svg viewBox="0 0 48 48" focusable="false" aria-hidden="true">
+    <path d="M7 41h34M11 41V20h26v21M7 20 24 8l17 12M20 41V29h8v12"/>
+    <path d="M15 25h4M29 25h4"/>
+  </svg>
+{% when "festival" %}
+  <svg viewBox="0 0 48 48" focusable="false" aria-hidden="true">
+    <path d="M8 39h32M12 39V14h24v25M9 14h30L33 7H15l-6 7Z"/>
+    <path d="M18 14v25M30 14v25M18 22h12M18 31h12"/>
+  </svg>
+{% when "heart" %}
+  <svg viewBox="0 0 48 48" focusable="false" aria-hidden="true">
+    <path d="M24 40 8 25C0 16 13 5 24 16 35 5 48 16 40 25L24 40Z"/>
+  </svg>
+{% else %}
+  <svg viewBox="0 0 48 48" focusable="false" aria-hidden="true">
+    <circle cx="24" cy="24" r="16"/>
+    <path d="M17 24h14M25 18l6 6-6 6"/>
+  </svg>
+{% endcase %}

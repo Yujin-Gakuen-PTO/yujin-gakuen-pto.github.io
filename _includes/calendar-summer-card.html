@@ -1,0 +1,54 @@
+{% assign summer = site.data.events | where: "id", site.data.calendar.summer_recess.event_id | first %}
+<section class="calendar-dashboard-panel calendar-summer" id="summer-recess" aria-labelledby="summer-recess-title">
+  <div class="calendar-panel-heading">
+    <div>
+      <p class="eyebrow">Summer 2026</p>
+      <h2 id="summer-recess-title">Summer Recess Playground Meetups</h2>
+      <p>Grade groups use students' rising grades for the 2026-2027 school year. A parent, guardian, or responsible adult stays with each child.</p>
+    </div>
+    <span class="calendar-panel-heading__art calendar-panel-heading__art--playground">{% include calendar-icon.html icon="playground" %}</span>
+  </div>
+
+  <div class="calendar-summer__months">
+    <section>
+      <h3>July Meetups</h3>
+      <ul>
+        {% for session in summer.sessions %}
+          {% assign month = session.date | date: "%-m" %}
+          {% if month == "7" %}
+            <li>
+              <time datetime="{{ session.date }}">{{ session.date | date: "%a, %b %-d" }}</time>
+              <span>{{ session.time }}</span>
+              <strong>{% if session.group == "K/1" %}Kindergarten and 1st Grade{% elsif session.group == "2/3" %}2nd and 3rd Grade{% elsif session.group == "4/5/6" %}4th, 5th, and 6th Grade{% endif %}</strong>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </section>
+
+    <section>
+      <h3>August Meetups</h3>
+      <ul>
+        {% for session in summer.sessions %}
+          {% assign month = session.date | date: "%-m" %}
+          {% if month == "8" and session.group != "Everyone" %}
+            <li>
+              <time datetime="{{ session.date }}">{{ session.date | date: "%a, %b %-d" }}</time>
+              <span>{{ session.time }}</span>
+              <strong>{% if session.group == "K/1" %}Kindergarten and 1st Grade{% elsif session.group == "2/3" %}2nd and 3rd Grade{% elsif session.group == "4/5/6" %}4th, 5th, and 6th Grade{% endif %}</strong>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </section>
+  </div>
+
+  <aside class="calendar-everyone-meetup">
+    <span class="calendar-everyone-meetup__icon">{% include calendar-icon.html icon="playground" %}</span>
+    <div>
+      <span>Everyone Meetup</span>
+      <strong>Saturday, August 22, 2026</strong>
+      <p>2:00-4:00 PM at Emerald Park</p>
+    </div>
+  </aside>
+</section>
