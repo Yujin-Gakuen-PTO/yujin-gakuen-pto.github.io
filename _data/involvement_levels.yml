@@ -1,0 +1,27 @@
+- label: Stay informed
+  title: Get PTO emails
+  summary: Receive PTO updates, event information, volunteer opportunities, and meeting reminders.
+  destination: join_form
+  cta: Sign up for PTO emails
+  display_order: 1
+
+- label: Show up
+  title: Attend a meeting or family event
+  summary: Come to a PTO meeting, family meetup, festival, or other upcoming YG event.
+  destination: /events/calendar/
+  cta: See upcoming dates
+  display_order: 2
+
+- label: Help when you can
+  title: Take a volunteer shift
+  summary: Choose a one-time or seasonal job that fits your time and availability.
+  destination: /get-involved/volunteer/
+  cta: See volunteer opportunities
+  display_order: 3
+
+- label: Help shape the work
+  title: Join a committee or planning group
+  summary: Help organize an event, support volunteers, review bylaws, or take part behind the scenes.
+  destination: /get-involved/committees/
+  cta: Find committee work
+  display_order: 4

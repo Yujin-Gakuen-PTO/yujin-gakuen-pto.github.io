@@ -11,6 +11,7 @@ Static public website for Yujin Gakuen PTO, built for GitHub Pages with Jekyll a
 - Visual design lives in `assets/css/site.css`.
 - Mobile menu behavior lives in `assets/js/site.js`.
 - Internal editor guidance lives in `_internal/`, which is excluded from the published site.
+- Active content questions live in `_internal/content-needed.md`; published facts and review schedules live in `_internal/content-inventory.md`.
 
 ## Hosting
 
@@ -30,6 +31,8 @@ The tracked `Gemfile` keeps local Jekyll aligned with the GitHub Pages build. `G
 bundle install
 bundle exec jekyll serve
 ```
+
+Jekyll rebuilds most page and style changes automatically. Restart the preview server after changing `_config.yml`, dependency settings, or other build configuration.
 
 ## Content Guardrails
 

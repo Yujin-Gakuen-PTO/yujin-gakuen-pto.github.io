@@ -1,0 +1,34 @@
+<div class="resource-grid">
+  {% for committee in site.data.committees %}
+    <article class="resource-card">
+      <span class="badge">{{ committee.label }}</span>
+      <h3>{{ committee.title }}</h3>
+      <p>{{ committee.summary }}</p>
+      <dl class="resource-card__details">
+        <div>
+          <dt>Timing</dt>
+          <dd>{{ committee.timing }}</dd>
+        </div>
+        <div>
+          <dt>Commitment</dt>
+          <dd>{{ committee.commitment }}</dd>
+        </div>
+        {% if committee.lead %}
+          <div>
+            <dt>Current lead</dt>
+            <dd>{{ committee.lead }}</dd>
+          </div>
+        {% endif %}
+        {% if committee.members %}
+          <div>
+            <dt>Current members</dt>
+            <dd>{{ committee.members | join: ", " }}</dd>
+          </div>
+        {% endif %}
+      </dl>
+      {% if committee.note %}
+        <p class="resource-card__note">{{ committee.note }}</p>
+      {% endif %}
+    </article>
+  {% endfor %}
+</div>

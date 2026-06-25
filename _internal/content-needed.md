@@ -1,309 +1,136 @@
-# Website Content Tracker
+# Website Content Needed
 
-This file tracks public-page content, confirmed facts, open questions, and resources still needed. It is excluded from the published website.
+This is the active queue for facts, links, documents, and decisions still needed for public pages. It is excluded from the published website.
 
-## Status Key
+Hannah's direct answers and confirmations take priority over automation notes. Published facts and update schedules live in `_internal/content-inventory.md`.
 
-- **Published:** The placeholder has been replaced. Revisit only when facts change.
-- **Ready to draft:** Enough information exists to build the page; a small confirmation may remain.
-- **Needs confirmation:** Useful content exists, but important facts or public wording still need review.
-- **Waiting on resources:** The page depends on links, files, dates, or other materials not yet supplied.
+## Answer These Five First
 
-Answers and editorial direction in this file came from Hannah. Last reorganized June 24, 2026.
+You do not need to work through every page below. Answers to these five questions will complete several pages at once.
 
-## Current Priorities
+1. **Public records:** Which annual-meeting, budget, election, agenda, minute, and newsletter files are approved for publication?
+2. **Current action links:** What are the live general-donation, event-contribution, newsletter-archive, teacher-request, and reimbursement links?
+3. **Event logistics:** Which locations, schedules, accessibility details, volunteer roles, and signup links are confirmed for the unfinished 2026-27 events?
+4. **Meeting cycle:** What are the next Annual Meeting, nomination, election, and budget-review dates and participation rules?
+5. **Teacher and staff requests:** What may staff request from PTO, what information must they provide, who reviews requests, and how are payments or reimbursements handled?
 
-1. **Committees + Join a Committee:** Build together from one shared committee source after chairs and openings are confirmed.
-2. **Caring Crane Fund:** Substantial draft exists, but privacy, contact, and process language need careful confirmation.
-3. **Donate / Funds:** Draft the structure after real Zeffy URLs are available.
-4. **Oshogatsu and Kodomo no Hi:** Expand as locations, volunteer needs, and contribution links are confirmed.
+## Detailed Page Reference
 
-<!-- PTO President Command Center automation section: start -->
-## Weekly Website Planning Notes (Automation)
+Use this section when answering one page at a time. Each item below matches a visible `Details still being confirmed` block on the public site.
 
-This section is maintained by `PTO President Command Center automation`.
+### Teacher & Staff Hub
 
-- **Last updated:** June 24, 2026.
-- **Source run used:** June 21, 2026.
-- **Signed:** PTO President Command Center automation.
-
-### Current website-safe watch items
-
-- UO Beverage Booth is the clearest near-term public-safe refresh item. Fall game listings and volunteer signups should be checked weekly as dates approach.
-- Caring Crane Fund remains the strongest giving page that looks close to draftable, but public contact wording and donation-button language still need a final website pass.
-- Waka Daiko fall workshop still needs a short family-facing blurb once the public wording is ready.
-
-### Stale-risk warnings
-
-- Summer Recess is already more concrete in website data than the latest command-center source run could fully confirm. Recheck dates, locations, and wording before the next homepage or calendar refresh.
-- Back to School Picnic appears on the website with a date and volunteer signup, but the latest command-center signal still treated the date as tentative.
-- Meetings and records remain a drift risk because public agendas, minutes, and archive structure are still missing from the website tracker.
-- Committee pages remain likely to drift because the shared committee source and current openings are still incomplete.
-
-### Missing content candidates
-
-- Build the shared committee source for Committees and Join a Committee.
-- Expand Oshogatsu and Kodomo no Hi with location, volunteer, and contribution details as those become confirmed.
-- Add a public agendas and minutes archive once files and preferred ordering are ready.
-- Keep Annual Meeting, Elections, and Budget Approval in the watch lane until public-ready dates and documents exist.
-
-### Not ready for publication
-
-- Do not refresh Summer Recess or Back to School Picnic copy from internal PTO notes alone.
-- Do not use Kimiko donation ideas, internal handoff cleanup, or Google Group testing as public website content.
-<!-- PTO President Command Center automation section: end -->
-
-## About
-
-### About the PTO
-
-- **Status:** Published.
-- **Confirmed facts used:** The PTO supports Japanese immersion learning, classroom programs, school traditions, family communication, and ways for families to participate.
-- **Shared uses:** Homepage new-family callout, Join the PTO, Volunteer, Meetings, and Donate / Funds.
-- **Source/review:** Hannah; reviewed June 24, 2026.
-
-### PTO Impact
-
-- **Status:** Published.
-- **Confirmed facts used:**
-  - PTO helps fund Japanese-language classroom tools.
-  - PTO supports a year-long classroom intern and three short-term intern groups from Japan during the school year.
-  - PTO organizes Oshogatsu and Kodomo no Hi.
-  - PTO helps coordinate YG children's activities at Asian Celebration, Asian Night Market, and Obon and Taiko Festival.
-  - PTO coordinates Teacher Appreciation Week and Classified Staff Appreciation Week with families.
-  - PTO supports staff-directed classroom needs, a second field trip for each grade, and promotion support for kindergarten and fifth grade.
-  - Summer Recess, the Back-to-School Picnic, and volunteer opportunities help families connect.
-- **Not published pending verification:**
-  - Intern support as approximately 55% of proposed spending.
-  - An estimate of 50 or more volunteers for major festivals.
-  - Popcorn Friday support.
-- **Shared source:** `_data/impact.yml`.
-- **Shared uses:** About, PTO Impact, Donate / Funds, Host Interns, and selected event pages.
-- **Source/review:** Hannah; reviewed June 24, 2026.
-
-### Board Members
-
-- **Status:** Published.
-- **Proposed public roster:**
-  - Hannah Felton — President, 2025-2027
-  - Ariann Harrelson — Secretary, 2026-2027
-  - Sean Fontenot — Treasurer, 2026-2028
-  - Tess Snook-Louie — Volunteer Coordinator, 2026-2027
-  - Amy Davies — Vice President, 2026-2027
-  - Sara Smestad — Communications and Marketing Secretary, 2026-2027
-  - Kamila Khanthanhot — Curator, 2026-2027
-- **Role notes available:**
-  - Vice President focuses on outreach and family engagement.
-  - Curator helps preserve cultural items and traditions used in school events.
-  - President can be described as guiding PTO planning, meetings, and coordination with school leadership.
-- **Role aliases supplied:**
-  - President: `president@yujingakuenpto.com`
-  - Vice President: `vicepresident@yujingakuenpto.com`
-  - Secretary: `secretary@yujingakuenpto.com`
-  - Treasurer: `treasurer@yujingakuenpto.com`
-  - Volunteer Coordinator: `volunteercoordinator@yujingakuenpto.com`
-  - Communications and Marketing Secretary: `info@yujingakuenpto.com`
-  - Curator: `curator@yujingakuenpto.com`
-- **Public contact:** The page uses `info@yujingakuenpto.com`; role aliases remain internal references.
-- **Shared source:** `_data/board.yml`.
-- **Source/review:** Hannah; published June 24, 2026.
-
-### Committees
-
-- **Status:** Needs confirmation.
-- **Known committees and work groups:**
-  - Volunteer Committee / Volunteer Coordination — Tess; volunteer signups, event staffing, reminders, and helping families find manageable ways to help.
-  - Oshogatsu Committee
-  - Kodomo no Hi Committee
-  - Back-to-School Picnic Committee
-  - Finance Committee — Sean
-  - Bylaw Review Committee
-- **Useful commitment labels:**
-  - One-time shift
-  - Short seasonal project
-  - Occasional behind-the-scenes help
-  - Ongoing planning role
-- **Likely help areas:** Setup, cleanup, UO Beverage Booth shifts, festival planning, storage, inventory, supply preparation, and communications.
-- **Still needed:**
-  - Members for every committee.
-  - Which committees are active in 2026-27: All of the above
-  - Which are accepting volunteers now: All of the above
-  - One-sentence description and commitment level for each: ?? No one knows this tho
-- **Shared uses:** Committees, Join a Committee, Volunteer, and event pages.
-- **Recommended implementation:** One `_data/committees.yml` source for both committee pages.
-- **Source/review:** Hannah; partial as of June 24, 2026.
-
-### Governing Documents
-
-- **Status:** Waiting on resources.
-- **Still needed:** Current public bylaws, policies, standing rules, titles, revision dates, links or files, and preferred display order.
-- **Recommended implementation:** Shared document data if more than a few files will be listed.
-- **Known:** No public document links are currently stored in the website.
-
-## Get Involved
-
-### Join a Committee
-
-- **Status:** Needs confirmation.
-- **Direction:** Keep the page practical and low-pressure. Name actual work instead of asking families to join an abstract committee.
-- **Still needed:** Current openings, commitment labels, seasonal timing, chair or contact, and which roles can be completed as one-time tasks.
-- **Shared source:** Build from the same committee data as Committees.
+- Request form or public request link.
+- Information teachers and staff must include with a request.
+- Review and approval process, including who makes the decision.
+- Reimbursement and direct-payment forms and instructions.
+- Event coordination process, facility requirements, communication lead time, and public contact.
 
 ### Host Interns
 
-- **Status:** Waiting on information.
-- **Still needed:**
-  - Who may host.
-  - Timing and length of placements.
-  - What a host family provides.
-  - Matching and application process.
-  - Application link or contact.
-  - Deadlines and any public district or school requirements.
-- **Known:** PTO supports a year-long intern and three short-term intern groups from Japan.
-- **Shared uses:** Host Interns, PTO Impact, Volunteer, and Donate / Funds.
-
-### Caring Crane Fund
-
-- **Status:** Ready to draft
-- **Purpose:** A charitable YG PTO fund providing confidential, need-based support to students and families in the Yujin Gakuen community.
-- **Financial statement:** Donations stay within the school community, are used only for this purpose, and are maintained separately from the PTO operating budget.
-- **Possible support:**
-  - Grocery or gas cards.
-  - Essential items.
-  - Other support determined by YG administration.
-- **Privacy and decision process:**
-  - YG administration identifies need, determines eligibility, approves requests, and directs assistance.
-  - PTO members do not review, approve, vote on, or receive recipient identities.
-  - Assistance is handled confidentially.
-- **Contacts supplied:** Kocho-Sensei Kimberly Ingram, Brigitte Phipps, Scott Klein, or a student's teacher.
-- **School usernames supplied:** `ingram_k`, `phipps_b`, and `klein_s`; the `4j.lane.edu` domain was indicated, but complete addresses still need confirmation.
-- **Donation link supplied:** `https://checkout.square.site/merchant/VQ37B4TSKPJTS/checkout/GUWGM3SZIYIRU3UFY2Y6IQCR`
-- **All below are confirmed:**
-  - Confirm that the purpose, eligibility, financial separation, and privacy language are formally approved.
-  - Confirm complete public email addresses for school contacts; do not construct them from usernames.
-  - Confirm whether individual school staff should be named or whether families should be directed through a general school contact.
-  - Confirm the Square link and preferred donation button label.
-- **Shared uses:** Caring Crane Fund and Donate / Funds.
-- **Source/review:** Hannah has reviewed and approved 6/23/26.
+- Placement dates and the length of year-long and short-term hosting periods.
+- What a host family provides.
+- Matching steps, deadlines, and current school or district requirements.
+- **Already published:** Interest form and host-family application.
 
 ### Donate / Funds
 
-- **Status:** Waiting on Zeffy links.
-- **Planned categories:**
-  - General PTO Support
-  - Cultural Events, including monetary contributions and Amazon wish lists
-  - Staff and Teacher Appreciation
-  - Caring Crane Fund
-  - Garden Committee
-  - Parent-teacher conference donations
-- **Approved direction:**
-  - Explain giving separately from store shopping.
-  - Explain impact without unverified dollar amounts.
-  - Note that some giving supports the general PTO budget while other options may support a specific fund.
-- **Still needed:** Real Zeffy URLs, fund descriptions, payment instructions, preferred button labels, and any approved tax language.
-- **Do not use:** Fake or placeholder destination URLs.
-- **Shared uses:** Donate / Funds, header Donate button, homepage support card, and PTO Impact.
-
-## Events
+- Current links and short descriptions for General PTO Support, cultural events, teacher and staff appreciation, Garden Committee support, and parent-teacher conference support.
+- Preferred button labels.
+- Payment instructions and approved tax-receipt language.
+- **Already published:** Caring Crane Fund purpose, process, and donation link.
 
 ### Oshogatsu
 
-- **Status:** Needs confirmation.
-- **Known:**
-  - January 22, 2027, 5:30-7:30 PM.
-  - School Choice Presentation and Tour precedes it from 5:00-5:30 PM.
-  - Open to the broader community.
-  - Planned performances include kindergarten songs, fifth-grade dance, and second-grade Eisa dance.
-  - An Amazon wish list and contribution link are planned.
-  - This is the primary school cultural event of the year.
-- **Still needed:** Location, final performance descriptions, other activities, family instructions, accessibility information, volunteer roles, signup link, wish-list link, contribution link, and event contact.
-- **Drafting note:** The supplied performance list contained plus signs, so treat it as incomplete until confirmed.
-- **Do not imply:** Food is included unless the event plan confirms it.
-- **Internal note:** "The entire community. City. The world. MINIONS, TONIGHT WE STEAL THE NEW YEAR!!" is tone reference only and must not publish.
-- **Shared uses:** Oshogatsu, Calendar, Volunteer, Donate / Funds, and homepage when seasonally featured.
+- Location and final performance schedule.
+- Confirmed activities, family instructions, and accessibility information.
+- Volunteer roles and signup link.
+- Contribution or wish-list links and event contact.
+- **Already published:** January 22, 2027, 5:30-7:30 PM; School Choice at 5:00-5:30 PM; planned kindergarten, second-grade, and fifth-grade performances.
 
 ### Kodomo no Hi
 
-- **Status:** Needs confirmation.
-- **Known:**
-  - April 30, 2027, 5:00-7:00 PM.
-  - Open to YG families, prospective families, community partners, and the broader public.
-  - Planned performances include first-grade songs, third-grade taiko, and fourth-grade songs.
-- **Still needed:** Location, final performance descriptions, other activities, family instructions, accessibility information, volunteer roles, signup link, contribution or wish-list links, and contact.
-- **Drafting note:** The supplied performance list contained plus signs, so treat it as incomplete until confirmed.
-- **Shared uses:** Kodomo no Hi, Calendar, Volunteer, Donate / Funds, and homepage when seasonally featured.
+- Location and final performance schedule.
+- Confirmed activities, family instructions, and accessibility information.
+- Volunteer roles and signup link.
+- Contribution or wish-list links and event contact.
+- **Already published:** April 30, 2027, 5:00-7:00 PM and the planned first-, third-, and fourth-grade performances.
 
-### Jikyuso / Jog-a-thon
+### Jikyuso / じきゅうそう
 
-- **Status:** Needs date and operational details.
-- **Naming decision:** Page title `Jikyuso / じきゅうそう`. On first reference use `Jikyuso Triathlon, YG's jog-a-thon`.
-- **Known:**
-  - Students may collect online pledges per lap, per English page read, per Japanese page read, or as a flat donation.
-  - Participation does not require fundraising.
-  - Funds go directly to YG Associated Student Body accounts, not the PTO.
-  - Volunteers are needed during school hours.
-- **Still needed:** Date, schedule, location, student instructions, online donation link, volunteer roles and signup, contact, and review of ASB wording.
-- **Internal note:** "Volunteer and bleed money" captures the informal idea but must not publish.
-- **Shared uses:** Jikyuso page, Calendar, Volunteer, and homepage when featured.
+- Date, grade schedule, location, and student instructions.
+- Online pledge link.
+- School-hour volunteer roles, signup link, and event contact.
+- **Already published:** Participation options, fundraising is optional, school staff lead the event, and funds support YG Associated Student Body accounts rather than PTO.
 
-### Teacher Appreciation
+### Teacher & Staff Appreciation
 
-- **Status:** Waiting on plans.
-- **Known dates:**
-  - Classified Staff Appreciation Week: March 1-5, 2027.
-  - Teacher Appreciation Week: May 3-7, 2027.
-- **Direction:** Explain that PTO coordinates family participation without implying every family must contribute.
-- **Still needed:** Activities by day, requested contributions, signup links, drop-off instructions, volunteer needs, and contact.
+- Activities or requests for each day.
+- Requested contributions, drop-off instructions, volunteer roles, signup links, and public contact.
+- **Already published:** Classified Staff Appreciation Week is March 1-5, 2027; Teacher Appreciation Week is May 3-7, 2027.
 
 ### Field Day
 
-- **Status:** Waiting on plans.
-- **Still needed:** Date, schedule by grade, location, student instructions, volunteer roles, signup link, accessibility information, and contact.
-
-## Meetings & Records
+- Date, location, and grade schedule.
+- Student instructions and accessibility information.
+- Volunteer roles, signup link, and event contact.
+- **Already published:** School staff lead Field Day and PTO shares family volunteer information when available.
 
 ### Agendas & Minutes
 
-- **Status:** Waiting on documents.
-- **Still needed:** Public files or links, meeting dates, document type, approval status where relevant, archive order, and preferred storage location.
-- **Recommended implementation:** Shared meeting-document data.
+- Separate public agenda files that do not expose draft minutes.
+- Formally approved minute files.
+- Meeting dates, document types, archive order, and preferred public storage location.
 
 ### Annual Meeting
 
-- **Status:** Waiting on details.
-- **Still needed:** Date, time, purpose, relationship to General Assembly meetings, location or virtual link, agenda, participation or voting information, and related documents.
+- Exact May 2027 date, time, location, or virtual access.
+- Agenda, participation information, voting information, and approved public materials.
+- **Already published:** The most recent Annual Meeting was May 28, 2026.
 
 ### Elections
 
-- **Status:** Waiting on details.
-- **Still needed:** Nomination and election dates, open roles, eligibility, nomination process, voting process, links, and results-publishing policy.
-- **Shared uses:** Elections, Calendar, Board Members, and meeting notices.
+- Open roles and term dates.
+- Nomination deadline, eligibility, candidate-information process, and nomination link.
+- Election date, voting process, and results-publishing policy.
 
 ### Budget Approval
 
-- **Status:** Waiting on public documents and process details.
-- **Potential source already identified:** Approved 2026-27 budget handout in PTO records.
-- **Still needed:** Public-use confirmation for the budget document, process summary, presentation and approval dates, question contact, and voting information.
+- Confirmation of whether the 2026-27 budget handout may be public.
+- Presentation and approval dates.
+- Public review and voting summary.
+- Contact for budget questions.
 
 ### Newsletters
 
-- **Status:** Waiting on archive links.
-- **Still needed:** Current and past newsletter links or files, issue dates, titles, archive order, and confirmation that PTO email signup is the newsletter signup.
-- **Known:** Families currently join the PTO email list through the existing Google Form.
+- Approved current and past newsletter files.
+- Issue titles and dates, archive order, and stable public links.
 
-## Store
+## Completed In This Pass
 
-### Spirit Wear
+- Committees and Join a Committee.
+- Governing Documents, including current and historical groupings.
+- Caring Crane Fund.
+- Spirit Wear, Square Store, and TeePublic.
+- Store and intern-hosting action links.
 
-- **Status:** Waiting on store information.
-- **Still needed:** Current products, prices if stable, photos, seller, ordering link, order window, pickup or shipping details, and contact.
+<!-- PTO President Command Center automation section: start -->
+## Automation Inbox
 
-### Square Store
+This section is maintained only by `PTO President Command Center automation`. It is advisory and never authorizes a public website change.
 
-- **Status:** Waiting on link.
-- **Still needed:** Public Square Store URL, short description, available item categories, order or pickup instructions, and contact.
+- **Generated:** June 24, 2026.
+- **Sources checked through:** June 21, 2026.
 
-### TeePublic
+### Current priorities
 
-- **Status:** Waiting on link.
-- **Still needed:** Public shop URL, designs or products to highlight, optional images, and verified wording about whether the PTO receives proceeds.
+- Keep UO Beverage Booth dates and signup links under weekly review as the fall season approaches.
+- Watch for a public-ready Waka Daiko workshop blurb.
+
+### Confirmation and stale-risk flags
+
+- Reverify Summer Recess dates, locations, and wording before changing or extending the current public listing.
+- Reconfirm the Back-to-School Picnic date before strengthening or expanding its public copy.
+- Do not publish internal Kimiko donation discussions, communications-account handoff notes, or Google Group testing.
+
+<!-- PTO President Command Center automation section: end -->

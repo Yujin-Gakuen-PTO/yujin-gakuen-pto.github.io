@@ -4,20 +4,23 @@
 
 - title: About
   url: /about/
-  description: Learn what the PTO does and how it is organized.
+  description: Learn what the PTO does, get updates, and choose how you would like to take part.
   children:
     - title: PTO Impact
       url: /about/impact/
-      description: How PTO support helps students, classrooms, and school traditions.
+      description: See how PTO support reaches classrooms, interns, cultural events, staff appreciation, and family connection.
     - title: Board Members
       url: /about/board/
-      description: PTO board roles, responsibilities, and contact information.
+      description: Meet the current PTO board and find the public PTO contact.
     - title: Committees
       url: /about/committees/
-      description: PTO committees, their work, and the volunteers who lead them.
+      description: Learn how committees form around events, volunteers, finances, and PTO governance.
     - title: Governing Documents
       url: /about/governing-documents/
-      description: PTO bylaws, policies, and other governing documents.
+      description: Find bylaws, policies, and other documents that guide PTO work.
+    - title: Teacher & Staff Hub
+      url: /about/teacher-staff-hub/
+      description: Find PTO contacts and support information for Yujin Gakuen teachers and staff.
 
 - title: Get Involved
   url: /get-involved/

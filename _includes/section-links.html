@@ -1,14 +1,20 @@
 {% for item in site.data.navigation %}
   {% if item.url == page.url and item.children %}
+    {% assign excluded_urls = include.exclude_urls | default: page.section_links_exclude | default: "" | split: "," %}
     <section class="link-section" aria-labelledby="section-links-title">
       <h2 id="section-links-title">{{ page.section_links_title | default: "Pages in this section" }}</h2>
+      {% if page.section_links_intro %}
+        <p class="link-section__intro">{{ page.section_links_intro }}</p>
+      {% endif %}
       <div class="card-grid card-grid--two">
         {% for child in item.children %}
-          <a class="action-card" href="{{ child.url | relative_url }}">
-            <span class="badge">{{ item.title }}</span>
-            <h3>{{ child.title }}</h3>
-            <p>{{ child.description }}</p>
-          </a>
+          {% unless excluded_urls contains child.url %}
+            <a class="action-card" href="{{ child.url | relative_url }}">
+              <span class="badge">{{ item.title }}</span>
+              <h3>{{ child.title }}</h3>
+              <p>{{ child.description }}</p>
+            </a>
+          {% endunless %}
         {% endfor %}
       </div>
     </section>

@@ -11,3 +11,27 @@ contact:
 calendar:
   label: See what is coming up
   url: /events/calendar/
+
+intern_interest:
+  label: Share your interest
+  url: "https://forms.gle/CSaEzfrFx52LnXHU9"
+
+intern_application:
+  label: Complete the host-family application
+  url: "https://forms.gle/G8iCFeXGwjzB2zGq8"
+
+caring_crane:
+  label: Donate to the Caring Crane Fund
+  url: "https://checkout.square.site/merchant/VQ37B4TSKPJTS/checkout/GUWGM3SZIYIRU3UFY2Y6IQCR"
+
+square_store:
+  label: Shop the PTO Square Store
+  url: "https://yujin-gakuen-pto.square.site"
+
+crane_sticker:
+  label: Shop crane stickers
+  url: "https://square.link/u/c8PqiRiM"
+
+teepublic:
+  label: Visit the YG TeePublic shop
+  url: "https://www.teepublic.com/user/yg-school-pto"

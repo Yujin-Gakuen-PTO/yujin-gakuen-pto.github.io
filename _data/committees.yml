@@ -1,0 +1,48 @@
+- id: back-to-school-picnic
+  label: Seasonal planning
+  title: Back-to-School Picnic
+  timing: Planning begins in August
+  commitment: Short seasonal project
+  summary: Help prepare the family picnic, coordinate practical needs, or take a setup or cleanup role.
+
+- id: oshogatsu
+  label: Cultural event
+  title: Oshogatsu
+  timing: Planning begins in October
+  commitment: Seasonal planning or one-time event help
+  summary: Help plan activities, prepare supplies, coordinate volunteers, or support setup and cleanup for the Japanese New Year celebration.
+
+- id: kodomo-no-hi
+  label: Cultural event
+  title: Kodomo no Hi
+  timing: Planning begins in February
+  commitment: Seasonal planning or one-time event help
+  summary: Help prepare activities, performances, volunteer coverage, supplies, setup, or cleanup for Children's Day.
+
+- id: volunteer-coordination
+  label: Volunteer support
+  title: Volunteer and event coordination
+  timing: Throughout the school year
+  commitment: Occasional help or ongoing coordination
+  summary: Help organize signups, welcome volunteers, fill event needs, and make volunteer information easier to follow.
+  lead: Tess Snook-Louie, Volunteer Coordinator
+  note: Additional help is always welcome and is a practical way to learn more about PTO leadership.
+
+- id: finance
+  label: PTO operations
+  title: Finance Committee
+  timing: Periodic work throughout the year
+  commitment: Occasional review and annual budget work
+  summary: Support budget preparation, financial review, and responsible stewardship of PTO funds.
+  members:
+    - Hannah Felton
+    - Ariann Harrelson
+    - Sean Fontenot
+
+- id: bylaws-review
+  label: Governance
+  title: Bylaw Review Committee
+  timing: As review work is scheduled
+  commitment: Short-term review project
+  summary: Review PTO bylaws and governance materials before recommendations are brought forward.
+  note: Membership is under review. Volunteers with legal, governance, or bylaws experience are especially welcome.

@@ -1,0 +1,14 @@
+{% assign documents = include.items %}
+<div class="document-list">
+  {% for document in documents %}
+    <a class="document-card" href="{{ document.url }}">
+      <span class="badge">{{ include.label | default: "Document" }}</span>
+      <span class="document-card__body">
+        <strong>{{ document.title }}</strong>
+        {% if document.date %}<span>{{ document.date }}</span>{% endif %}
+        <span>{{ document.description }}</span>
+      </span>
+      <span class="document-card__action">Open document <span aria-hidden="true">-&gt;</span></span>
+    </a>
+  {% endfor %}
+</div>

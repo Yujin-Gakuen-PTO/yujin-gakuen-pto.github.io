@@ -1,0 +1,14 @@
+<aside class="pending-details" aria-labelledby="pending-details-title">
+  <span class="badge">Details still being confirmed</span>
+  <h2 id="pending-details-title">{{ page.pending_title | default: "This page is waiting for more details" }}</h2>
+  {% if page.pending_intro %}
+    <p>{{ page.pending_intro }}</p>
+  {% endif %}
+  {% if page.pending_items %}
+    <ul>
+      {% for item in page.pending_items %}
+        <li>{{ item }}</li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+</aside>

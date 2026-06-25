@@ -1,0 +1,15 @@
+{% assign involvement_levels = site.data.involvement_levels | sort: "display_order" %}
+<div class="card-grid card-grid--two involvement-grid">
+  {% for item in involvement_levels %}
+    {% assign item_url = item.destination %}
+    {% if site.data.links[item.destination] %}
+      {% assign item_url = site.data.links[item.destination].url %}
+    {% endif %}
+    <a class="action-card involvement-card" href="{% if item_url contains '://' %}{{ item_url }}{% else %}{{ item_url | relative_url }}{% endif %}">
+      <span class="badge">{{ item.label }}</span>
+      <h3>{{ item.title }}</h3>
+      <p>{{ item.summary }}</p>
+      <strong class="action-card__cta">{{ item.cta }} <span aria-hidden="true">-&gt;</span></strong>
+    </a>
+  {% endfor %}
+</div>

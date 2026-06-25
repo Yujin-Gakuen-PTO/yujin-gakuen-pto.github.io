@@ -13,8 +13,8 @@ layout: default
 
     {% include section-links.html %}
 
-    {% if page.status == "placeholder" %}
-      {% include empty-state.html %}
+    {% if page.status == "partial" %}
+      {% include pending-details.html %}
     {% endif %}
 
     {% include related-links.html %}

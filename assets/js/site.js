@@ -1,4 +1,52 @@
 (() => {
+  const enhanceExternalLinks = () => {
+    document.querySelectorAll("a[href]").forEach((link) => {
+      const href = link.getAttribute("href");
+
+      if (!href || !/^https?:\/\//i.test(href)) {
+        return;
+      }
+
+      const destination = new URL(href, document.baseURI);
+
+      if (destination.origin === window.location.origin) {
+        return;
+      }
+
+      link.target = "_blank";
+      link.rel = "noopener noreferrer";
+      link.classList.add("external-link");
+
+      if (link.querySelector(".external-link__description")) {
+        return;
+      }
+
+      const indicator = document.createElement("span");
+      indicator.className = "external-link__indicator";
+      indicator.setAttribute("aria-hidden", "true");
+      indicator.textContent = "\u2197";
+
+      let indicatorTarget = link;
+
+      if (link.matches(".document-card")) {
+        indicatorTarget = link.querySelector(".document-card__action");
+      } else if (link.matches(".action-card, .mini-card")) {
+        indicatorTarget = link.querySelector("h2, h3, strong");
+      }
+
+      indicatorTarget.append(indicator);
+
+      const description = document.createElement("span");
+      description.className = "visually-hidden external-link__description";
+      description.textContent = " (opens in a new tab)";
+      link.append(description);
+    });
+  };
+
+  enhanceExternalLinks();
+})();
+
+(() => {
   const toggle = document.querySelector(".menu-toggle");
   const menu = document.querySelector("#mobile-menu");
   const submenuToggles = document.querySelectorAll(".mobile-submenu-toggle");
