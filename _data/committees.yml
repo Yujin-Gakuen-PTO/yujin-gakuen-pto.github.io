@@ -1,38 +1,42 @@
-- id: back-to-school-picnic
-  label: Seasonal planning
-  title: Back-to-School Picnic
-  timing: Planning begins in August
-  commitment: Short seasonal project
-  summary: Help prepare the family picnic, coordinate practical needs, or take a setup or cleanup role.
-
 - id: oshogatsu
-  label: Cultural event
-  title: Oshogatsu
-  timing: Planning begins in October
-  commitment: Seasonal planning or one-time event help
-  summary: Help plan activities, prepare supplies, coordinate volunteers, or support setup and cleanup for the Japanese New Year celebration.
+  label: Recruiting next
+  title: Oshogatsu Committee
+  timing: Roles introduced September 17, 2026
+  commitment: Seasonal planning from fall through January
+  summary: Plan YG's Japanese New Year celebration, coordinate event teams, and carry the work through festival day.
+  recruiting: true
+  roles:
+    - Committee Chair
+    - Volunteer Coordinator
+    - Set Up & Operations Lead (Gopher)
+    - Staff Liaison
+    - Activities & Game Scheduling
+    - Marketing & Communications (Comms)
+    - Food & Drink
+    - Site & Logistics Lead
+    - Culture & Traditions Coordinator
+  note: Families may ask about a role now. The committee will be introduced at the first PTO meeting of the year.
 
 - id: kodomo-no-hi
   label: Cultural event
-  title: Kodomo no Hi
-  timing: Planning begins in February
-  commitment: Seasonal planning or one-time event help
-  summary: Help prepare activities, performances, volunteer coverage, supplies, setup, or cleanup for Children's Day.
+  title: Kodomo no Hi Committee
+  timing: Planning begins in winter
+  commitment: Seasonal planning through the spring festival
+  summary: Plan activities, family communication, supplies, cultural coordination, and event operations for Children's Day.
 
 - id: volunteer-coordination
-  label: Volunteer support
-  title: Volunteer and event coordination
+  label: Year-round committee
+  title: Volunteer and Event Committee
   timing: Throughout the school year
-  commitment: Occasional help or ongoing coordination
-  summary: Help organize signups, welcome volunteers, fill event needs, and make volunteer information easier to follow.
+  commitment: Ongoing coordination
+  summary: Build signup plans, coordinate event volunteer coverage, welcome volunteers, and help event teams understand what staffing they need.
   lead: Tess Snook-Louie, Volunteer Coordinator
-  note: Additional help is always welcome and is a practical way to learn more about PTO leadership.
 
 - id: finance
   label: PTO operations
   title: Finance Committee
   timing: Periodic work throughout the year
-  commitment: Occasional review and annual budget work
+  commitment: Financial review and annual budget work
   summary: Support budget preparation, financial review, and responsible stewardship of PTO funds.
   members:
     - Hannah Felton

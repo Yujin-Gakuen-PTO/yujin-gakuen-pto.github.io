@@ -5,24 +5,29 @@ permalink: /meetings/budget-approval/
 section: Meetings
 section_url: /meetings/
 hero_label: Meetings
-summary: Learn how the PTO budget is proposed, reviewed, and approved.
+summary: Follow how the annual PTO budget is drafted, reviewed, discussed, and approved.
 status: partial
-pending_title: Public budget materials still need approval
-pending_intro: "Before documents or figures are posted, the PTO still needs to confirm:"
+wide_content: true
+pending_title: Public budget documents are still being prepared
+pending_intro: "The process is described below. This page still needs:"
 pending_items:
-  - Which 2026-27 budget handout may be published
-  - Presentation and approval dates
-  - A public summary of the review and voting process
-  - Contact information for budget questions
+  - The budget proposal file cleared for publication
+  - Exact presentation and approval dates
+  - A public summary of the final vote
 ---
 
-The PTO develops an annual budget to plan support for students, staff, cultural programming, fundraising, and required operating costs.
+The annual PTO budget turns expected fundraising and donations into a plan for student, staff, program, event, and operating support.
 
-The proposed budget is presented for member review and a vote at the Annual Meeting. Financial reports and changes during the year are handled through PTO meetings and official records.
-
-No budget figures or proposal documents are posted on this page yet.
+<ol class="process-steps">
+  <li><span>1</span><div><h3>Review begins in March</h3><p>The Finance Committee reviews expected income, recurring commitments, program needs, and priorities for the next school year.</p></div></li>
+  <li><span>2</span><div><h3>A proposal is prepared</h3><p>The proposal shows how the PTO intends to use available funds. A proposal is not an approved budget.</p></div></li>
+  <li><span>3</span><div><h3>Members review and ask questions</h3><p>Members may ask for clarification, discuss priorities, and suggest changes before the vote.</p></div></li>
+  <li><span>4</span><div><h3>The Annual Meeting considers the budget</h3><p>A member makes a motion, the proposal may be discussed or amended, and eligible members vote.</p></div></li>
+  <li><span>5</span><div><h3>Approved spending is tracked</h3><p>Financial reports and significant changes are handled through PTO meetings and official records during the year.</p></div></li>
+</ol>
 
 <div class="button-row">
-  <a class="button button--secondary" href="{{ '/meetings/annual-meeting/' | relative_url }}">Annual Meeting information</a>
-  <a class="button button--quiet" href="{{ '/about/impact/' | relative_url }}">See what PTO support makes possible</a>
+  <a class="button button--primary" href="{{ '/meetings/annual-meeting/' | relative_url }}">Annual Meeting information</a>
+  <a class="button button--secondary" href="mailto:info@yujingakuenpto.com?subject=PTO%20budget%20question">Ask a budget question</a>
+  <a class="button button--quiet" href="{{ '/about/impact/' | relative_url }}">See PTO Impact</a>
 </div>

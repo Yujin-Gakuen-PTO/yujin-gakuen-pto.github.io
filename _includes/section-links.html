@@ -1,5 +1,6 @@
 {% for item in site.data.navigation %}
   {% if item.url == page.url and item.children %}
+    {% assign current_month = site.time | date: "%-m" | plus: 0 %}
     {% assign excluded_urls = include.exclude_urls | default: page.section_links_exclude | default: "" | split: "," %}
     <section class="link-section" aria-labelledby="section-links-title">
       <h2 id="section-links-title">{{ page.section_links_title | default: "Pages in this section" }}</h2>
@@ -8,12 +9,20 @@
       {% endif %}
       <div class="card-grid card-grid--two">
         {% for child in item.children %}
+          {% assign show_child = true %}
+          {% if child.seasonal == "elections" %}
+            {% if current_month < 3 or current_month > 5 %}
+              {% assign show_child = false %}
+            {% endif %}
+          {% endif %}
           {% unless excluded_urls contains child.url %}
+            {% if show_child %}
             <a class="action-card" href="{{ child.url | relative_url }}">
               <span class="badge">{{ item.title }}</span>
               <h3>{{ child.title }}</h3>
               <p>{{ child.description }}</p>
             </a>
+            {% endif %}
           {% endunless %}
         {% endfor %}
       </div>

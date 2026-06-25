@@ -27,3 +27,11 @@ The interest form is for families who may want to host or help welcome interns w
 </div>
 
 Program coordinators follow up with applicants about current timing, matching, and expectations.
+
+<div class="action-band">
+  <div>
+    <h2>Not ready to host?</h2>
+    <p>Families may also use the interest form to ask about food, welcome items, and other ways to support visiting interns.</p>
+  </div>
+  <a class="button button--secondary" href="{{ site.data.links.intern_interest.url }}">Share your interest</a>
+</div>

@@ -6,8 +6,8 @@
   display_order: 1
 
 - label: Show up
-  title: Attend a meeting or family event
-  summary: Come to a PTO meeting, family meetup, festival, or other upcoming YG event.
+  title: Attend a meeting or YG event
+  summary: Come to a PTO meeting, community meetup, festival, or other upcoming YG event.
   destination: /events/calendar/
   cta: See upcoming dates
   display_order: 2

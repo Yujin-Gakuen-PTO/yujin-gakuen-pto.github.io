@@ -6,7 +6,7 @@ hero_label: Get Involved
 summary: Find a level of PTO involvement that fits your family, time, and interests.
 wide_content: true
 section_links_title: Other ways to help
-section_links_intro: Families can also help with recurring fundraisers, classroom interns, family support, and financial contributions.
+section_links_intro: PTO members can also help with recurring fundraisers, classroom interns, community support, and financial contributions.
 section_links_exclude: /get-involved/join/,/get-involved/volunteer/,/get-involved/committees/
 ---
 

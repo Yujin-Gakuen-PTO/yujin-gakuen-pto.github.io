@@ -20,6 +20,20 @@ pending_items:
 
 Support from families and community partners helps fund Japanese-language learning tools, classroom interns, cultural events, staff-directed needs, field trips, student milestones, and appreciation.
 
+<div class="support-choice">
+  <div>
+    <span class="badge">Available now</span>
+    <h2>Support families through Caring Crane</h2>
+    <p>Give confidential, need-based support that stays within the YG school community.</p>
+  </div>
+  <div>
+    <span class="badge">Volunteer fundraising</span>
+    <h2>Support PTO programs through the UO booth</h2>
+    <p>The beverage booth accounts for about 80% of PTO fundraising and needs adult volunteers for every home game.</p>
+    <a href="{{ '/get-involved/uo-beverage-booth/' | relative_url }}">See UO Beverage Booth shifts</a>
+  </div>
+</div>
+
 ## Caring Crane Fund
 
 The Caring Crane Fund provides confidential, need-based assistance to YG students and families. It is maintained separately from the PTO operating budget.
@@ -31,7 +45,7 @@ The Caring Crane Fund provides confidential, need-based assistance to YG student
 
 ## Other ways to support YG
 
-Financial giving is only one way to help. Families can also take a volunteer shift, join a seasonal committee, or help with the UO Beverage Booth fundraiser.
+Financial giving is only one way to help. PTO members can also take a volunteer shift, join a seasonal committee, or help with the UO Beverage Booth fundraiser.
 
 <div class="button-row">
   <a class="button button--secondary" href="{{ '/get-involved/volunteer/' | relative_url }}">See volunteer opportunities</a>

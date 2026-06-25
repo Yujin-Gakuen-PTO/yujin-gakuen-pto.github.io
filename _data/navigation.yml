@@ -61,15 +61,15 @@
     - title: Kodomo no Hi
       url: /events/kodomo-no-hi/
       description: Dates, activities, and volunteer information for Kodomo no Hi.
-    - title: Jikyuso / Jog-a-thon
-      url: /events/jikyuso-jog-a-thon/
-      description: Event information, student participation, and volunteer needs.
     - title: Obon & Taiko Festival
       url: /events/obon-taiko-festival/
       description: Festival date, activities, and volunteer signup.
     - title: Teacher Appreciation
       url: /events/teacher-appreciation/
-      description: Ways families can help celebrate YG teachers and staff.
+      description: Ways the YG community can help celebrate teachers and staff.
+    - title: Jikyuso / Jog-a-thon
+      url: /events/jikyuso-jog-a-thon/
+      description: Event information, student participation, and volunteer needs.
     - title: Field Day
       url: /events/field-day/
       description: Field Day schedule, family information, and volunteer needs.
@@ -90,6 +90,7 @@
     - title: Elections
       url: /meetings/elections/
       description: PTO election schedule, open roles, and voting information.
+      seasonal: elections
     - title: Budget Approval
       url: /meetings/budget-approval/
       description: PTO budget proposal, review, and approval information.

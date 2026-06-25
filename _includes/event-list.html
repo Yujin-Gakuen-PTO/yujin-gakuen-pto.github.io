@@ -9,7 +9,7 @@
     <p>{{ include.text }}</p>
   {% endif %}
 
-  <div class="data-card-grid">
+  <div class="data-card-grid{% if include.compact == 'true' %} data-card-grid--compact{% endif %}">
     {% assign rendered_count = 0 %}
     {% for event in site.data.events %}
       {% assign show_event = true %}
@@ -31,7 +31,14 @@
       {% if include.event_id and event.id != include.event_id %}
         {% assign show_event = false %}
       {% endif %}
+      {% if include.calendar_section and event.calendar_section != include.calendar_section %}
+        {% assign show_event = false %}
+      {% endif %}
       {% if include.signup_only == "true" and event.external_url == nil %}
+        {% assign show_event = false %}
+      {% endif %}
+
+      {% if show_event and include.limit and rendered_count >= include.limit %}
         {% assign show_event = false %}
       {% endif %}
 
@@ -57,15 +64,19 @@
           <div class="data-card__links">
             {% if event.detail_url and include.hide_detail != "true" %}
               {% if event.external_url %}
-                <a href="{{ event.detail_url | relative_url }}">{{ event.detail_label | default: "View details" }}</a>
+                <a href="{{ event.detail_url | relative_url }}">{{ event.detail_label | default: "Event information" }}</a>
               {% else %}
-                <a href="{{ event.detail_url | relative_url }}">{{ event.detail_label | default: event.link_label | default: "View details" }}</a>
+                <a href="{{ event.detail_url | relative_url }}">{{ event.detail_label | default: event.link_label | default: "Event information" }}</a>
               {% endif %}
             {% endif %}
             {% if event.external_url %}
               <a href="{{ event.external_url }}">{{ event.external_label | default: event.link_label | default: "Sign up" }}</a>
             {% endif %}
           </div>
+
+          {% if include.meeting_actions == "true" %}
+            {% include meeting-actions.html %}
+          {% endif %}
 
           {% if include.show_sessions == "true" and event.sessions %}
             <ul class="compact-list">

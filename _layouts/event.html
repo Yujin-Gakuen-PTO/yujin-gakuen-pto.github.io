@@ -1,0 +1,40 @@
+---
+layout: default
+---
+
+{% include breadcrumbs.html %}
+
+<section class="event-hero event-hero--{{ page.event_theme | default: 'green' }}">
+  {% if page.hero_image %}
+    <img class="event-hero__image" src="{{ page.hero_image | relative_url }}" alt="{{ page.hero_image_alt | default: '' }}">
+  {% endif %}
+  <div class="event-hero__shade" aria-hidden="true"></div>
+  <div class="wrap event-hero__content">
+    <p class="eyebrow">{{ page.hero_label | default: "Events" }}</p>
+    <h1>{{ page.title }}</h1>
+    {% if page.summary %}
+      <p class="hero-summary">{{ page.summary }}</p>
+    {% endif %}
+    {% if page.hero_actions %}
+      <div class="button-row">
+        {% for action in page.hero_actions %}
+          <a class="button {% if forloop.first %}button--primary{% else %}button--secondary{% endif %}" href="{% if action.url contains '://' or action.url contains '#' %}{{ action.url }}{% else %}{{ action.url | relative_url }}{% endif %}">{{ action.label }}</a>
+        {% endfor %}
+      </div>
+    {% endif %}
+  </div>
+</section>
+
+<div class="page-section page-section--interior">
+  <div class="wrap page-grid">
+    <article class="content-flow content-flow--wide event-content">
+      {{ content }}
+    </article>
+
+    {% if page.status == "partial" %}
+      {% include pending-details.html %}
+    {% endif %}
+
+    {% include related-links.html %}
+  </div>
+</div>

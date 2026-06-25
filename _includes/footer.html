@@ -7,12 +7,17 @@
       {% assign next_meeting = event %}
     {% endif %}
   {% endfor %}
-  <div class="wrap footer-grid">
+
+  <div class="wrap footer-grid footer-grid--expanded">
     <div class="footer-about">
       <a class="footer-brand" href="{{ '/' | relative_url }}">
         <img src="{{ '/assets/images/yg-pto-crane-sun-logo.png' | relative_url }}" alt="" width="56" height="56">
-        <span>{{ site.title }}</span>
+        <span>
+          <strong>{{ site.title }}</strong>
+          <small>Kizuna - Our Connection</small>
+        </span>
       </a>
+      <p>Families and staff working together to support Japanese immersion learning, cultural traditions, school programs, and connection across YG.</p>
       {% if next_meeting %}
         <p class="footer-next-meeting">
           <strong>Next PTO meeting:</strong>
@@ -21,20 +26,42 @@
         </p>
       {% endif %}
     </div>
-    <nav class="footer-nav-block" aria-label="Footer navigation">
-      <h2 class="footer-heading">Site links</h2>
-      <ul class="footer-nav">
-        {% for item in site.data.navigation %}
-          <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
-        {% endfor %}
+
+    <nav class="footer-nav-block" aria-label="Ways to take part">
+      <h2 class="footer-heading">Take part</h2>
+      <ul class="footer-link-list">
+        <li><a href="{{ site.data.links.join_form.url }}">Join the PTO</a></li>
+        <li><a href="{{ '/events/calendar/' | relative_url }}">Calendar</a></li>
+        <li><a href="{{ '/get-involved/volunteer/' | relative_url }}">Volunteer</a></li>
+        <li><a href="{{ '/meetings/upcoming/' | relative_url }}">Upcoming meetings</a></li>
       </ul>
     </nav>
-    <div class="footer-note">
-      <h2 class="footer-heading">For families</h2>
-      <p>Questions, ideas, or need help finding something?</p>
-      <a class="quiet-link" href="{{ site.data.links.contact.url }}">Email the PTO</a>
-      <a class="quiet-link" href="{{ '/about/teacher-staff-hub/' | relative_url }}">For teachers and staff</a>
-      <a class="quiet-link" href="{{ '/sitemap/' | relative_url }}">Sitemap</a>
+
+    <nav class="footer-nav-block" aria-label="PTO accountability">
+      <h2 class="footer-heading">How the PTO works</h2>
+      <ul class="footer-link-list">
+        <li><a href="{{ '/about/impact/' | relative_url }}">PTO Impact</a></li>
+        <li><a href="{{ '/about/board/' | relative_url }}">Board Members</a></li>
+        <li><a href="{{ '/about/committees/' | relative_url }}">Committees</a></li>
+        <li><a href="{{ '/about/governing-documents/' | relative_url }}">Governing Documents</a></li>
+      </ul>
+    </nav>
+
+    <nav class="footer-nav-block" aria-label="Help and contact">
+      <h2 class="footer-heading">Help and contact</h2>
+      <ul class="footer-link-list">
+        <li><a href="{{ site.data.links.contact.url }}">Email the PTO</a></li>
+        <li><a href="{{ '/get-involved/caring-crane-fund/' | relative_url }}">Caring Crane Fund</a></li>
+        <li><a href="{{ '/about/teacher-staff-hub/' | relative_url }}">Teacher & Staff Hub</a></li>
+        <li><a href="{{ '/sitemap/' | relative_url }}">Sitemap</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <div class="footer-bottom">
+    <div class="wrap">
+      <p>&copy; {{ site.time | date: "%Y" }} Yujin Gakuen PTO.</p>
+      <a href="{{ '/contact/' | relative_url }}">Contact</a>
     </div>
   </div>
 </footer>

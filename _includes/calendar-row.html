@@ -1,0 +1,23 @@
+{% assign event = include.event %}
+{% if event %}
+  <article class="calendar-row">
+    <time datetime="{{ event.date }}">
+      {{ event.date | date: "%b %-d, %Y" }}{% if event.end_date %} - {{ event.end_date | date: "%b %-d, %Y" }}{% endif %}
+    </time>
+    <div>
+      <h3>{{ event.title }}</h3>
+      {% if event.time or event.location %}
+        <p class="calendar-row__details">
+          {% if event.time %}{{ event.time }}{% endif %}
+          {% if event.time and event.location %}<span aria-hidden="true"> | </span>{% endif %}
+          {% if event.location %}{{ event.location }}{% endif %}
+        </p>
+      {% endif %}
+      {% if event.summary %}<p>{{ event.summary }}</p>{% endif %}
+    </div>
+    <div class="calendar-row__actions">
+      {% if event.detail_url %}<a href="{{ event.detail_url | relative_url }}">{{ event.detail_label | default: event.link_label | default: "Event information" }}</a>{% endif %}
+      {% if event.external_url %}<a href="{{ event.external_url }}">{{ event.external_label | default: event.link_label | default: "Sign up" }}</a>{% endif %}
+    </div>
+  </article>
+{% endif %}

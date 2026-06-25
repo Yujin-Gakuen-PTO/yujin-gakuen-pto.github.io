@@ -3,37 +3,37 @@ layout: page
 title: About the PTO
 permalink: /about/
 hero_label: About
-summary: Learn what the PTO does, how families get updates, and where to plug in.
+summary: Learn what the PTO does, how members get updates, and where to take part.
 wide_content: true
 section_links_title: Meet the people and see how the PTO works
 section_links_intro: These pages introduce the people, structure, records, and responsibilities behind the PTO.
 ---
 
-## You are welcome here
+## What the PTO does
 
-Whether your family is new to Yujin Gakuen or has been here for years, there is a place for you in the PTO. Start by getting updates, then choose the level of involvement that fits your time, energy, and interests.
+Yujin Gakuen PTO brings families and staff together to support Japanese immersion learning, classroom programs, cultural traditions, and connection across the YG community.
 
 ## What PTO support makes possible
 
-Yujin Gakuen PTO is a family-run organization that supports Japanese immersion learning, classroom programs, school traditions, and connections among YG families.
+PTO support reaches classrooms, interns, cultural events, school traditions, staff appreciation, and opportunities for the YG community to connect.
 
 {% include impact-grid.html mode="compact" %}
 
 <p><a class="button button--secondary" href="{{ '/about/impact/' | relative_url }}">See PTO Impact</a></p>
 
-## Get PTO updates
+## Get PTO emails
 
 <div class="content-callout">
   <div>
     <h3>Sign up to receive PTO emails</h3>
-    <p>School emails do not automatically include PTO communication. Sign up to receive PTO event information, volunteer opportunities, meeting reminders, and other updates.</p>
+    <p>School enrollment does not add adults to PTO membership or communication lists. Complete the PTO form to receive event information, volunteer opportunities, meeting reminders, agendas, and other updates.</p>
   </div>
   <a class="button button--primary" href="{{ site.data.links.join_form.url }}">Sign up for PTO emails</a>
 </div>
 
 ## Choose what fits right now
 
-Families participate in different ways at different times. Staying informed matters, and every other level of involvement is optional.
+Joining the PTO does not commit anyone to volunteer or attend every meeting. PTO members participate in different ways at different times.
 
 {% include involvement-levels.html %}
 

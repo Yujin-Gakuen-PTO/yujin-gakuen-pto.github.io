@@ -2,117 +2,93 @@
 
 This is the active queue for facts, links, documents, and decisions still needed for public pages. It is excluded from the published website.
 
-Hannah's direct answers and confirmations take priority over automation notes. Published facts and update schedules live in `_internal/content-inventory.md`.
+Hannah's direct answers and confirmations take priority over automation notes. Published facts and maintenance schedules live in `_internal/content-inventory.md`.
 
 ## Answer These Five First
 
-You do not need to work through every page below. Answers to these five questions will complete several pages at once.
+These questions unlock several pages at once. The detailed page reference below is optional.
 
-1. **Public records:** Which annual-meeting, budget, election, agenda, minute, and newsletter files are approved for publication?
-2. **Current action links:** What are the live general-donation, event-contribution, newsletter-archive, teacher-request, and reimbursement links?
-3. **Event logistics:** Which locations, schedules, accessibility details, volunteer roles, and signup links are confirmed for the unfinished 2026-27 events?
-4. **Meeting cycle:** What are the next Annual Meeting, nomination, election, and budget-review dates and participation rules?
-5. **Teacher and staff requests:** What may staff request from PTO, what information must they provide, who reviews requests, and how are payments or reimbursements handled?
+1. **Current-school-year files:** Please provide the public links for current agendas, approved minutes, newsletters, the budget proposal when cleared, and the completed annual report when ready.
+2. **Festival production details:** For Oshogatsu and Kodomo no Hi, which performance times and locations, activities, visiting organizations, accessibility notes, volunteer roles, signup links, and contribution requests are confirmed?
+3. **School-led event details:** What dates, grade schedules, family instructions, pledge links, accessibility information, volunteer shifts, and school contacts are confirmed for Jikyuso, appreciation weeks, and Field Day?
+4. **Staff request tools:** What form or fields should staff use for requests and reports, and what are the approved reimbursement, direct-payment, receipt, deadline, and review instructions?
+5. **Remaining action links:** What are the approved general PTO donation, cultural-event contribution, appreciation, garden, conference-support, and intern-program links or instructions?
+
+## Confirmed Decisions Moved To The Website
+
+- Current-school-year agendas, approved minutes, and newsletters will be posted. Older items are available by in-person review or request.
+- The Annual Meeting is in May 2027. Budget review and election discussion begin in March; the budget vote and election occur at the Annual Meeting.
+- Oshogatsu, Kodomo no Hi, Obon, and the Back-to-School Picnic are at Yujin Gakuen.
+- The Staff Hub uses one main PTO contact until dedicated tools exist.
+- Staff direct 20% of UO Beverage Booth fundraising earnings; PTO may still require receipts or bookkeeping documentation.
+- Oshogatsu committee recruitment begins at the September 17, 2026 PTO meeting.
+- UO Beverage Booth success requires at least 21 OLCC-permitted adults per game and accounts for about 80% of annual PTO fundraising.
 
 ## Detailed Page Reference
 
-Use this section when answering one page at a time. Each item below matches a visible `Details still being confirmed` block on the public site.
-
 ### Teacher & Staff Hub
 
-- Request form or public request link.
-- Information teachers and staff must include with a request.
-- Review and approval process, including who makes the decision.
-- Reimbursement and direct-payment forms and instructions.
-- Event coordination process, facility requirements, communication lead time, and public contact.
+- Dedicated staff request or meeting-report form.
+- Required request fields and expected review timing.
+- Reimbursement and direct-payment forms, receipt rules, and instructions.
+- Calendar deadlines and event-coordination lead times.
 
 ### Host Interns
 
-- Placement dates and the length of year-long and short-term hosting periods.
-- What a host family provides.
+- Placement dates and length of year-long and short-term hosting periods.
+- What host families provide.
 - Matching steps, deadlines, and current school or district requirements.
 - **Already published:** Interest form and host-family application.
 
 ### Donate / Funds
 
-- Current links and short descriptions for General PTO Support, cultural events, teacher and staff appreciation, Garden Committee support, and parent-teacher conference support.
-- Preferred button labels.
+- Current links and descriptions for general PTO support, cultural events, appreciation, Garden Committee support, and parent-teacher conference support.
 - Payment instructions and approved tax-receipt language.
-- **Already published:** Caring Crane Fund purpose, process, and donation link.
+- **Already published:** Caring Crane Fund and UO Beverage Booth actions.
 
 ### Oshogatsu
 
-- Location and final performance schedule.
-- Confirmed activities, family instructions, and accessibility information.
-- Volunteer roles and signup link.
-- Contribution or wish-list links and event contact.
-- **Already published:** January 22, 2027, 5:30-7:30 PM; School Choice at 5:00-5:30 PM; planned kindergarten, second-grade, and fifth-grade performances.
+- Final performance schedule and locations.
+- Confirmed activities, visiting organizations, mission links, family instructions, and accessibility information.
+- Event-day volunteer roles, signup link, contribution links, and public event contact.
+- **Already published:** January 22, 2027; School Choice 5:00-5:30 PM; festival 5:30-7:30 PM; YG location; planned kindergarten, second-grade, and fifth-grade performances; committee recruitment.
 
 ### Kodomo no Hi
 
-- Location and final performance schedule.
+- Final performance schedule and locations.
 - Confirmed activities, family instructions, and accessibility information.
-- Volunteer roles and signup link.
-- Contribution or wish-list links and event contact.
-- **Already published:** April 30, 2027, 5:00-7:00 PM and the planned first-, third-, and fourth-grade performances.
+- Event-day volunteer roles, signup link, contribution links, and public event contact.
+- **Already published:** April 30, 2027, 5:00-7:00 PM; YG location; planned first-, third-, and fourth-grade performances.
 
 ### Jikyuso / じきゅうそう
 
-- Date, grade schedule, location, and student instructions.
-- Online pledge link.
-- School-hour volunteer roles, signup link, and event contact.
-- **Already published:** Participation options, fundraising is optional, school staff lead the event, and funds support YG Associated Student Body accounts rather than PTO.
+- Date, grade schedule, location, student instructions, and pledge link.
+- School-hour volunteer roles, signup link, and school contact.
+- **Already published:** Participation choices, optional fundraising, school leadership, and ASB destination.
 
 ### Teacher & Staff Appreciation
 
-- Activities or requests for each day.
-- Requested contributions, drop-off instructions, volunteer roles, signup links, and public contact.
-- **Already published:** Classified Staff Appreciation Week is March 1-5, 2027; Teacher Appreciation Week is May 3-7, 2027.
+- Daily activities or requests.
+- Contributions, drop-off instructions, volunteer roles, signup links, and public contact.
+- **Already published:** March 1-5 and May 3-7, 2027.
 
 ### Field Day
 
-- Date, location, and grade schedule.
-- Student instructions and accessibility information.
-- Volunteer roles, signup link, and event contact.
-- **Already published:** School staff lead Field Day and PTO shares family volunteer information when available.
+- Date, location, grade schedule, student instructions, and accessibility information.
+- Volunteer roles, signup link, and school contact.
 
-### Agendas & Minutes
+### Public Records
 
-- Separate public agenda files that do not expose draft minutes.
-- Formally approved minute files.
-- Meeting dates, document types, archive order, and preferred public storage location.
-
-### Annual Meeting
-
-- Exact May 2027 date, time, location, or virtual access.
-- Agenda, participation information, voting information, and approved public materials.
-- **Already published:** The most recent Annual Meeting was May 28, 2026.
+- Public links for current-year agendas, approved minutes, and newsletters.
+- Budget proposal when cleared for publication.
+- Completed annual report.
+- Exact May 2027 Annual Meeting date, time, location, and final agenda.
 
 ### Elections
 
-- Open roles and term dates.
+- Open roles and terms.
 - Nomination deadline, eligibility, candidate-information process, and nomination link.
-- Election date, voting process, and results-publishing policy.
-
-### Budget Approval
-
-- Confirmation of whether the 2026-27 budget handout may be public.
-- Presentation and approval dates.
-- Public review and voting summary.
-- Contact for budget questions.
-
-### Newsletters
-
-- Approved current and past newsletter files.
-- Issue titles and dates, archive order, and stable public links.
-
-## Completed In This Pass
-
-- Committees and Join a Committee.
-- Governing Documents, including current and historical groupings.
-- Caring Crane Fund.
-- Spirit Wear, Square Store, and TeePublic.
-- Store and intern-hosting action links.
+- Exact Annual Meeting date, voting instructions, and results policy.
 
 <!-- PTO President Command Center automation section: start -->
 ## Automation Inbox

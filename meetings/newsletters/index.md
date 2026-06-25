@@ -5,22 +5,27 @@ permalink: /meetings/newsletters/
 section: Meetings
 section_url: /meetings/
 hero_label: Meetings
-summary: Read current and past Yujin Gakuen PTO newsletters.
+summary: Sign up for PTO emails and find current-school-year newsletters.
 status: partial
-pending_title: The newsletter archive still needs approved files
-pending_intro: "This page will list newsletters after the PTO confirms:"
+pending_title: The current newsletter archive is still being assembled
+pending_intro: "This page still needs:"
 pending_items:
-  - Which current and past issues may be published
-  - Issue titles and dates
-  - Archive order and stable public links
+  - Approved current-school-year newsletter files
+  - Issue titles, dates, and stable public links
 ---
 
 ## Get PTO emails
 
-YG families are not automatically added to PTO communications. Sign up to receive PTO updates, event information, volunteer opportunities, and meeting reminders.
+School enrollment does not add adults to PTO communications. Complete the membership form to receive newsletters, meeting information, volunteer opportunities, and event updates.
 
 <p><a class="button button--primary" href="{{ site.data.links.join_form.url }}">Sign up for PTO emails</a></p>
 
-## Newsletter archive
+## Current school year
 
-Approved current and past newsletters will be listed here by issue date.
+Approved newsletters will be listed here by issue date.
+
+## Older newsletters
+
+Older issues may be reviewed in person or requested from the PTO.
+
+<p><a class="button button--secondary" href="mailto:info@yujingakuenpto.com?subject=Older%20PTO%20newsletter%20request">Request an older newsletter</a></p>

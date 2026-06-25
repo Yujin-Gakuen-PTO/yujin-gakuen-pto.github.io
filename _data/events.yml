@@ -2,6 +2,7 @@
   title: Summer Recess Meetups
   type: summer
   category: Community
+  calendar_section: summer
   date: 2026-07-10
   end_date: 2026-08-22
   time: Select Fridays and Saturdays
@@ -23,7 +24,7 @@
     - date: 2026-07-24
       day: Friday
       time: 4:00 PM - 6:00 PM
-      group: 4/5
+      group: 4/5/6
       location: Yujin Gakuen School Playground
     - date: 2026-08-01
       day: Saturday
@@ -38,7 +39,7 @@
     - date: 2026-08-15
       day: Saturday
       time: 2:00 PM - 4:00 PM
-      group: 4/5
+      group: 4/5/6
       location: Yujin Gakuen School Playground
     - date: 2026-08-22
       day: Saturday
@@ -50,9 +51,11 @@
   title: 41st Annual Asian Celebration
   type: volunteer
   category: Volunteer
+  calendar_section: soon
   date: 2026-07-18
   summary: Volunteer with YG PTO at the 41st Annual Asian Celebration.
   detail_url: /get-involved/volunteer/
+  detail_label: See volunteer opportunities
   external_url: "https://volunteersignup.org/BXQ37"
   link_label: Sign up to volunteer
 
@@ -60,16 +63,23 @@
   title: Obon and Taiko Festival
   type: event
   category: Festival
+  calendar_section: soon
+  organizer: Japanese-American Association of Lane County
+  partner_role: Yujin Gakuen supports the children's section.
+  location: Yujin Gakuen
   date: 2026-08-29
   summary: Volunteer at the Obon and Taiko Festival.
   detail_url: /events/obon-taiko-festival/
+  detail_label: Festival details
   external_url: "https://volunteersignup.org/A9PM4"
   link_label: Sign up to volunteer
 
 - id: uo-game-2026-09-05
-  title: UO Beverage Booth
+  title: UO vs Boise State Beverage Booth
   type: volunteer
   category: UO Booth
+  calendar_section: uo
+  opponent: Boise State
   date: 2026-09-05
   summary: Choose a volunteer shift for this UO game.
   detail_url: /get-involved/uo-beverage-booth/
@@ -80,6 +90,7 @@
   title: First PTO Meeting of the Year
   type: meeting
   category: Meeting
+  calendar_section: meetings
   date: 2026-09-17
   time: 6:30 PM - 7:30 PM
   summary: The first PTO meeting of the school year.
@@ -87,9 +98,11 @@
   link_label: Meeting details
 
 - id: uo-game-2026-09-18
-  title: UO Beverage Booth
+  title: UO vs Portland State Beverage Booth
   type: volunteer
   category: UO Booth
+  calendar_section: uo
+  opponent: Portland State
   date: 2026-09-18
   summary: Choose a volunteer shift for this UO game.
   detail_url: /get-involved/uo-beverage-booth/
@@ -100,16 +113,19 @@
   title: Back to School Picnic
   type: event
   category: Community
+  calendar_section: soon
+  location: Yujin Gakuen
   date: 2026-09-25
   summary: Families can sign up to help with the Back to School Picnic.
-  detail_url: /events/calendar/
   external_url: "https://volunteersignup.org/4CBQK"
   link_label: Sign up to volunteer
 
 - id: uo-game-2026-10-10
-  title: UO Beverage Booth
+  title: UO vs UCLA Beverage Booth
   type: volunteer
   category: UO Booth
+  calendar_section: uo
+  opponent: UCLA
   date: 2026-10-10
   summary: Choose a volunteer shift for this UO game.
   detail_url: /get-involved/uo-beverage-booth/
@@ -120,6 +136,7 @@
   title: October PTO General Assembly Meeting
   type: meeting
   category: Meeting
+  calendar_section: meetings
   date: 2026-10-15
   time: 6:30 PM - 7:30 PM
   summary: October PTO general assembly meeting.
@@ -127,9 +144,11 @@
   link_label: Meeting details
 
 - id: uo-game-2026-10-17
-  title: UO Beverage Booth
+  title: UO vs Nebraska Beverage Booth
   type: volunteer
   category: UO Booth
+  calendar_section: uo
+  opponent: Nebraska
   date: 2026-10-17
   summary: Choose a volunteer shift for this UO game.
   detail_url: /get-involved/uo-beverage-booth/
@@ -137,9 +156,11 @@
   link_label: Sign up for this game
 
 - id: uo-game-2026-10-31
-  title: UO Beverage Booth
+  title: UO vs Northwestern Beverage Booth
   type: volunteer
   category: UO Booth
+  calendar_section: uo
+  opponent: Northwestern
   date: 2026-10-31
   summary: Choose a volunteer shift for this UO game.
   detail_url: /get-involved/uo-beverage-booth/
@@ -147,9 +168,11 @@
   link_label: Sign up for this game
 
 - id: uo-game-2026-11-14
-  title: UO Beverage Booth
+  title: UO vs Michigan Beverage Booth
   type: volunteer
   category: UO Booth
+  calendar_section: uo
+  opponent: Michigan
   date: 2026-11-14
   summary: Choose a volunteer shift for this UO game.
   detail_url: /get-involved/uo-beverage-booth/
@@ -160,6 +183,7 @@
   title: November PTO General Assembly Meeting
   type: meeting
   category: Meeting
+  calendar_section: meetings
   date: 2026-11-19
   time: 6:30 PM - 7:30 PM
   summary: November PTO general assembly meeting.
@@ -167,9 +191,11 @@
   link_label: Meeting details
 
 - id: uo-game-2026-11-28
-  title: UO Beverage Booth
+  title: UO vs Washington Beverage Booth
   type: volunteer
   category: UO Booth
+  calendar_section: uo
+  opponent: Washington
   date: 2026-11-28
   summary: Choose a volunteer shift for this UO game.
   detail_url: /get-involved/uo-beverage-booth/
@@ -180,48 +206,59 @@
   title: School Choice Presentation and Tour
   type: event
   category: Prospective Families
+  calendar_section: highlights
   date: 2027-01-22
   time: 5:00 PM - 5:30 PM
   summary: School choice presentation and tour before Oshogatsu.
   detail_url: /events/calendar/
-  link_label: View details
+  detail_label: School Choice information
 
 - id: oshogatsu-2027
-  title: Oshogatsu
+  title: お正月 (Oshogatsu)
   type: event
   category: Cultural Event
+  calendar_section: highlights
+  location: Yujin Gakuen
+  parking_notice: true
+  artwork: /assets/images/oshogatsu-2027-banner.png
   date: 2027-01-22
   time: 5:30 PM - 7:30 PM
   summary: Yujin Gakuen's Oshogatsu celebration.
   detail_url: /events/oshogatsu/
-  link_label: View details
+  detail_label: Oshogatsu details
 
 - id: classified-staff-appreciation-2027
   title: Classified Staff Appreciation Week
   type: appreciation
   category: Appreciation
+  calendar_section: appreciation
   date: 2027-03-01
   end_date: 2027-03-05
   summary: Classified Staff Appreciation Week.
   detail_url: /events/teacher-appreciation/
-  link_label: View details
+  detail_label: Appreciation information
 
 - id: kodomo-no-hi-2027
-  title: Kodomo no Hi
+  title: こどもの日 (Kodomo no Hi)
   type: event
   category: Cultural Event
+  calendar_section: highlights
+  location: Yujin Gakuen
+  parking_notice: true
+  artwork: /assets/images/kodomo-no-hi-2027-banner.png
   date: 2027-04-30
   time: 5:00 PM - 7:00 PM
   summary: Yujin Gakuen's Kodomo no Hi celebration.
   detail_url: /events/kodomo-no-hi/
-  link_label: View details
+  detail_label: Kodomo no Hi details
 
 - id: teacher-appreciation-2027
   title: Teacher Appreciation Week
   type: appreciation
   category: Appreciation
+  calendar_section: appreciation
   date: 2027-05-03
   end_date: 2027-05-07
   summary: A week to recognize Yujin Gakuen teachers and staff.
   detail_url: /events/teacher-appreciation/
-  link_label: View details
+  detail_label: Appreciation information

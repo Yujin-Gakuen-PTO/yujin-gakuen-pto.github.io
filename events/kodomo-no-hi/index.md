@@ -1,28 +1,40 @@
 ---
-layout: page
-title: Kodomo no Hi / こどもの日
+layout: event
+title: こどもの日 (Kodomo no Hi)
 permalink: /events/kodomo-no-hi/
 section: Events
 section_url: /events/
-hero_label: Events
-summary: Celebrate Kodomo no Hi, Children's Day, with Yujin Gakuen.
+hero_label: Children's Day
+summary: Yujin Gakuen's Children's Day celebration centers students, performances, and family cultural activities.
+hero_image: /assets/images/kodomo-no-hi-2027-banner.png
+hero_image_alt: Illustrated koinobori carp streamers flying in a bright sky.
+event_theme: kodomo
 status: partial
 pending_title: Final 2027 festival details are still being confirmed
-pending_intro: "The date and planned student performances are available now. The event page still needs:"
+pending_intro: "The date, location, and planned grade performances are available. The event team still needs to publish:"
 pending_items:
-  - Location and final performance schedule
+  - Final performance times and locations
   - Confirmed activities and family instructions
   - Accessibility information
-  - Volunteer roles and signup link
-  - Contribution or wish-list links and an event contact
+  - Volunteer roles, signup link, and contribution requests
 ---
 
-{% include event-list.html id="kodomo-no-hi-date" title="2027 date" event_id="kodomo-no-hi-2027" hide_detail="true" %}
+<section class="event-facts" aria-label="Kodomo no Hi event details">
+  <div><span>Date</span><strong>April 30, 2027</strong></div>
+  <div><span>Time</span><strong>5:00-7:00 PM</strong></div>
+  <div><span>Location</span><strong>Yujin Gakuen</strong></div>
+</section>
 
-Kodomo no Hi is Children's Day in Japan. YG's celebration is open to families, prospective families, community partners, and the broader public.
+## Performance plans
 
-## Current plans
+Current plans include first-grade songs, third-grade taiko, and fourth-grade songs. Final performance times and locations will be added when confirmed.
 
-Current performance plans include first-grade songs, third-grade taiko, and fourth-grade songs.
+## Festival activities
 
-Past YG celebrations have included student performances and family activity stations. The final 2027 activity list has not been set.
+Kodomo no Hi honors children's health, growth, and happiness. YG celebrations have included student performances and family activity stations. The 2027 activity list is still being planned.
+
+## Help with the celebration
+
+Committee planning and event-day volunteer opportunities will be listed separately as soon as the event team confirms roles, shifts, and requested contributions.
+
+{% include parking-notice.html %}

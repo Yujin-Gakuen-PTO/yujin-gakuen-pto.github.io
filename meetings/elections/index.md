@@ -4,26 +4,30 @@ title: Elections
 permalink: /meetings/elections/
 section: Meetings
 section_url: /meetings/
-hero_label: Meetings
-summary: Find PTO election dates, open board roles, and voting information.
+hero_label: March-May election season
+summary: Learn how PTO nominations, candidate information, voting, and board terms work.
 status: partial
-pending_title: The next election schedule has not been set
-pending_intro: "This page will be updated when the PTO confirms:"
+wide_content: true
+pending_title: The 2027 election details are not yet available
+pending_intro: "When the election cycle opens, this page still needs:"
 pending_items:
   - Open board roles and term dates
-  - Nomination deadline and eligibility
-  - Candidate information and nomination process
-  - Election date, voting process, and results-publishing policy
+  - Nomination deadline, eligibility, and nomination link
+  - Candidate-information process
+  - Exact election date, voting instructions, and results policy
 ---
 
-PTO board elections give members a voice in choosing the volunteers who oversee meetings, finances, communications, volunteer coordination, records, and other PTO work.
+PTO elections are held during the Annual Meeting cycle. Election discussion begins in March, and the vote takes place at the May Annual Meeting.
 
-## Current board
+<div class="timeline">
+  <div><span>March</span><p>Open roles and nomination information are announced.</p></div>
+  <div><span>Spring</span><p>Eligible candidates share information and members may ask questions.</p></div>
+  <div><span>May</span><p>PTO members vote during the Annual Meeting.</p></div>
+  <div><span>Afterward</span><p>Results and updated board terms are published according to the approved process.</p></div>
+</div>
 
-The current roster includes each officer's role and term.
+## Current board and roles
+
+The Board Members page lists current officers, responsibilities, and term dates.
 
 <p><a class="button button--primary" href="{{ '/about/board/' | relative_url }}">View Board Members</a></p>
-
-## Future elections
-
-When the next election cycle opens, this page will list the available roles, nomination steps, voting date, and how families can participate.

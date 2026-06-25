@@ -1,4 +1,5 @@
 <header class="site-header">
+  {% assign current_month = site.time | date: "%-m" | plus: 0 %}
   {% assign announcement = site.data.announcement %}
   {% if announcement.enabled %}
     <div class="notice-bar notice-bar--{{ announcement.type | default: 'info' }}">
@@ -42,7 +43,15 @@
                   <div class="nav-panel" id="nav-panel-{{ forloop.index }}">
                     <ul>
                       {% for child in item.children %}
-                        <li><a href="{{ child.url | relative_url }}">{{ child.title }}</a></li>
+                        {% assign show_child = true %}
+                        {% if child.seasonal == "elections" %}
+                          {% if current_month < 3 or current_month > 5 %}
+                            {% assign show_child = false %}
+                          {% endif %}
+                        {% endif %}
+                        {% if show_child %}
+                          <li><a{% if page.url == child.url %} class="is-active" aria-current="page"{% endif %} href="{{ child.url | relative_url }}">{{ child.title }}</a></li>
+                        {% endif %}
                       {% endfor %}
                     </ul>
                   </div>
@@ -68,7 +77,7 @@
           <li>
             {% if item.children %}
               <div class="mobile-nav-section">
-                <a class="mobile-nav-parent" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+                <a class="mobile-nav-parent{% if page.url == item.url or item.url != '/' and page.url contains item.url %} is-active{% endif %}" href="{{ item.url | relative_url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.title }}</a>
                 <button class="mobile-submenu-toggle" type="button" aria-expanded="false" aria-controls="mobile-section-{{ forloop.index }}">
                   <span class="visually-hidden">Show {{ item.title }} links</span>
                   <span class="mobile-submenu-icon" aria-hidden="true"></span>
@@ -76,11 +85,19 @@
               </div>
               <ul class="mobile-submenu" id="mobile-section-{{ forloop.index }}" hidden>
                 {% for child in item.children %}
-                  <li><a href="{{ child.url | relative_url }}">{{ child.title }}</a></li>
+                  {% assign show_child = true %}
+                  {% if child.seasonal == "elections" %}
+                    {% if current_month < 3 or current_month > 5 %}
+                      {% assign show_child = false %}
+                    {% endif %}
+                  {% endif %}
+                  {% if show_child %}
+                    <li><a{% if page.url == child.url %} class="is-active" aria-current="page"{% endif %} href="{{ child.url | relative_url }}">{{ child.title }}</a></li>
+                  {% endif %}
                 {% endfor %}
               </ul>
             {% else %}
-              <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+              <a{% if page.url == item.url %} class="is-active" aria-current="page"{% endif %} href="{{ item.url | relative_url }}">{{ item.title }}</a>
             {% endif %}
           </li>
         {% endfor %}

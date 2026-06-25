@@ -1,28 +1,52 @@
 ---
-layout: page
-title: Oshogatsu / お正月
+layout: event
+title: お正月 (Oshogatsu)
 permalink: /events/oshogatsu/
 section: Events
 section_url: /events/
-hero_label: Events
-summary: Celebrate Oshogatsu, the Japanese New Year, with Yujin Gakuen.
+hero_label: Japanese New Year
+summary: Yujin Gakuen's Japanese New Year celebration brings families together for student performances and cultural activities.
+hero_image: /assets/images/oshogatsu-2027-banner.png
+hero_image_alt: Illustrated Year of the Horse Oshogatsu celebration with children and a white horse.
+event_theme: oshogatsu
 status: partial
 pending_title: Final 2027 festival details are still being confirmed
-pending_intro: "The date and planned student performances are available now. The event page still needs:"
+pending_intro: "The date, location, and planned grade performances are available. The event team still needs to publish:"
 pending_items:
-  - Location and final performance schedule
-  - Confirmed activities and family instructions
-  - Accessibility information
-  - Volunteer roles and signup link
-  - Contribution or wish-list links and an event contact
+  - Final performance times and locations
+  - Confirmed activities and visiting organizations
+  - Accessibility information and family instructions
+  - Volunteer roles, signup link, and contribution requests
 ---
 
-{% include event-list.html id="oshogatsu-date" title="2027 date" event_id="oshogatsu-2027" hide_detail="true" %}
+<section class="event-facts" aria-label="Oshogatsu event details">
+  <div><span>Date</span><strong>January 22, 2027</strong></div>
+  <div><span>School Choice</span><strong>5:00-5:30 PM</strong></div>
+  <div><span>Festival</span><strong>5:30-7:30 PM</strong></div>
+  <div><span>Location</span><strong>Yujin Gakuen</strong></div>
+</section>
 
-Oshogatsu means Japanese New Year. YG's celebration brings students, families, prospective families, and community members together for student performances and hands-on cultural activities.
+<section class="recruitment-hero">
+  <div>
+    <span class="badge badge--gold">Committee recruitment</span>
+    <h2>Help plan Oshogatsu</h2>
+    <p>The committee will be introduced at the first PTO meeting on September 17, 2026. Families may ask about planning roles now.</p>
+  </div>
+  <a class="button button--primary" href="mailto:info@yujingakuenpto.com?subject=Oshogatsu%20Committee%20interest">Ask about a committee role</a>
+</section>
 
-## Current plans
+## Performance plans
 
-The School Choice Presentation and Tour is scheduled for 5:00-5:30 PM, immediately before the festival. Current performance plans include kindergarten songs, a fifth-grade dance, and an Eisa dance by second grade.
+Current plans include kindergarten songs, a fifth-grade dance, and an Eisa dance by second grade. The final performance schedule and locations will be added when confirmed.
 
-Past YG celebrations have included yukata, taiko, origami, calligraphy, traditional games, and food demonstrations. The final 2027 activity list has not been set.
+## Activities and community partners
+
+Past celebrations have included yukata, taiko, origami, calligraphy, traditional games, and food demonstrations. These are examples from previous years, not a confirmed 2027 activity list.
+
+Confirmed visiting organizations will be listed with a brief description of their work once participation is finalized.
+
+## Volunteer and contribution opportunities
+
+Planning roles are available through the Oshogatsu Committee. Event-day shifts and requested contributions will be posted separately after the committee confirms what is needed.
+
+{% include parking-notice.html %}

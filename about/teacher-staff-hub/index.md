@@ -5,51 +5,46 @@ permalink: /about/teacher-staff-hub/
 section: About
 section_url: /about/
 hero_label: About
-summary: PTO contacts and support information for Yujin Gakuen teachers and staff.
+summary: A starting point for YG staff seeking PTO support, volunteers, communication help, or meeting participation.
 status: partial
 wide_content: true
 pending_title: Staff request tools are still being organized
-pending_intro: "This page will be updated when the PTO has confirmed forms and procedures for:"
+pending_intro: "Staff may use the main PTO email now. This page still needs:"
 pending_items:
-  - Requesting classroom or program support
-  - Submitting reimbursement and payment information
-  - Understanding who reviews requests and when decisions are made
-  - Coordinating event needs, facilities, and volunteer communication
+  - A dedicated staff request or meeting-report form
+  - Current reimbursement and direct-payment instructions
+  - Request deadlines and expected review timing
+  - A fuller staff communication system
 ---
 
-The PTO works with Yujin Gakuen teachers and staff to support Japanese-language learning, classroom needs, cultural events, field trips, student milestones, interns, and staff appreciation.
+Yujin Gakuen staff are members of the Parent Teacher Organization. Staff may bring needs, questions, ideas, event coordination, and requests for volunteers or financial support to the PTO.
 
-## Contact the PTO
-
-Until dedicated request forms are available, email [{{ site.data.links.contact.email }}]({{ site.data.links.contact.url }}) with the request and any timing information you already have. A PTO board member will route it to the right person.
-
-<p><a class="button button--primary" href="{{ site.data.links.contact.url }}">Email the PTO</a></p>
-
-## Areas the PTO supports
-
-<div class="card-grid card-grid--two">
-  <article class="action-card static-card">
-    <span class="badge">Classrooms</span>
-    <h3>Learning resources</h3>
-    <p>Japanese-language curriculum tools, staff-directed classroom needs, and other approved student resources.</p>
-  </article>
-  <article class="action-card static-card">
-    <span class="badge">Programs</span>
-    <h3>Interns and cultural exchange</h3>
-    <p>Financial and family support for the year-long intern and short-term intern groups.</p>
-  </article>
-  <article class="action-card static-card">
-    <span class="badge">Experiences</span>
-    <h3>Field trips and milestones</h3>
-    <p>Support for a second field trip for each grade and promotion activities for kindergarten and fifth grade.</p>
-  </article>
-  <article class="action-card static-card">
-    <span class="badge">Community</span>
-    <h3>Events and appreciation</h3>
-    <p>Family volunteers, supplies, and communication for cultural events and teacher and staff appreciation.</p>
-  </article>
+<div class="action-band">
+  <div>
+    <h2>Start here if you are unsure</h2>
+    <p>Email what you need, who it supports, and when you need an answer. The PTO will route the request without requiring you to identify the right person or budget category first.</p>
+  </div>
+  <a class="button button--primary" href="mailto:info@yujingakuenpto.com?subject=Teacher%20or%20staff%20PTO%20request">Email the PTO</a>
 </div>
 
-## Planning an event or family request
+## What staff can bring to PTO
 
-Email the PTO early when an activity may need funding, supplies, volunteers, or family communication. Final school, district, financial, and facility requirements will still need to be confirmed through the appropriate process.
+- Classroom, grade-level, Japanese-language, cultural, or shared-school materials
+- Requests for volunteers, family communication, event supplies, setup, or cleanup
+- Ideas or reports for a PTO meeting
+- Larger needs that may require fundraising, budget discussion, or a General Assembly vote
+
+## Staff-directed UO funds
+
+PTO sets aside 20% of UO Beverage Booth fundraising earnings for staff-directed spending. Staff decide how to use these funds; individual choices do not require PTO approval.
+
+PTO may still need receipts or basic documentation for bookkeeping. Current payment and reimbursement instructions will be added when they are ready.
+
+## Participate in a meeting
+
+Staff are welcome to attend PTO meetings, send a report, ask a question, or suggest an agenda item. Attendance is not required in order to make a request.
+
+<div class="button-row">
+  <a class="button button--secondary" href="mailto:secretary@yujingakuenpto.com?subject=Staff%20report%20or%20PTO%20meeting%20item">Send a report or meeting item</a>
+  <a class="button button--quiet" href="{{ '/meetings/' | relative_url }}">How PTO meetings work</a>
+</div>

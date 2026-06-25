@@ -18,6 +18,10 @@ pending_items:
 
 The PTO coordinates ways for families to recognize Yujin Gakuen teachers and classified staff. Families can participate in the ways that fit their time and circumstances.
 
+<div class="appreciation-intro">
+  <p>Plans may include optional contributions, notes, food, supplies, or volunteer help. The PTO will post specific requests only after staff preferences, timing, and logistics are confirmed.</p>
+</div>
+
 {% include event-list.html id="classified-appreciation-dates" title="Classified Staff Appreciation Week" event_id="classified-staff-appreciation-2027" hide_detail="true" %}
 
 {% include event-list.html id="teacher-appreciation-dates" title="Teacher Appreciation Week" event_id="teacher-appreciation-2027" hide_detail="true" %}

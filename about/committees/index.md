@@ -10,14 +10,17 @@ status: published
 wide_content: true
 ---
 
-PTO committees form around seasonal events, recurring responsibilities, and short-term projects. Families can help with one task, join a planning group for a few months, or take on an ongoing role.
+PTO committees plan and coordinate ongoing work. They make decisions, divide responsibilities, and carry an event or project from early planning through completion. One-time setup, cleanup, and event shifts belong on the Volunteer page instead.
 
 {% include committee-grid.html %}
 
 ## Other practical ways to help
 
-Not every useful job needs a formal committee. Families also help with event setup and cleanup, UO Beverage Booth shifts, storage and inventory, supply preparation, and PTO communications.
+UO Beverage Booth shifts and day-of event help are also important roles. Current opportunities are listed on the Volunteer page.
 
-Questions about a committee can be sent to [{{ site.data.links.contact.email }}]({{ site.data.links.contact.url }}).
-
-<p><a class="button button--primary" href="{{ '/get-involved/committees/' | relative_url }}">Join a committee</a></p>
+<div class="button-row">
+  <a class="button button--primary" href="{{ '/get-involved/committees/' | relative_url }}">Join a committee</a>
+  <a class="button button--secondary" href="{{ '/get-involved/volunteer/' | relative_url }}">See volunteer shifts</a>
+  <a class="button button--quiet" href="{{ '/meetings/upcoming/' | relative_url }}">Attend a meeting</a>
+  <a class="button button--quiet" href="{{ site.data.links.contact.url }}">Contact the PTO</a>
+</div>

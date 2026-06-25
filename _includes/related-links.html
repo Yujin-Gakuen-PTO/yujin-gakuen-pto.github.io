@@ -1,12 +1,21 @@
 {% if page.section_url and page.url != page.section_url %}
+  {% assign current_month = site.time | date: "%-m" | plus: 0 %}
   {% for item in site.data.navigation %}
     {% if item.url == page.section_url and item.children %}
       <aside class="related-links" aria-labelledby="related-title">
         <h2 id="related-title">More in {{ item.title }}</h2>
         <ul>
           {% for child in item.children %}
+            {% assign show_child = true %}
+            {% if child.seasonal == "elections" %}
+              {% if current_month < 3 or current_month > 5 %}
+                {% assign show_child = false %}
+              {% endif %}
+            {% endif %}
             {% unless child.url == page.url %}
+              {% if show_child %}
               <li><a href="{{ child.url | relative_url }}">{{ child.title }}</a></li>
+              {% endif %}
             {% endunless %}
           {% endfor %}
         </ul>

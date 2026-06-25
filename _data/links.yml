@@ -8,6 +8,34 @@ contact:
   email: info@yujingakuenpto.com
   url: "mailto:info@yujingakuenpto.com"
 
+president:
+  label: Email the PTO president
+  email: president@yujingakuenpto.com
+  url: "mailto:president@yujingakuenpto.com"
+
+secretary:
+  label: Email the PTO secretary
+  email: secretary@yujingakuenpto.com
+  url: "mailto:secretary@yujingakuenpto.com"
+
+volunteer_coordinator:
+  label: Email the volunteer coordinator
+  email: volunteercoordinator@yujingakuenpto.com
+  url: "mailto:volunteercoordinator@yujingakuenpto.com"
+
+booth:
+  label: Email the UO Beverage Booth coordinator
+  email: booth@yujingakuenpto.com
+  url: "mailto:booth@yujingakuenpto.com"
+
+olcc_course:
+  label: PTO-recommended OLCC course
+  url: "https://www.aplusservereducation.com/oregon-olcc-alcohol-service-permit/"
+
+olcc_camp:
+  label: OLCC CAMP permit portal
+  url: "https://camp.olcc.online/prod/webui/#"
+
 calendar:
   label: See what is coming up
   url: /events/calendar/
