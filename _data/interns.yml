@@ -1,0 +1,18 @@
+cycles:
+  - title: Fall Program
+    length: 4-5 weeks
+    timing: Starts near the end of August
+    accent: fall
+  - title: Spring Program
+    length: 4-5 weeks
+    timing: Starts around the middle of February
+    accent: spring
+  - title: 9-Month Intern
+    length: School-year placement
+    timing: One host family, or divided among 2-3 families
+    accent: year
+
+application:
+  label: Complete the host-family application
+  url: "https://forms.gle/wUnqT6xzUvdHdW879"
+  note: Applications are accepted year-round.

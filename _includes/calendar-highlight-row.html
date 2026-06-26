@@ -5,7 +5,11 @@
   {% if event.type == "appreciation" %}{% assign icon = "heart" %}{% endif %}
   {% if event.category == "Prospective Families" %}{% assign icon = "school" %}{% endif %}
   <li class="calendar-highlight-row">
-    <span class="calendar-highlight-row__icon">{% include calendar-icon.html icon=icon %}</span>
+    {% if event.artwork %}
+      <img class="calendar-highlight-row__art" src="{{ event.artwork | relative_url }}" alt="">
+    {% else %}
+      <span class="calendar-highlight-row__icon">{% include calendar-icon.html icon=icon %}</span>
+    {% endif %}
     <div>
       <strong>{{ event.title }}</strong>
       <span>{{ event.date | date: "%B %-d, %Y" }}{% if event.end_date %} - {{ event.end_date | date: "%B %-d, %Y" }}{% endif %}</span>

@@ -9,6 +9,21 @@ summary: Yujin Gakuen's Japanese New Year celebration brings families together f
 hero_image: /assets/images/oshogatsu-2027-banner.png
 hero_image_alt: Illustrated Year of the Horse Oshogatsu celebration with children and a white horse.
 event_theme: oshogatsu
+hero_facts:
+  - label: Date
+    value: January 22, 2027
+  - label: Festival
+    value: 5:30-7:30 PM
+  - label: Location
+    value: Yujin Gakuen
+hero_actions:
+  - label: Join committee
+    url: "mailto:info@yujingakuenpto.com?subject=Oshogatsu%20Committee%20interest"
+  - label: Details
+    url: "#performance-plans"
+hero_callout:
+  title: School Choice Presentation and Tour
+  text: 5:00-5:30 PM before the festival.
 status: partial
 pending_title: Final 2027 festival details are still being confirmed
 pending_intro: "The date, location, and planned grade performances are available. The event team still needs to publish:"
@@ -18,13 +33,6 @@ pending_items:
   - Accessibility information and family instructions
   - Volunteer roles, signup link, and contribution requests
 ---
-
-<section class="event-facts" aria-label="Oshogatsu event details">
-  <div><span>Date</span><strong>January 22, 2027</strong></div>
-  <div><span>School Choice</span><strong>5:00-5:30 PM</strong></div>
-  <div><span>Festival</span><strong>5:30-7:30 PM</strong></div>
-  <div><span>Location</span><strong>Yujin Gakuen</strong></div>
-</section>
 
 <section class="recruitment-hero">
   <div>

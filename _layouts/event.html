@@ -4,7 +4,7 @@ layout: default
 
 {% include breadcrumbs.html %}
 
-<section class="event-hero event-hero--{{ page.event_theme | default: 'green' }}">
+<section class="event-hero event-hero--{{ page.event_theme | default: 'green' }}{% if page.hero_image %} event-hero--has-image{% else %} event-hero--no-image{% endif %}">
   {% if page.hero_image %}
     <img class="event-hero__image" src="{{ page.hero_image | relative_url }}" alt="{{ page.hero_image_alt | default: '' }}">
   {% endif %}
@@ -15,11 +15,27 @@ layout: default
     {% if page.summary %}
       <p class="hero-summary">{{ page.summary }}</p>
     {% endif %}
+    {% if page.hero_facts %}
+      <dl class="event-hero__facts" aria-label="{{ page.title }} event details">
+        {% for fact in page.hero_facts %}
+          <div>
+            <dt>{{ fact.label }}</dt>
+            <dd>{{ fact.value }}</dd>
+          </div>
+        {% endfor %}
+      </dl>
+    {% endif %}
     {% if page.hero_actions %}
       <div class="button-row">
         {% for action in page.hero_actions %}
-          <a class="button {% if forloop.first %}button--primary{% else %}button--secondary{% endif %}" href="{% if action.url contains '://' or action.url contains '#' %}{{ action.url }}{% else %}{{ action.url | relative_url }}{% endif %}">{{ action.label }}</a>
+          <a class="button {% if forloop.first %}button--primary{% else %}button--secondary{% endif %}" href="{% if action.url contains '://' or action.url contains '#' or action.url contains 'mailto:' or action.url contains 'tel:' %}{{ action.url }}{% else %}{{ action.url | relative_url }}{% endif %}">{{ action.label }}</a>
         {% endfor %}
+      </div>
+    {% endif %}
+    {% if page.hero_callout %}
+      <div class="event-hero__callout">
+        <strong>{{ page.hero_callout.title }}</strong>
+        <span>{{ page.hero_callout.text }}</span>
       </div>
     {% endif %}
   </div>

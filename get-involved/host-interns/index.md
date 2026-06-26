@@ -6,32 +6,50 @@ section: Get Involved
 section_url: /get-involved/
 hero_label: Get Involved
 summary: Learn what is involved in hosting a Yujin Gakuen classroom intern.
+wide_content: true
 status: partial
-pending_title: Current placement details are still being confirmed
-pending_intro: "Program coordinators will provide the current requirements to interested families. This page still needs:"
+pending_title: Hosting details are still being confirmed
+pending_intro: "Program coordinators will follow up with current requirements. This page still needs:"
 pending_items:
-  - Placement dates and the length of each hosting period
   - A clear list of what host families provide
-  - Matching steps, deadlines, and current school or district requirements
+  - Matching steps and current school or district requirements
 ---
 
-PTO support helps Yujin Gakuen welcome one year-long classroom intern and three short-term intern groups from Japan during the school year. Host families make those programs possible and give interns a closer connection to daily life in the YG community.
+PTO support helps Yujin Gakuen welcome classroom interns from Japan during the school year. Host families make those programs possible and give interns a closer connection to daily life in the YG community.
 
-## Interested in helping?
-
-The interest form is for families who may want to host or help welcome interns with food, snacks, souvenirs, or other support. Completing it does not require you to accept a placement.
-
-<div class="button-row">
-  <a class="button button--primary" href="{{ site.data.links.intern_interest.url }}">{{ site.data.links.intern_interest.label }}</a>
-  <a class="button button--secondary" href="{{ site.data.links.intern_application.url }}">{{ site.data.links.intern_application.label }}</a>
-</div>
-
-Program coordinators follow up with applicants about current timing, matching, and expectations.
-
-<div class="action-band">
+<section class="intern-intro">
   <div>
-    <h2>Not ready to host?</h2>
-    <p>Families may also use the interest form to ask about food, welcome items, and other ways to support visiting interns.</p>
+    <span class="badge badge--sage">Applications accepted year-round</span>
+    <h2>Interested in hosting an intern?</h2>
+    <p>Families can apply anytime. Program coordinators follow up about current timing, matching, and expectations.</p>
   </div>
-  <a class="button button--secondary" href="{{ site.data.links.intern_interest.url }}">Share your interest</a>
-</div>
+  <a class="button button--primary" href="{{ site.data.interns.application.url }}">{{ site.data.interns.application.label }}</a>
+</section>
+
+<section class="intern-program">
+  <p class="intern-program__tag">Two short-term program cycles each year, plus one longer placement</p>
+  <h2>Program at a glance</h2>
+  <div class="intern-program__cards">
+    {% for cycle in site.data.interns.cycles %}
+      <article class="intern-cycle intern-cycle--{{ cycle.accent }}">
+        <span class="intern-cycle__mark" aria-hidden="true"></span>
+        <h3>{{ cycle.title }}</h3>
+        <strong>{{ cycle.length }}</strong>
+        <p>{{ cycle.timing }}</p>
+      </article>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="intern-apply">
+  <div class="intern-apply__icon" aria-hidden="true">↗</div>
+  <div>
+    <h2>How to apply</h2>
+    <p>Complete the Google Form application to get started. Sending the form starts the conversation; it does not invent a placement or skip the coordinator follow-up.</p>
+    <a class="button button--primary" href="{{ site.data.links.intern_application.url }}">Open the host-family application</a>
+  </div>
+</section>
+
+## Why hosting matters
+
+Hosting helps interns experience everyday life in the YG community while supporting the classroom programs students know and love.

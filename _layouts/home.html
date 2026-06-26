@@ -5,6 +5,8 @@ layout: default
 {% assign join_form = site.data.links.join_form %}
 
 <section class="home-hero" aria-labelledby="home-title">
+  <img class="home-hero__background" src="{{ '/assets/images/yujin-gakuen-mural-hires.png' | relative_url }}" alt="">
+  <div class="home-hero__veil" aria-hidden="true"></div>
   <div class="wrap home-hero__grid">
     <div class="home-hero__copy">
       <p class="eyebrow">Yujin Gakuen PTO</p>
@@ -15,9 +17,6 @@ layout: default
         <a class="button button--primary" href="{{ join_form.url }}">Join the PTO</a>
         <a class="button button--secondary" href="{{ '/events/calendar/' | relative_url }}">See what's coming up</a>
       </div>
-    </div>
-    <div class="home-hero__media">
-      <img src="{{ '/assets/images/yujin-gakuen-mural-hires.png' | relative_url }}" alt="Colorful Yujin Gakuen mural with sun, waves, koi, cranes, and Mount Fuji">
     </div>
   </div>
 </section>

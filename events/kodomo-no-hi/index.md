@@ -9,6 +9,18 @@ summary: Yujin Gakuen's Children's Day celebration centers students, performance
 hero_image: /assets/images/kodomo-no-hi-2027-banner.png
 hero_image_alt: Illustrated koinobori carp streamers flying in a bright sky.
 event_theme: kodomo
+hero_facts:
+  - label: Date
+    value: April 30, 2027
+  - label: Time
+    value: 5:00-7:00 PM
+  - label: Location
+    value: Yujin Gakuen
+hero_actions:
+  - label: Join committee
+    url: "mailto:info@yujingakuenpto.com?subject=Kodomo%20no%20Hi%20Committee%20interest"
+  - label: Details
+    url: "#performance-plans"
 status: partial
 pending_title: Final 2027 festival details are still being confirmed
 pending_intro: "The date, location, and planned grade performances are available. The event team still needs to publish:"
@@ -18,12 +30,6 @@ pending_items:
   - Accessibility information
   - Volunteer roles, signup link, and contribution requests
 ---
-
-<section class="event-facts" aria-label="Kodomo no Hi event details">
-  <div><span>Date</span><strong>April 30, 2027</strong></div>
-  <div><span>Time</span><strong>5:00-7:00 PM</strong></div>
-  <div><span>Location</span><strong>Yujin Gakuen</strong></div>
-</section>
 
 ## Performance plans
 

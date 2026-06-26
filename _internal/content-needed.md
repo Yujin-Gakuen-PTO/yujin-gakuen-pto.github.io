@@ -9,10 +9,22 @@ Hannah's direct answers and confirmations take priority over automation notes. P
 These questions unlock several pages at once. The detailed page reference below is optional.
 
 1. **Current-school-year files:** Please provide the public links for current agendas, approved minutes, newsletters, the budget proposal when cleared, and the completed annual report when ready.
+- There aren't any yet because we haven't had any meetings this year yet. We won't until August.
 2. **Festival production details:** For Oshogatsu and Kodomo no Hi, which performance times and locations, activities, visiting organizations, accessibility notes, volunteer roles, signup links, and contribution requests are confirmed?
+- I think I already gave you all the performances. Oshogatsu, Gr K - songs +
+Gr 5 - dance +
+Gr 2 - Eisa Dance +
+(Times TBA)
+Kodomo no hi: Gr 1 - Songs +
+Gr 3 - Taiko +
+Gr 4 - Songs +
+Times TBA
 3. **School-led event details:** What dates, grade schedules, family instructions, pledge links, accessibility information, volunteer shifts, and school contacts are confirmed for Jikyuso, appreciation weeks, and Field Day?
+- None, and they won't be until February probably
 4. **Staff request tools:** What form or fields should staff use for requests and reports, and what are the approved reimbursement, direct-payment, receipt, deadline, and review instructions?
+- If they need something non monetary or money outside their 20% allocation, they should email secretary@yujingakuenpto.com with their request. If they need something purchased, they should contact Brigitte and she will purchase it. If Brigitte is unable to purchase it they should contact BOTH president@yujingakuenpto.com and treasurer@yujingakuenpto.com and someone from PTO will make the purchase as soon as possible. (Note: idk if it's possible to make a mailto link that sends president an email with treasurer cc'd, but that would be ideal. If not, just president if find and I can cc on response.)
 5. **Remaining action links:** What are the approved general PTO donation, cultural-event contribution, appreciation, garden, conference-support, and intern-program links or instructions?
+- Don't have those yet, we need to set them up on Zeffy. Just use a button with a #anchor link and write on the button like LINK NEEDED or something. This works for now since the website isn't being shown to anyone yet.
 
 ## Confirmed Decisions Moved To The Website
 
