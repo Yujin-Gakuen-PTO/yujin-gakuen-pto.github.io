@@ -9,6 +9,13 @@ summary: Yujin Gakuen's Children's Day celebration centers students, performance
 hero_image: /assets/images/kodomo-no-hi-2027-banner.png
 hero_image_alt: Illustrated koinobori carp streamers flying in a bright sky.
 event_theme: kodomo
+performance_schedule:
+  - label: First-grade songs
+    detail: Times TBA
+  - label: Third-grade taiko
+    detail: Times TBA
+  - label: Fourth-grade songs
+    detail: Times TBA
 hero_facts:
   - label: Date
     value: April 30, 2027
@@ -20,7 +27,7 @@ hero_actions:
   - label: Join committee
     url: "mailto:info@yujingakuenpto.com?subject=Kodomo%20no%20Hi%20Committee%20interest"
   - label: Details
-    url: "#performance-plans"
+    url: "#kodomo-schedule-title"
 status: partial
 pending_title: Final 2027 festival details are still being confirmed
 pending_intro: "The date, location, and planned grade performances are available. The event team still needs to publish:"
@@ -31,9 +38,7 @@ pending_items:
   - Volunteer roles, signup link, and contribution requests
 ---
 
-## Performance plans
-
-Current plans include first-grade songs, third-grade taiko, and fourth-grade songs. Final performance times and locations will be added when confirmed.
+{% include event-schedule-card.html id="kodomo-schedule-title" badge="Planned performances" title="Kodomo no Hi schedule" text="Times and locations will be added when they are confirmed." items=page.performance_schedule note="Locations will be added when they are confirmed." %}
 
 ## Festival activities
 

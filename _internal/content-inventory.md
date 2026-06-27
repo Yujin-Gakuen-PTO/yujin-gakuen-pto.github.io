@@ -20,11 +20,11 @@ This file records publication status, canonical sources, reuse, verification dat
 | `/get-involved/uo-beverage-booth/` | Published | `_data/events.yml`, booth coordinator email, and official UO schedule | Weekly through the final 2026 game; annual statistics review |
 | `/get-involved/host-interns/` | Partial | `_data/links.yml`, impact data, page copy | Placement dates, requirements, or forms change |
 | `/get-involved/caring-crane-fund/` | Published | Approved page copy and `_data/links.yml` | Fund process, contact path, or donation link changes |
-| `/get-involved/donate-funds/` | Partial | Impact data and `_data/links.yml` | New donation links or payment language is approved |
+| `/get-involved/donate-funds/` | Partial | Approved page copy, `LINK NEEDED` placeholders, and `_data/links.yml` | New donation links or payment language is approved |
 | `/events/` | Published | Navigation and page copy | Route or event ownership changes |
 | `/events/calendar/` | Published | `_data/events.yml` for facts and `_data/calendar.yml` for dashboard placement | Weekly; rotate expired items and review seasonal groups |
-| `/events/oshogatsu/` | Partial | `_data/events.yml` and confirmed event facts | 2027 location, schedule, activities, or signup is confirmed |
-| `/events/kodomo-no-hi/` | Partial | `_data/events.yml` and confirmed event facts | 2027 location, schedule, activities, or signup is confirmed |
+| `/events/oshogatsu/` | Partial | `_data/events.yml`, page copy, and performance schedule include | 2027 location, activities, visiting organizations, accessibility, or signup is confirmed |
+| `/events/kodomo-no-hi/` | Partial | `_data/events.yml`, page copy, and performance schedule include | 2027 location, activities, accessibility, or signup is confirmed |
 | `/events/jikyuso-jog-a-thon/` | Partial | Page copy and confirmed participation model | School releases the next schedule, pledge, or volunteer links |
 | `/events/obon-taiko-festival/` | Published | `_data/events.yml` and page copy | Weekly as August 29, 2026 approaches |
 | `/events/teacher-appreciation/` | Partial | `_data/events.yml` | Daily plans, contribution requests, or signups are confirmed |

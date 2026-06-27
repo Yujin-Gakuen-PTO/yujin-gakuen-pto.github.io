@@ -51,3 +51,13 @@ Financial giving is only one way to help. PTO members can also take a volunteer 
   <a class="button button--secondary" href="{{ '/get-involved/volunteer/' | relative_url }}">See volunteer opportunities</a>
   <a class="button button--quiet" href="{{ '/about/impact/' | relative_url }}">See PTO Impact</a>
 </div>
+
+## More giving links
+
+<div class="button-row">
+  <a class="button button--secondary" href="#link-needed">LINK NEEDED: General PTO support</a>
+  <a class="button button--secondary" href="#link-needed">LINK NEEDED: Cultural events</a>
+  <a class="button button--secondary" href="#link-needed">LINK NEEDED: Teacher and staff appreciation</a>
+  <a class="button button--secondary" href="#link-needed">LINK NEEDED: Garden Committee support</a>
+  <a class="button button--secondary" href="#link-needed">LINK NEEDED: Parent-teacher conferences</a>
+</div>

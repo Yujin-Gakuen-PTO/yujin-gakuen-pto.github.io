@@ -4,27 +4,13 @@ This is the active queue for facts, links, documents, and decisions still needed
 
 Hannah's direct answers and confirmations take priority over automation notes. Published facts and maintenance schedules live in `_internal/content-inventory.md`.
 
-## Answer These Five First
+## Current Queue
 
-These questions unlock several pages at once. The detailed page reference below is optional.
-
-1. **Current-school-year files:** Please provide the public links for current agendas, approved minutes, newsletters, the budget proposal when cleared, and the completed annual report when ready.
-- There aren't any yet because we haven't had any meetings this year yet. We won't until August.
-2. **Festival production details:** For Oshogatsu and Kodomo no Hi, which performance times and locations, activities, visiting organizations, accessibility notes, volunteer roles, signup links, and contribution requests are confirmed?
-- I think I already gave you all the performances. Oshogatsu, Gr K - songs +
-Gr 5 - dance +
-Gr 2 - Eisa Dance +
-(Times TBA)
-Kodomo no hi: Gr 1 - Songs +
-Gr 3 - Taiko +
-Gr 4 - Songs +
-Times TBA
-3. **School-led event details:** What dates, grade schedules, family instructions, pledge links, accessibility information, volunteer shifts, and school contacts are confirmed for Jikyuso, appreciation weeks, and Field Day?
-- None, and they won't be until February probably
-4. **Staff request tools:** What form or fields should staff use for requests and reports, and what are the approved reimbursement, direct-payment, receipt, deadline, and review instructions?
-- If they need something non monetary or money outside their 20% allocation, they should email secretary@yujingakuenpto.com with their request. If they need something purchased, they should contact Brigitte and she will purchase it. If Brigitte is unable to purchase it they should contact BOTH president@yujingakuenpto.com and treasurer@yujingakuenpto.com and someone from PTO will make the purchase as soon as possible. (Note: idk if it's possible to make a mailto link that sends president an email with treasurer cc'd, but that would be ideal. If not, just president if find and I can cc on response.)
-5. **Remaining action links:** What are the approved general PTO donation, cultural-event contribution, appreciation, garden, conference-support, and intern-program links or instructions?
-- Don't have those yet, we need to set them up on Zeffy. Just use a button with a #anchor link and write on the button like LINK NEEDED or something. This works for now since the website isn't being shown to anyone yet.
+1. **Current-school-year files:** Public links for agendas, approved minutes, newsletters, the budget proposal when cleared, and the completed annual report when ready.
+2. **Festival logistics:** Final activities, visiting organizations, accessibility notes, volunteer roles, signup links, and contribution requests for Oshogatsu and Kodomo no Hi.
+3. **School-led events:** Dates, instructions, pledge links, accessibility information, volunteer shifts, and school contacts for Jikyuso, appreciation weeks, and Field Day.
+4. **Staff support workflow:** Final public wording for the Teacher & Staff Hub and any public-facing request, reimbursement, or contact instructions that should appear there.
+5. **Donation links:** Zeffy links and approved labels for general PTO support, cultural events, appreciation, Garden Committee support, and parent-teacher conference support.
 
 ## Confirmed Decisions Moved To The Website
 
@@ -35,15 +21,16 @@ Times TBA
 - Staff direct 20% of UO Beverage Booth fundraising earnings; PTO may still require receipts or bookkeeping documentation.
 - Oshogatsu committee recruitment begins at the September 17, 2026 PTO meeting.
 - UO Beverage Booth success requires at least 21 OLCC-permitted adults per game and accounts for about 80% of annual PTO fundraising.
+- Staff requests that are non-monetary or outside the 20% allocation go to `secretary@yujingakuenpto.com`; Brigitte purchases requested items when possible; if she cannot, the PTO president and treasurer handle the purchase.
+- Donate / Funds uses `LINK NEEDED` placeholders until Zeffy pages are ready.
+- Oshogatsu and Kodomo no Hi performance schedules are public with `Times TBA`; remaining festival details stay partial.
 
 ## Detailed Page Reference
 
 ### Teacher & Staff Hub
 
-- Dedicated staff request or meeting-report form.
-- Required request fields and expected review timing.
-- Reimbursement and direct-payment forms, receipt rules, and instructions.
-- Calendar deadlines and event-coordination lead times.
+- Final public wording for staff requests and support instructions.
+- Any public-facing process details for reimbursement, purchases, or contacts.
 
 ### Host Interns
 
@@ -54,21 +41,19 @@ Times TBA
 
 ### Donate / Funds
 
-- Current links and descriptions for general PTO support, cultural events, appreciation, Garden Committee support, and parent-teacher conference support.
+- General PTO support, cultural events, appreciation, Garden Committee support, and parent-teacher conference support still need Zeffy links.
 - Payment instructions and approved tax-receipt language.
 - **Already published:** Caring Crane Fund and UO Beverage Booth actions.
 
 ### Oshogatsu
 
-- Final performance schedule and locations.
-- Confirmed activities, visiting organizations, mission links, family instructions, and accessibility information.
+- Final activities, visiting organizations, mission links, family instructions, and accessibility information.
 - Event-day volunteer roles, signup link, contribution links, and public event contact.
 - **Already published:** January 22, 2027; School Choice 5:00-5:30 PM; festival 5:30-7:30 PM; YG location; planned kindergarten, second-grade, and fifth-grade performances; committee recruitment.
 
 ### Kodomo no Hi
 
-- Final performance schedule and locations.
-- Confirmed activities, family instructions, and accessibility information.
+- Final activities, family instructions, and accessibility information.
 - Event-day volunteer roles, signup link, contribution links, and public event contact.
 - **Already published:** April 30, 2027, 5:00-7:00 PM; YG location; planned first-, third-, and fourth-grade performances.
 

@@ -11,7 +11,7 @@ section_links_intro: Find the next meeting, agendas, approved minutes, annual bu
 
 <section class="meeting-welcome">
   <div>
-    <span class="badge">Your first meeting is allowed to be your first meeting</span>
+    <span class="badge">First meeting? Feel free to just listen in.</span>
     <h2>Do I have to attend?</h2>
     <p>No. Joining the PTO does not require regular meeting attendance. Meetings are where members can ask questions, understand decisions, bring ideas, offer help, and take part in PTO business when they want to.</p>
   </div>

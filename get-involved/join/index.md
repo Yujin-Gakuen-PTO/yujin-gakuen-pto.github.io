@@ -11,11 +11,11 @@ wide_content: true
 
 <div class="join-explainer">
   <div>
-    <span class="badge">The short answer</span>
+    <span class="badge">Separate from school enrollment</span>
     <h2>Why do I need a separate PTO form?</h2>
-    <p>Because Yujin Gakuen and Yujin Gakuen PTO are separate organizations. School enrollment does not create PTO membership or give the PTO permission to add an adult to its communication list.</p>
+    <p>Because Yujin Gakuen and Yujin Gakuen PTO are separate organizations. School enrollment does not create PTO membership or give the PTO permission to add an adult to its email list.</p>
   </div>
-  <p class="join-explainer__aside"><strong>You are not joining a mysterious compulsory parent society.</strong> You are giving a separate nonprofit permission to contact you and creating your own membership record.</p>
+  <p class="join-explainer__aside">Each adult completes the form separately. That gives the PTO permission to contact you and creates your own membership record.</p>
 </div>
 
 ## What joining does

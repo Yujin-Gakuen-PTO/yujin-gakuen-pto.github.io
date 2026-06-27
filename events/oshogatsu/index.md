@@ -9,6 +9,13 @@ summary: Yujin Gakuen's Japanese New Year celebration brings families together f
 hero_image: /assets/images/oshogatsu-2027-banner.png
 hero_image_alt: Illustrated Year of the Horse Oshogatsu celebration with children and a white horse.
 event_theme: oshogatsu
+performance_schedule:
+  - label: Kindergarten songs
+    detail: Times TBA
+  - label: Fifth-grade dance
+    detail: Times TBA
+  - label: Second-grade Eisa dance
+    detail: Times TBA
 hero_facts:
   - label: Date
     value: January 22, 2027
@@ -20,7 +27,7 @@ hero_actions:
   - label: Join committee
     url: "mailto:info@yujingakuenpto.com?subject=Oshogatsu%20Committee%20interest"
   - label: Details
-    url: "#performance-plans"
+    url: "#oshogatsu-schedule-title"
 hero_callout:
   title: School Choice Presentation and Tour
   text: 5:00-5:30 PM before the festival.
@@ -34,6 +41,8 @@ pending_items:
   - Volunteer roles, signup link, and contribution requests
 ---
 
+{% include event-schedule-card.html id="oshogatsu-schedule-title" badge="Planned performances" title="Oshogatsu schedule" text="Times and locations will be added when they are confirmed." items=page.performance_schedule note="Locations will be added when they are confirmed." %}
+
 <section class="recruitment-hero">
   <div>
     <span class="badge badge--gold">Committee recruitment</span>
@@ -42,10 +51,6 @@ pending_items:
   </div>
   <a class="button button--primary" href="mailto:info@yujingakuenpto.com?subject=Oshogatsu%20Committee%20interest">Ask about a committee role</a>
 </section>
-
-## Performance plans
-
-Current plans include kindergarten songs, a fifth-grade dance, and an Eisa dance by second grade. The final performance schedule and locations will be added when confirmed.
 
 ## Activities and community partners
 

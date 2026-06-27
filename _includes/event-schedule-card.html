@@ -1,0 +1,20 @@
+<section class="event-schedule" aria-labelledby="{{ include.id | default: 'event-schedule-title' }}">
+  <div class="event-schedule__intro">
+    <span class="badge">{{ include.badge | default: "Performance schedule" }}</span>
+    <h2 id="{{ include.id | default: 'event-schedule-title' }}">{{ include.title }}</h2>
+    {% if include.text %}
+      <p>{{ include.text }}</p>
+    {% endif %}
+  </div>
+  <ul class="event-schedule__list">
+    {% for item in include.items %}
+      <li>
+        <strong>{{ item.label }}</strong>
+        <span>{{ item.detail }}</span>
+      </li>
+    {% endfor %}
+  </ul>
+  {% if include.note %}
+    <p class="event-schedule__note">{{ include.note }}</p>
+  {% endif %}
+</section>
