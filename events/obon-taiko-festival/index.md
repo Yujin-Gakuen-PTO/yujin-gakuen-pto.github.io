@@ -22,9 +22,19 @@ hero_actions:
 wide_content: true
 ---
 
+{% include image-placeholder.html
+  purpose="Obon and Taiko visual: festival atmosphere, lanterns, taiko, or children's-section setup"
+  ratio="16:9"
+  filename="assets/images/obon-taiko-festival-atmosphere-16x9.jpg"
+  dimensions="1600 x 900 px"
+  alt="Obon and Taiko Festival atmosphere or children's-section setup"
+%}
+
+## What this event is
+
 The Japanese-American Association of Lane County puts on the Obon and Taiko Festival. Yujin Gakuen supports the children's section, and YG volunteers help make those activities available to families attending the festival.
 
-## Volunteer with YG
+## How YG can help
 
 YG's signup covers help in the children's section. Open the signup to see current shifts and responsibilities.
 

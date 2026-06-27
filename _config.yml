@@ -15,6 +15,7 @@ defaults:
 
 exclude:
   - README.md
+  - WEBSITE_GREMLINS.md
   - _internal
   - docs/internal
   - Gemfile

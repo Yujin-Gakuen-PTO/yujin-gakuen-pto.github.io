@@ -9,7 +9,7 @@ Hannah's direct answers and confirmations take priority over automation notes. P
 1. **Current-school-year files:** Public links for agendas, approved minutes, newsletters, the budget proposal when cleared, and the completed annual report when ready.
 2. **Festival logistics:** Final activities, visiting organizations, accessibility notes, volunteer roles, signup links, and contribution requests for Oshogatsu and Kodomo no Hi.
 3. **School-led events:** Dates, instructions, pledge links, accessibility information, volunteer shifts, and school contacts for Jikyuso, appreciation weeks, and Field Day.
-4. **Staff support workflow:** Final public wording for the Teacher & Staff Hub and any public-facing request, reimbursement, or contact instructions that should appear there.
+4. **Staff Hub:** A dedicated staff-report submission form and the first approved public decision summaries for the dashboard.
 5. **Donation links:** Zeffy links and approved labels for general PTO support, cultural events, appreciation, Garden Committee support, and parent-teacher conference support.
 
 ## Confirmed Decisions Moved To The Website
@@ -22,15 +22,17 @@ Hannah's direct answers and confirmations take priority over automation notes. P
 - Oshogatsu committee recruitment begins at the September 17, 2026 PTO meeting.
 - UO Beverage Booth success requires at least 21 OLCC-permitted adults per game and accounts for about 80% of annual PTO fundraising.
 - Staff requests that are non-monetary or outside the 20% allocation go to `secretary@yujingakuenpto.com`; Brigitte purchases requested items when possible; if she cannot, the PTO president and treasurer handle the purchase.
-- Donate / Funds uses `LINK NEEDED` placeholders until Zeffy pages are ready.
+- Donate uses `LINK NEEDED` placeholders until Zeffy pages are ready.
+- Image needs and layout/review issues are tracked in `WEBSITE_GREMLINS.md`.
 - Oshogatsu and Kodomo no Hi performance schedules are public with `Times TBA`; remaining festival details stay partial.
+- Staff reports may be sent to the secretary while a dedicated submission form is still pending.
 
 ## Detailed Page Reference
 
-### Teacher & Staff Hub
+### Staff Hub
 
-- Final public wording for staff requests and support instructions.
-- Any public-facing process details for reimbursement, purchases, or contacts.
+- Staff-report submission form.
+- Approved public decision summaries.
 
 ### Host Interns
 
@@ -39,7 +41,7 @@ Hannah's direct answers and confirmations take priority over automation notes. P
 - Matching steps, deadlines, and current school or district requirements.
 - **Already published:** Interest form and host-family application.
 
-### Donate / Funds
+### Donate
 
 - General PTO support, cultural events, appreciation, Garden Committee support, and parent-teacher conference support still need Zeffy links.
 - Payment instructions and approved tax-receipt language.

@@ -40,6 +40,12 @@ pending_items:
 
 {% include event-schedule-card.html id="kodomo-schedule-title" badge="Planned performances" title="Kodomo no Hi schedule" text="Times and locations will be added when they are confirmed." items=page.performance_schedule note="Locations will be added when they are confirmed." %}
 
+<div class="kodomo-accent-row" aria-hidden="true">
+  <img src="{{ '/assets/images/kodomo-no-hi-koi-01.png' | relative_url }}" alt="">
+  <img src="{{ '/assets/images/kodomo-no-hi-koi-02.png' | relative_url }}" alt="">
+  <img src="{{ '/assets/images/kodomo-no-hi-koi-03.png' | relative_url }}" alt="">
+</div>
+
 ## Festival activities
 
 Kodomo no Hi honors children's health, growth, and happiness. YG celebrations have included student performances and family activity stations. The 2027 activity list is still being planned.

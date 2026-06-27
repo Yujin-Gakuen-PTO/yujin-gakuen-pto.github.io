@@ -1,0 +1,16 @@
+{% assign placeholder_label = include.label | default: "Image needed" %}
+{% assign placeholder_purpose = include.purpose | default: "Add a warm, site-appropriate image here." %}
+{% assign placeholder_ratio = include.ratio | default: "16:9" %}
+{% assign placeholder_filename = include.filename | default: "assets/images/image-needed.jpg" %}
+{% assign placeholder_dimensions = include.dimensions | default: "1600 x 900 px" %}
+{% assign placeholder_alt = include.alt | default: "" %}
+<!-- IMAGE NEEDED: {{ placeholder_purpose }} Suggested file: {{ placeholder_filename }}. Target dimensions: {{ placeholder_dimensions }}. Alt draft for review: {{ placeholder_alt }} -->
+<aside class="image-placeholder{% if include.compact %} image-placeholder--compact{% endif %}" aria-label="{{ placeholder_label }}">
+  <span class="image-placeholder__badge">{{ placeholder_label }}</span>
+  <strong>{{ placeholder_purpose }}</strong>
+  <span>{{ placeholder_ratio }} · {{ placeholder_dimensions }}</span>
+  <span class="image-placeholder__filename">Drop in: {{ placeholder_filename }}</span>
+  {% if placeholder_alt %}
+    <span class="image-placeholder__alt">Alt draft for review: {{ placeholder_alt }}</span>
+  {% endif %}
+</aside>

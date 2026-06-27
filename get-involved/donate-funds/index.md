@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Donate / Funds
+title: Donate
 permalink: /get-involved/donate-funds/
 section: Get Involved
 section_url: /get-involved/
@@ -52,7 +52,7 @@ Financial giving is only one way to help. PTO members can also take a volunteer 
   <a class="button button--quiet" href="{{ '/about/impact/' | relative_url }}">See PTO Impact</a>
 </div>
 
-## More giving links
+<h2 id="link-needed">More giving links</h2>
 
 <div class="button-row">
   <a class="button button--secondary" href="#link-needed">LINK NEEDED: General PTO support</a>

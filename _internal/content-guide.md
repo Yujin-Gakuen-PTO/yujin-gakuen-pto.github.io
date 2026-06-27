@@ -56,6 +56,8 @@ The Command Center automation inbox must not restate the five umbrella questions
 - Do not label a public page `Draft`.
 - Keep the confirmed information in the page body and list only the missing pieces in the pending-details block.
 - Every visible pending item must have a matching entry in `_internal/content-needed.md`.
+- Layout, image, implementation, and launch-readiness placeholders should also be tracked in `WEBSITE_GREMLINS.md`.
+- Use `IMAGE NEEDED`, `LINK NEEDED`, `CONTENT SOURCE NEEDED`, `REVIEW`, and `FIXME` consistently when marking unfinished work.
 - When information is supplied, update shared data or page copy, remove the completed pending item, and change the page to `published` when no public gaps remain.
 
 ## Event Copy

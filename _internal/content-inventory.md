@@ -12,7 +12,7 @@ This file records publication status, canonical sources, reuse, verification dat
 | `/about/board/` | Published | `_data/board.yml` | Board or term change |
 | `/about/committees/` | Published | `_data/committees.yml` | Committee, lead, timing, or opening changes |
 | `/about/governing-documents/` | Published | `_data/documents.yml` | A governing document is adopted or superseded |
-| `/about/teacher-staff-hub/` | Partial | Confirmed staff workflow notes and `_data/links.yml` | Staff forms, payment instructions, or deadlines are confirmed |
+| `/about/teacher-staff-hub/` | Partial | Confirmed staff workflow notes, `_data/links.yml`, and the staff report preview doc | Dedicated staff form or approved public decision summaries are confirmed |
 | `/get-involved/` | Published | Involvement and navigation data | Participation choices change |
 | `/get-involved/join/` | Published | `_data/links.yml` | Signup form or communication process changes |
 | `/get-involved/volunteer/` | Published | `_data/events.yml` | Weekly during active signup periods |

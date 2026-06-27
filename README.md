@@ -12,6 +12,7 @@ Static public website for Yujin Gakuen PTO, built for GitHub Pages with Jekyll a
 - Mobile menu behavior lives in `assets/js/site.js`.
 - Internal editor guidance lives in `_internal/`, which is excluded from the published site.
 - Active content questions live in `_internal/content-needed.md`; published facts and review schedules live in `_internal/content-inventory.md`.
+- Review-readiness issues live in `WEBSITE_GREMLINS.md`, which is excluded from the published site.
 
 ## Hosting
 

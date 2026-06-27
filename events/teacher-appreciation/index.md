@@ -7,6 +7,7 @@ section_url: /events/
 hero_label: Events
 summary: Find ways families can help celebrate Yujin Gakuen teachers and staff.
 status: partial
+wide_content: true
 pending_title: Appreciation activities are still being planned
 pending_intro: "Family participation is optional. The page will be updated when the PTO has confirmed:"
 pending_items:
@@ -16,14 +17,37 @@ pending_items:
   - A public event contact
 ---
 
-The PTO coordinates ways for families to recognize Yujin Gakuen teachers and classified staff. Families can participate in the ways that fit their time and circumstances.
+<section class="simple-event-overview" aria-labelledby="appreciation-overview-title">
+  <div>
+    <p class="eyebrow">Event overview</p>
+    <h2 id="appreciation-overview-title">What this week is</h2>
+    <p>The PTO coordinates ways for families to recognize Yujin Gakuen teachers and classified staff. Families can participate in the ways that fit their time and circumstances.</p>
+  </div>
+
+  <dl class="simple-event-facts">
+    <div><dt>Classified Staff</dt><dd>March 1-5, 2027</dd></div>
+    <div><dt>Teachers</dt><dd>May 3-7, 2027</dd></div>
+    <div><dt>Requests</dt><dd>Coming after plans are confirmed</dd></div>
+  </dl>
+</section>
 
 <div class="appreciation-intro">
   <p>Plans may include optional contributions, notes, food, supplies, or volunteer help. The PTO will post specific requests only after staff preferences, timing, and logistics are confirmed.</p>
 </div>
 
+{% include image-placeholder.html
+  purpose="Small appreciation visual: thank-you notes, flowers, or supplies without identifiable people"
+  ratio="4:3"
+  filename="assets/images/staff-appreciation-detail-4x3.jpg"
+  dimensions="1200 x 900 px"
+  alt="Appreciation notes or supplies for YG teachers and staff"
+  compact=true
+%}
+
 {% include event-list.html id="classified-appreciation-dates" title="Classified Staff Appreciation Week" event_id="classified-staff-appreciation-2027" hide_detail="true" %}
 
 {% include event-list.html id="teacher-appreciation-dates" title="Teacher Appreciation Week" event_id="teacher-appreciation-2027" hide_detail="true" %}
+
+## How families can help {#appreciation-requests}
 
 Specific requests will be posted after the appreciation plans are confirmed. No family is expected to contribute to every activity.

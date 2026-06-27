@@ -17,6 +17,20 @@ pending_items:
   - Event contact
 ---
 
+<section class="simple-event-overview" aria-labelledby="jikyuso-overview-title">
+  <div>
+    <p class="eyebrow">Event overview</p>
+    <h2 id="jikyuso-overview-title">What this event is</h2>
+    <p>Jikyuso funds support Yujin Gakuen Associated Student Body accounts rather than the PTO. School staff lead the event, set participation instructions, and determine how the student-body funds are used.</p>
+  </div>
+
+  <dl class="simple-event-facts">
+    <div><dt>Date</dt><dd>Details still being confirmed</dd></div>
+    <div><dt>Lead</dt><dd>Yujin Gakuen staff</dd></div>
+    <div><dt>Funds</dt><dd>YG Associated Student Body accounts</dd></div>
+  </dl>
+</section>
+
 <section class="campaign-intro">
   <div>
     <p class="eyebrow">Move, read, participate</p>
@@ -31,10 +45,15 @@ pending_items:
   </div>
 </section>
 
-## Where the funds go
+{% include image-placeholder.html
+  purpose="Small Jikyuso visual: running, reading, or fundraising-campaign detail without identifiable student faces"
+  ratio="4:3"
+  filename="assets/images/jikyuso-campaign-detail-4x3.jpg"
+  dimensions="1200 x 900 px"
+  alt="Students' Jikyuso materials, running course detail, or reading challenge items"
+  compact=true
+%}
 
-Jikyuso funds support Yujin Gakuen Associated Student Body accounts rather than the PTO. School staff lead the event, set participation instructions, and determine how the student-body funds are used.
-
-## Volunteering
+## Volunteering {#volunteering}
 
 Volunteers are needed during school hours. PTO will share the grade schedule, signup link, and school instructions after staff confirm them.

@@ -12,4 +12,4 @@ section_links_intro: Square and TeePublic are separate storefronts. Current prod
 
 Shop for Yujin Gakuen spirit wear and PTO items. Square carries PTO-managed items, while TeePublic offers print-on-demand products.
 
-Donations and family-support funds are listed separately under [Donate / Funds]({{ '/get-involved/donate-funds/' | relative_url }}).
+Donations and family-support funds are listed separately under [Donate]({{ '/get-involved/donate-funds/' | relative_url }}).

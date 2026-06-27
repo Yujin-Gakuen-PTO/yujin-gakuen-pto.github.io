@@ -7,23 +7,26 @@ section_url: /get-involved/
 hero_label: Confidential, community-based support
 summary: Confidential, need-based support for students and families in the Yujin Gakuen community.
 hero_image: /assets/images/caring-crane-fund-banner.png
+hero_body:
+  - The Caring Crane Fund is a charitable fund created by the YG PTO to provide confidential, need-based support to students and families in our Yujin Gakuen community. 100% of donations to the Caring Crane Fund stay within our school community and are used only for this purpose. The Caring Crane Fund is maintained separately from the PTO's operating budget.
+  - Thank you for helping our community care for one another with dignity, privacy, and real practical support.
 hero_actions:
   - label: Donate to the Caring Crane Fund
     url: https://checkout.square.site/merchant/VQ37B4TSKPJTS/checkout/GUWGM3SZIYIRU3UFY2Y6IQCR
   - label: How to access support
     url: "#access-support"
+hero_trust_points:
+  - icon: shield
+    tone: green
+    text: 100% stays within the YG community
+  - icon: lock
+    tone: terra
+    text: Confidential, need-based support
+  - icon: building
+    tone: gold
+    text: Separate from the PTO operating budget
 status: published
 ---
-
-<section class="crane-intro">
-  <p>The Caring Crane Fund is a charitable fund created by the YG PTO to provide confidential, need-based support to students and families in our Yujin Gakuen community. 100% of donations to the Caring Crane Fund stay within our school community and are used only for this purpose. The Caring Crane Fund is maintained separately from the PTO's operating budget.</p>
-  <p>Thank you for helping our community care for one another with dignity, privacy, and real practical support.</p>
-  <div class="trust-points" aria-label="Caring Crane Fund commitments">
-    <span>100% stays within the YG community</span>
-    <span>Confidential, need-based support</span>
-    <span>Separate from the PTO operating budget</span>
-  </div>
-</section>
 
 <section class="crane-help" aria-labelledby="crane-help-title">
   <div class="section-heading section-heading--center">
@@ -32,19 +35,24 @@ status: published
     <p>Caring Crane Fund assistance is intended to reduce stress and support basic needs.</p>
   </div>
   <ul class="support-examples">
-    <li>Grocery or gas cards</li>
-    <li>Help obtaining essential items</li>
-    <li>Other needed support as determined by YG administration</li>
+    <li><span class="support-examples__icon support-examples__icon--green" aria-hidden="true">{% include action-icon.html icon="basket" %}</span><strong>Grocery or gas cards</strong></li>
+    <li><span class="support-examples__icon support-examples__icon--terra" aria-hidden="true">{% include action-icon.html icon="bag" %}</span><strong>Help obtaining essential items</strong></li>
+    <li><span class="support-examples__icon support-examples__icon--gold" aria-hidden="true">{% include action-icon.html icon="hands-heart" %}</span><strong>Other needed support as determined by YG administration</strong></li>
   </ul>
 </section>
 
 <section class="privacy-panel" aria-labelledby="privacy-title">
-  <div class="privacy-panel__mark" aria-hidden="true">Private</div>
+  <div class="privacy-panel__art" aria-hidden="true">
+    <span class="privacy-panel__shield">{% include action-icon.html icon="lock" %}</span>
+    <img src="{{ '/assets/images/yg-pto-crane-sun-logo.png' | relative_url }}" alt="">
+  </div>
   <div>
     <h2 id="privacy-title">How do we maintain privacy?</h2>
-    <p>YG administration is the only authority that identifies need, determines eligibility, approves requests, and directs how assistance is provided.</p>
-    <p>No PTO member, including board members, volunteers, committee members, or general members, may review, approve, vote on, or make decisions about individual requests or recipients.</p>
-    <p>Assistance is handled anonymously and confidentially, and recipient identities are not shared with PTO members.</p>
+    <ul>
+      <li>YG administration is the only authority that identifies need, determines eligibility, approves requests, and directs how assistance is provided.</li>
+      <li>No PTO member, including board members, volunteers, committee members, or general members, may review, approve, vote on, or make decisions about individual requests or recipients.</li>
+      <li>Assistance is handled anonymously and confidentially, and recipient identities are not shared with PTO members.</li>
+    </ul>
   </div>
 </section>
 
@@ -62,6 +70,7 @@ status: published
 </section>
 
 <section class="crane-donate" aria-labelledby="crane-donate-title">
+  <div class="crane-donate__mark" aria-hidden="true">{% include action-icon.html icon="hands-heart" %}</div>
   <div>
     <p class="eyebrow">Keep support available</p>
     <h2 id="crane-donate-title">Donations are always appreciated</h2>
