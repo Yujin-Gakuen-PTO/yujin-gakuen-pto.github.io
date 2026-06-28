@@ -7,15 +7,12 @@ section_url: /get-involved/
 hero_label: Get Involved
 summary: Ways families and community partners can support YG students through PTO giving and funds.
 status: partial
-zeffy_modal: true
 pending_title: Additional giving links are still being prepared
-pending_intro: "The General Fund and Caring Crane Fund are available now. The PTO still needs current links and instructions for:"
+pending_intro: "The General Fund, Caring Crane Fund, and Garden Committee are available now. Zeffy sends receipts for online donations. The PTO will add details later for:"
 pending_items:
-  - Cultural events
-  - Teacher and staff appreciation
-  - Garden Committee support
-  - Parent-teacher conference support
-  - Approved payment and tax-receipt language
+  - Cultural event contributions after the committee forms
+  - Teacher and staff appreciation physical-goods donations
+  - Parent-teacher conference support closer to conferences
 ---
 
 Support from families and community partners helps fund Japanese-language learning tools, classroom interns, cultural events, staff-directed needs, field trips, student milestones, and appreciation.
@@ -25,7 +22,7 @@ Support from families and community partners helps fund Japanese-language learni
     <span class="badge">Available now</span>
     <h2>Support the PTO General Fund</h2>
     <p>Give to the main PTO fund that supports student programs, classroom needs, cultural events, and school-community connection.</p>
-    <a class="button button--primary" href="{{ site.data.links.general_fund.url }}" zeffy-form-link="{{ site.data.links.general_fund.zeffy_modal_url }}">{{ site.data.links.general_fund.label }}</a>
+    <a class="button button--primary" href="{{ site.data.links.general_fund.url }}">{{ site.data.links.general_fund.label }}</a>
   </div>
   <div>
     <span class="badge">Available now</span>
@@ -62,8 +59,8 @@ Financial giving is only one way to help. PTO members can also take a volunteer 
 <h2 id="link-needed">More giving links</h2>
 
 <div class="button-row">
-  <a class="button button--secondary" href="#link-needed">LINK NEEDED: Cultural events</a>
-  <a class="button button--secondary" href="#link-needed">LINK NEEDED: Teacher and staff appreciation</a>
-  <a class="button button--secondary" href="#link-needed">LINK NEEDED: Garden Committee support</a>
-  <a class="button button--secondary" href="#link-needed">LINK NEEDED: Parent-teacher conferences</a>
+  <a class="button button--secondary" href="#link-needed">COMING LATER: Cultural events</a>
+  <a class="button button--secondary" href="#link-needed">DETAILS LATER: Appreciation goods</a>
+  <a class="button button--secondary" href="{{ site.data.links.garden_committee.url }}">{{ site.data.links.garden_committee.label }}</a>
+  <a class="button button--secondary" href="#link-needed">COMING LATER: Conferences</a>
 </div>

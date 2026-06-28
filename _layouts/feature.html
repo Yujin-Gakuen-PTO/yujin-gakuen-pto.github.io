@@ -26,11 +26,7 @@ layout: default
       {% if page.hero_actions %}
         <div class="button-row">
           {% for action in page.hero_actions %}
-            {% if action.zeffy_form_link %}
-              <button class="button {% if forloop.first %}button--primary{% else %}button--secondary{% endif %}" type="button" zeffy-form-link="{{ action.zeffy_form_link }}">{{ action.label }}</button>
-            {% else %}
-              <a class="button {% if forloop.first %}button--primary{% else %}button--secondary{% endif %}" href="{% if action.url contains '://' or action.url contains '#' or action.url contains 'mailto:' or action.url contains 'tel:' %}{{ action.url }}{% else %}{{ action.url | relative_url }}{% endif %}">{{ action.label }}</a>
-            {% endif %}
+            <a class="button {% if forloop.first %}button--primary{% else %}button--secondary{% endif %}" href="{% if action.url contains '://' or action.url contains '#' or action.url contains 'mailto:' or action.url contains 'tel:' %}{{ action.url }}{% else %}{{ action.url | relative_url }}{% endif %}">{{ action.label }}</a>
           {% endfor %}
         </div>
       {% endif %}

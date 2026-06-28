@@ -20,7 +20,7 @@ This file records publication status, canonical sources, reuse, verification dat
 | `/get-involved/uo-beverage-booth/` | Published | `_data/events.yml`, booth coordinator email, and official UO schedule | Weekly through the final 2026 game; annual statistics review |
 | `/get-involved/host-interns/` | Partial | `_data/links.yml`, impact data, page copy | Placement dates, requirements, or forms change |
 | `/get-involved/caring-crane-fund/` | Published | Approved page copy and `_data/links.yml` | Fund process, contact path, or donation link changes |
-| `/get-involved/donate-funds/` | Partial | General Fund Zeffy link, approved page copy, remaining `LINK NEEDED` placeholders, and `_data/links.yml` | New donation links or payment language is approved |
+| `/get-involved/donate-funds/` | Partial | General Fund, Caring Crane, and Garden Committee Zeffy links, approved page copy, seasonal contribution placeholders, and `_data/links.yml` | New donation links, seasonal contribution instructions, or payment language is approved |
 | `/events/` | Published | Navigation and page copy | Route or event ownership changes |
 | `/events/calendar/` | Published | `_data/events.yml` for facts and `_data/calendar.yml` for dashboard placement | Weekly; rotate expired items and review seasonal groups |
 | `/events/oshogatsu/` | Partial | `_data/events.yml`, page copy, and performance schedule include | 2027 location, activities, visiting organizations, accessibility, or signup is confirmed |

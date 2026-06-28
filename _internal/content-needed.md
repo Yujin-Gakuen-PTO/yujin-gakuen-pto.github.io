@@ -10,7 +10,7 @@ Hannah's direct answers and confirmations take priority over automation notes. P
 2. **Festival logistics:** Final activities, visiting organizations, accessibility notes, volunteer roles, signup links, and contribution requests for Oshogatsu and Kodomo no Hi.
 3. **School-led events:** Dates, instructions, pledge links, accessibility information, volunteer shifts, and school contacts for Jikyuso, appreciation weeks, and Field Day.
 4. **Staff Hub:** A dedicated staff-report submission form and the first approved public decision summaries for the dashboard.
-5. **Donation links:** Zeffy links and approved labels for cultural events, appreciation, Garden Committee support, and parent-teacher conference support. General Fund is available through Zeffy.
+5. **Donation and contribution timing:** Cultural event contribution links will be added after committees form. Parent-teacher conference support links will be added closer to conferences. Teacher and staff appreciation is expected to use physical-goods donations unless PTO decides otherwise.
 
 ## Confirmed Decisions Moved To The Website
 
@@ -22,7 +22,11 @@ Hannah's direct answers and confirmations take priority over automation notes. P
 - Oshogatsu committee recruitment begins at the September 17, 2026 PTO meeting.
 - UO Beverage Booth success requires at least 21 OLCC-permitted adults per game and accounts for about 80% of annual PTO fundraising.
 - Staff requests that are non-monetary or outside the 20% allocation go to `secretary@yujingakuenpto.com`; Brigitte purchases requested items when possible; if she cannot, the PTO president and treasurer handle the purchase.
-- Donate uses `LINK NEEDED` placeholders until Zeffy pages are ready.
+- Donate uses `LINK NEEDED` placeholders only where approved donation links are still missing.
+- Zeffy sends receipts for online donations.
+- Teacher and staff appreciation should be treated as physical-goods donation support unless Hannah confirms a cash campaign later.
+- Parent-teacher conference support will not be posted until closer to conferences.
+- Cultural event contribution links will be posted after the relevant committee forms.
 - Image needs and layout/review issues are tracked in `WEBSITE_GREMLINS.md`.
 - Oshogatsu and Kodomo no Hi performance schedules are public with `Times TBA`; remaining festival details stay partial.
 - Staff reports may be sent to the secretary while a dedicated submission form is still pending.
@@ -43,9 +47,10 @@ Hannah's direct answers and confirmations take priority over automation notes. P
 
 ### Donate
 
-- Cultural events, appreciation, Garden Committee support, and parent-teacher conference support still need Zeffy links.
-- Payment instructions and approved tax-receipt language.
-- **Already published:** General Fund, Caring Crane Fund, and UO Beverage Booth actions.
+- Cultural event contribution links will be added after committees form.
+- Parent-teacher conference support will be added closer to conferences.
+- Teacher and staff appreciation should use physical-goods donation details unless Hannah confirms otherwise.
+- **Already published:** General Fund, Caring Crane Fund, Garden Committee, and UO Beverage Booth actions.
 
 ### Oshogatsu
 

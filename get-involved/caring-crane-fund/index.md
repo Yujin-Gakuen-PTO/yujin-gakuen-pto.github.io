@@ -7,14 +7,12 @@ section_url: /get-involved/
 hero_label: Confidential, community-based support
 summary: Confidential, need-based support for students and families in the Yujin Gakuen community.
 hero_image: /assets/images/caring-crane-fund-banner.png
-zeffy_modal: true
 hero_body:
   - The Caring Crane Fund is a charitable fund created by the YG PTO to provide confidential, need-based support to students and families in our Yujin Gakuen community. 100% of donations to the Caring Crane Fund stay within our school community and are used only for this purpose. The Caring Crane Fund is maintained separately from the PTO's operating budget.
   - Thank you for helping our community care for one another with dignity, privacy, and real practical support.
 hero_actions:
   - label: Donate
     url: https://www.zeffy.com/en-US/donation-form/caring-crane-fund
-    zeffy_form_link: https://www.zeffy.com/embed/donation-form/caring-crane-fund?modal=true
   - label: How to access support
     url: "#access-support"
 hero_trust_points:
@@ -79,7 +77,6 @@ status: published
     <p>Donations to the Caring Crane Fund are always appreciated. No amount is too small, and every dollar helps ensure support is available when a family needs it.</p>
   </div>
   <div class="crane-donate__actions">
-    <a class="button button--primary" href="{{ site.data.links.caring_crane.url }}" zeffy-form-link="{{ site.data.links.caring_crane.zeffy_modal_url }}">Donate to the Caring Crane Fund</a>
-    <p class="crane-donate__fallback">Having trouble? <a href="{{ site.data.links.caring_crane.url }}">Open the donation form in a new tab.</a></p>
+    <a class="button button--primary" href="{{ site.data.links.caring_crane.url }}">Donate to the Caring Crane Fund</a>
   </div>
 </section>

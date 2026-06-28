@@ -7,7 +7,7 @@ This is a practical review inventory for layout, content, links, images, and lau
 | Page or component | Type | Description | Owner | Severity | Blocks Comms review? | Blocks public launch? |
 | --- | --- | --- | --- | --- | --- | --- |
 | Manual rewrite pass | REVIEW | Review all public page copy for voice, accuracy, and YG-specific wording after this layout pass. | Hannah | moderate | no | no |
-| Donate | LINK NEEDED | Zeffy or other approved donation links are still needed for cultural events, appreciation, Garden Committee support, and parent-teacher conferences. General Fund is available through Zeffy. | Treasurer / Hannah | critical | yes | yes |
+| Donate | LINK NEEDED | Cultural event contribution links will be added after committees form, and parent-teacher conference support will wait until closer to conferences. Teacher and staff appreciation is expected to use physical-goods donations. General Fund, Caring Crane, and Garden Committee links are available. | Treasurer / Hannah | moderate | no | yes |
 | Public records | CONTENT SOURCE NEEDED | Current-year agendas, approved minutes, newsletters, budget proposal, and completed annual report need approved public files or links. | Secretary / Treasurer / Hannah | critical | yes | yes |
 | Staff Hub | CONTENT SOURCE NEEDED | Dedicated staff-report submission form and approved public decision summaries are still needed. | Hannah / Staff / Secretary | moderate | yes | no |
 | Featured festival pages | CONTENT SOURCE NEEDED | Oshogatsu and Kodomo no Hi need final activities, visiting organizations, accessibility notes, volunteer roles, contribution links, and public event contacts. | Event committees / Hannah | moderate | yes | yes |
