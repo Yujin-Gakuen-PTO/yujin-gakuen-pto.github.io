@@ -6,38 +6,47 @@ layout: default
 
 <section class="feature-hero">
   {% if page.hero_image %}
-    <img class="feature-hero__image" src="{{ page.hero_image | relative_url }}" alt="">
+    <img class="feature-hero__background" src="{{ page.hero_image | relative_url }}" alt="">
   {% endif %}
-  <div class="wrap feature-hero__content">
-    <p class="eyebrow">{{ page.hero_label | default: page.section }}</p>
-    <h1>{{ page.title }}</h1>
-    {% if page.summary %}
-      <p class="hero-summary">{{ page.summary }}</p>
-    {% endif %}
-    {% if page.hero_body %}
-      <div class="feature-hero__body">
-        {% for paragraph in page.hero_body %}
-          <p>{{ paragraph }}</p>
-        {% endfor %}
-      </div>
-    {% endif %}
-    {% if page.hero_actions %}
-      <div class="button-row">
-        {% for action in page.hero_actions %}
-          <a class="button {% if forloop.first %}button--primary{% else %}button--secondary{% endif %}" href="{% if action.url contains '://' or action.url contains '#' or action.url contains 'mailto:' or action.url contains 'tel:' %}{{ action.url }}{% else %}{{ action.url | relative_url }}{% endif %}">{{ action.label }}</a>
-        {% endfor %}
-      </div>
-    {% endif %}
+  <div class="feature-hero__veil" aria-hidden="true"></div>
+  <div class="wrap feature-hero__grid">
+    <div class="feature-hero__copy">
+      <p class="eyebrow">{{ page.hero_label | default: page.section }}</p>
+      <h1>{{ page.title }}</h1>
+      {% if page.summary and page.hero_body == nil %}
+        <p class="hero-summary">{{ page.summary }}</p>
+      {% endif %}
+      {% if page.hero_body %}
+        <div class="feature-hero__body">
+          {% for paragraph in page.hero_body %}
+            <p>{{ paragraph }}</p>
+          {% endfor %}
+        </div>
+      {% endif %}
+      {% if page.hero_actions %}
+        <div class="button-row">
+          {% for action in page.hero_actions %}
+            {% if action.zeffy_form_link %}
+              <button class="button {% if forloop.first %}button--primary{% else %}button--secondary{% endif %}" type="button" zeffy-form-link="{{ action.zeffy_form_link }}">{{ action.label }}</button>
+            {% else %}
+              <a class="button {% if forloop.first %}button--primary{% else %}button--secondary{% endif %}" href="{% if action.url contains '://' or action.url contains '#' or action.url contains 'mailto:' or action.url contains 'tel:' %}{{ action.url }}{% else %}{{ action.url | relative_url }}{% endif %}">{{ action.label }}</a>
+            {% endif %}
+          {% endfor %}
+        </div>
+      {% endif %}
+    </div>
     {% if page.hero_trust_points %}
-      <div class="feature-hero__trust" aria-label="{{ page.title }} commitments">
-        {% for point in page.hero_trust_points %}
-          <span>
-            <span class="feature-hero__trust-icon feature-hero__trust-icon--{{ point.tone | default: 'green' }}" aria-hidden="true">
-              {% include action-icon.html icon=point.icon %}
+      <div class="feature-hero__aside" aria-label="{{ page.title }} commitments">
+        <div class="feature-hero__trust">
+          {% for point in page.hero_trust_points %}
+            <span>
+              <span class="feature-hero__trust-icon feature-hero__trust-icon--{{ point.tone | default: 'green' }}" aria-hidden="true">
+                {% include action-icon.html icon=point.icon %}
+              </span>
+              {{ point.text }}
             </span>
-            {{ point.text }}
-          </span>
-        {% endfor %}
+          {% endfor %}
+        </div>
       </div>
     {% endif %}
   </div>

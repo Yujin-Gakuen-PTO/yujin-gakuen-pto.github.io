@@ -137,14 +137,14 @@ staff_cards:
   </div>
 </section>
 
-<section id="upcoming-meetings" class="staff-section" aria-labelledby="upcoming-meetings-title">
-  <div class="section-heading">
-    <p class="eyebrow">Meetings</p>
-    <h2 id="upcoming-meetings-title">Upcoming meetings for staff reference</h2>
-    <p>PTO meetings are open spaces to hear updates, ask questions, share staff perspective, and understand what support is moving forward.</p>
-  </div>
+<section class="staff-meeting-report-pair" aria-label="Upcoming meetings and staff reports">
+  <article id="upcoming-meetings" class="staff-work-card staff-meeting-panel" aria-labelledby="upcoming-meetings-title">
+    <div class="section-heading">
+      <p class="eyebrow">Meetings</p>
+      <h2 id="upcoming-meetings-title">Upcoming meetings for staff reference</h2>
+      <p>PTO meetings are open spaces to hear updates, ask questions, share staff perspective, and understand what support is moving forward.</p>
+    </div>
 
-  <div class="staff-meeting-panel">
     {% if upcoming_meeting_count > 0 %}
       <ol class="staff-meeting-list">
         {% assign shown_meetings = 0 %}
@@ -171,20 +171,15 @@ staff_cards:
     {% endif %}
 
     <div class="staff-meeting-panel__footer">
-      <p>Teachers and staff are welcome at PTO meetings whether you are bringing an update, asking a question, sharing context, or simply listening in. Staff reports are helpful, but they are not required in order to attend.</p>
-      <div class="button-row staff-meeting-panel__actions">
-        <a class="button button--primary" href="{{ site.data.links.secretary.url }}?subject=Staff%20report%20for%20the%20next%20PTO%20meeting">Send a staff report</a>
-        <a class="button button--secondary" href="{{ site.data.links.contact.url }}?subject=Question%20about%20an%20upcoming%20PTO%20meeting">Ask a meeting question</a>
-      </div>
+      <p>Teachers and staff are welcome at PTO meetings whether you are bringing an update, asking a question, sharing context, or simply listening in.</p>
+      <a class="button button--secondary" href="{{ site.data.links.contact.url }}?subject=Question%20about%20an%20upcoming%20PTO%20meeting">Ask a meeting question</a>
     </div>
-  </div>
-</section>
+  </article>
 
-<section class="staff-work-grid" aria-label="Staff reports and meeting participation">
-  <article id="staff-reports" class="staff-work-card" aria-labelledby="staff-reports-title">
+  <article id="staff-reports" class="staff-work-card staff-report-card" aria-labelledby="staff-reports-title">
     <div class="section-heading">
       <p class="eyebrow">Reports</p>
-      <h2 id="staff-reports-title">Send a staff report</h2>
+      <h2 id="staff-reports-title">Send a staff report for a PTO meeting</h2>
       <p>Staff reports are short updates that help the PTO understand what is happening at school, what support may be needed, and what needs to be ready before a meeting.</p>
     </div>
 
@@ -204,11 +199,13 @@ staff_cards:
       <a class="button button--secondary" href="https://docs.google.com/document/d/1tWVgVOBwAg8r7-NAzh-LjxFQYU3XPagzHhQ0cAJJiZI/edit?tab=t.swlrfhgcoocs#heading=h.bl4eytwovtql">Preview report format</a>
     </div>
   </article>
+</section>
 
-  <article id="staff-role" class="staff-work-card staff-work-card--soft" aria-labelledby="staff-role-title">
+<section id="staff-role" class="staff-section" aria-labelledby="staff-role-title">
+  <article class="staff-work-card staff-work-card--soft staff-participation-card">
     <div class="section-heading">
       <p class="eyebrow">Participation</p>
-      <h2 id="staff-role-title">What staff can do at meetings</h2>
+      <h2 id="staff-role-title">How staff can participate in PTO meetings</h2>
       <p>Staff do not need a formal report or agenda item to attend. Meetings are a place to stay informed, share context when helpful, ask questions, and help PTO understand what support would make a real difference.</p>
     </div>
 
@@ -257,7 +254,7 @@ staff_cards:
 <section id="staff-spending" aria-labelledby="staff-spending-title">
   <div class="section-heading">
     <p class="eyebrow">Requests and support</p>
-    <h2 id="staff-spending-title">Staff-directed spending</h2>
+    <h2 id="staff-spending-title">Requests, support, and PTO reference</h2>
     <p>PTO currently sets aside 20% of UO Beverage Booth fundraising earnings for staff-directed spending. This is one way staff-identified needs can surface early and get routed clearly.</p>
   </div>
 
@@ -336,11 +333,6 @@ staff_cards:
     <details>
       <summary>Should staff run for board positions?</summary>
       <p>Eligibility lives in the governing documents and election information. If those details change, this page will point there. Staff participation is welcome either way, and the PTO still benefits from staff input at meetings, in reports, and on school projects.</p>
-    </details>
-
-    <details>
-      <summary>I have a project or committee at the school. Will PTO help?</summary>
-      <p>Yes, potentially. PTO may be able to support school projects, working groups, or committees with funding, visibility, volunteer coordination, website space, meeting dates and times, updates, and reports. If the work is ongoing, it may make sense to treat it as a committee so it has a simple monthly Committee Report and a clear support path.</p>
     </details>
   </div>
 </section>

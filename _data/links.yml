@@ -50,7 +50,13 @@ intern_application:
 
 caring_crane:
   label: Donate to the Caring Crane Fund
-  url: "https://checkout.square.site/merchant/VQ37B4TSKPJTS/checkout/GUWGM3SZIYIRU3UFY2Y6IQCR"
+  url: "https://www.zeffy.com/en-US/donation-form/caring-crane-fund"
+  zeffy_modal_url: "https://www.zeffy.com/embed/donation-form/caring-crane-fund?modal=true"
+
+general_fund:
+  label: Donate to the General Fund
+  url: "https://www.zeffy.com/en-US/donation-form/yg-pto-recurring-donation"
+  zeffy_modal_url: "https://www.zeffy.com/embed/donation-form/yg-pto-recurring-donation?modal=true"
 
 square_store:
   label: Shop the PTO Square Store

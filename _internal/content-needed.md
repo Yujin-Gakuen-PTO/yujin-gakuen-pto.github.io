@@ -10,7 +10,7 @@ Hannah's direct answers and confirmations take priority over automation notes. P
 2. **Festival logistics:** Final activities, visiting organizations, accessibility notes, volunteer roles, signup links, and contribution requests for Oshogatsu and Kodomo no Hi.
 3. **School-led events:** Dates, instructions, pledge links, accessibility information, volunteer shifts, and school contacts for Jikyuso, appreciation weeks, and Field Day.
 4. **Staff Hub:** A dedicated staff-report submission form and the first approved public decision summaries for the dashboard.
-5. **Donation links:** Zeffy links and approved labels for general PTO support, cultural events, appreciation, Garden Committee support, and parent-teacher conference support.
+5. **Donation links:** Zeffy links and approved labels for cultural events, appreciation, Garden Committee support, and parent-teacher conference support. General Fund is available through Zeffy.
 
 ## Confirmed Decisions Moved To The Website
 
@@ -43,9 +43,9 @@ Hannah's direct answers and confirmations take priority over automation notes. P
 
 ### Donate
 
-- General PTO support, cultural events, appreciation, Garden Committee support, and parent-teacher conference support still need Zeffy links.
+- Cultural events, appreciation, Garden Committee support, and parent-teacher conference support still need Zeffy links.
 - Payment instructions and approved tax-receipt language.
-- **Already published:** Caring Crane Fund and UO Beverage Booth actions.
+- **Already published:** General Fund, Caring Crane Fund, and UO Beverage Booth actions.
 
 ### Oshogatsu
 
@@ -94,18 +94,29 @@ Hannah's direct answers and confirmations take priority over automation notes. P
 
 This section is maintained only by `PTO President Command Center automation`. It is advisory and never authorizes a public website change.
 
-- **Generated:** June 24, 2026.
-- **Sources checked through:** June 21, 2026.
+- **Generated:** June 28, 2026.
+- **Sources checked through:** June 28, 2026.
 
 ### Current priorities
 
-- Keep UO Beverage Booth dates and signup links under weekly review as the fall season approaches.
-- Watch for a public-ready Waka Daiko workshop blurb.
+- Keep Asian Celebration volunteer signup visible; the June 23 PTO email said only one YG volunteer had signed up so far.
+- Keep UO Beverage Booth dates and signup links under weekly review; the June 23 PTO email and June 25 incoming-family message both reused the fall booth links.
+- Keep the public meeting-records archive in the queue; no new approved agenda or minutes files surfaced in this run.
 
-### Confirmation and stale-risk flags
+### Newly changed information
 
-- Reverify Summer Recess dates, locations, and wording before changing or extending the current public listing.
-- Reconfirm the Back-to-School Picnic date before strengthening or expanding its public copy.
-- Do not publish internal Kimiko donation discussions, communications-account handoff notes, or Google Group testing.
+- Summer Recess dates, groupings, and FAQ are now backed by fresh family-facing source material from the June 23 PTO email and the June 25 incoming-family follow-up.
+- Intern coordinator Kyoko confirmed the current host-family application form, year-round intake, two 4-5 week cycles, and one 9-month placement.
+
+### Confirmation needs
+
+- Back to School Picnic still needs leadership confirmation before September 25 copy is treated as final.
+- Waka Daiko still needs a clear public-ready blurb if it is going to appear on the website instead of staying a school/community post only.
+- Confirm whether the Host Interns page should show a direct coordinator email or keep the public call-to-action as the application form only.
+
+### Stale risks
+
+- Do not strengthen or broaden Back to School Picnic website copy until leadership confirmation lands.
+- Keep internal Kimiko donation / Oregon Cultural Trust discussion, Seesaw contract timing, and communications-account cleanup out of public website copy.
 
 <!-- PTO President Command Center automation section: end -->

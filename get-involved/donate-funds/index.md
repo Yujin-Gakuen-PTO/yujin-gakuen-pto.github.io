@@ -7,10 +7,10 @@ section_url: /get-involved/
 hero_label: Get Involved
 summary: Ways families and community partners can support YG students through PTO giving and funds.
 status: partial
+zeffy_modal: true
 pending_title: Additional giving links are still being prepared
-pending_intro: "The Caring Crane Fund is available now. The PTO still needs current links and instructions for:"
+pending_intro: "The General Fund and Caring Crane Fund are available now. The PTO still needs current links and instructions for:"
 pending_items:
-  - General PTO support
   - Cultural events
   - Teacher and staff appreciation
   - Garden Committee support
@@ -23,8 +23,15 @@ Support from families and community partners helps fund Japanese-language learni
 <div class="support-choice">
   <div>
     <span class="badge">Available now</span>
+    <h2>Support the PTO General Fund</h2>
+    <p>Give to the main PTO fund that supports student programs, classroom needs, cultural events, and school-community connection.</p>
+    <a class="button button--primary" href="{{ site.data.links.general_fund.url }}" zeffy-form-link="{{ site.data.links.general_fund.zeffy_modal_url }}">{{ site.data.links.general_fund.label }}</a>
+  </div>
+  <div>
+    <span class="badge">Available now</span>
     <h2>Support families through Caring Crane</h2>
     <p>Give confidential, need-based support that stays within the YG school community.</p>
+    <a href="{{ site.data.links.caring_crane.url }}">Donate to the Caring Crane Fund</a>
   </div>
   <div>
     <span class="badge">Volunteer fundraising</span>
@@ -55,7 +62,6 @@ Financial giving is only one way to help. PTO members can also take a volunteer 
 <h2 id="link-needed">More giving links</h2>
 
 <div class="button-row">
-  <a class="button button--secondary" href="#link-needed">LINK NEEDED: General PTO support</a>
   <a class="button button--secondary" href="#link-needed">LINK NEEDED: Cultural events</a>
   <a class="button button--secondary" href="#link-needed">LINK NEEDED: Teacher and staff appreciation</a>
   <a class="button button--secondary" href="#link-needed">LINK NEEDED: Garden Committee support</a>

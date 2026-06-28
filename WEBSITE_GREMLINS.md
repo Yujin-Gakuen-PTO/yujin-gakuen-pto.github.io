@@ -7,7 +7,7 @@ This is a practical review inventory for layout, content, links, images, and lau
 | Page or component | Type | Description | Owner | Severity | Blocks Comms review? | Blocks public launch? |
 | --- | --- | --- | --- | --- | --- | --- |
 | Manual rewrite pass | REVIEW | Review all public page copy for voice, accuracy, and YG-specific wording after this layout pass. | Hannah | moderate | no | no |
-| Donate | LINK NEEDED | Zeffy or other approved donation links are still needed for general PTO support, cultural events, appreciation, Garden Committee support, and parent-teacher conferences. | Treasurer / Hannah | critical | yes | yes |
+| Donate | LINK NEEDED | Zeffy or other approved donation links are still needed for cultural events, appreciation, Garden Committee support, and parent-teacher conferences. General Fund is available through Zeffy. | Treasurer / Hannah | critical | yes | yes |
 | Public records | CONTENT SOURCE NEEDED | Current-year agendas, approved minutes, newsletters, budget proposal, and completed annual report need approved public files or links. | Secretary / Treasurer / Hannah | critical | yes | yes |
 | Staff Hub | CONTENT SOURCE NEEDED | Dedicated staff-report submission form and approved public decision summaries are still needed. | Hannah / Staff / Secretary | moderate | yes | no |
 | Featured festival pages | CONTENT SOURCE NEEDED | Oshogatsu and Kodomo no Hi need final activities, visiting organizations, accessibility notes, volunteer roles, contribution links, and public event contacts. | Event committees / Hannah | moderate | yes | yes |
@@ -44,8 +44,8 @@ This is a practical review inventory for layout, content, links, images, and lau
 | --- | --- | --- | --- | --- | --- | --- |
 | Event pages | REVIEW | Major event pages now share a stronger event pattern, but each should be reviewed after final content is supplied. | Hannah / Comms | moderate | no | no |
 | Event hierarchy | REVIEW | Festival pages keep the special hero treatment; Jikyuso, Field Day, and Appreciation now use normal subpage headers with smaller supporting visuals. Review whether Obon needs final festival artwork. | Hannah / Comms | moderate | no | no |
-| Caring Crane Fund | REVIEW | Structure is closer to the supplied header/body guides and wording is preserved; review visual treatment after local preview. | Hannah / Board | moderate | no | no |
-| Staff Hub | REVIEW | Dashboard structure now shows three upcoming meetings and paired report/meeting-participation sections; review after staff survey/membership language and staff-report form are confirmed. | Hannah / Staff | moderate | no | no |
+| Caring Crane Fund | REVIEW | Header has been corrected toward the supplied guide image with left copy/actions, right scenic crane artwork, and a lower trust-card strip; review after local preview. | Hannah / Board | moderate | no | no |
+| Staff Hub | REVIEW | Dashboard now pairs upcoming meetings with staff reports, separates meeting participation, and removes the extra project FAQ; review after staff survey/membership language and staff-report form are confirmed. | Hannah / Staff | moderate | no | no |
 | Partial pages | PLACEHOLDER | Partial pages intentionally show one pending-details block; replace each block only after matching facts or files are supplied. | Hannah | minor | no | no |
 | External files and forms | REVIEW | Confirm all external forms, stores, Google Docs, and signup links remain current before launch. | Hannah / Comms | moderate | yes | yes |
 | Image privacy | REVIEW | Final photos should avoid identifiable student faces unless proper permission is confirmed. | Hannah / Comms | critical | yes | yes |
