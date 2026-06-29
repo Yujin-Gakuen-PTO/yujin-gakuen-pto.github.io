@@ -23,8 +23,8 @@ For a simple wording change, edit the page file itself. If the same fact appears
 - Site styling lives in `assets/css/site.css`.
 - Small browser behavior lives in `assets/js/site.js`.
 - Images live in `assets/images/`.
-- Editor-only notes live in `_internal/`.
-- Review and launch notes live in `WEBSITE_GREMLINS.md`.
+- Review, launch, and unfinished-work notes live in `WEBSITE_GREMLINS.md`.
+- Some maintainers may also keep private local notes in `_internal/`. That folder is intentionally ignored and is not part of the public GitHub repo.
 
 ## Common Editing Tasks
 
@@ -58,11 +58,11 @@ Use `_data/links.yml` for the live links, then update the relevant donation page
 
 ### Mark something unfinished
 
-Use the page front matter fields the site already uses for partial pages, such as `status`, `pending_title`, `pending_intro`, and `pending_items`. Record the missing piece in `_internal/content-needed.md` and, if it is a launch or layout issue, also in `WEBSITE_GREMLINS.md`.
+Use the page front matter fields the site already uses for partial pages, such as `status`, `pending_title`, `pending_intro`, and `pending_items`. Record public review notes, missing links, missing images, and launch blockers in `WEBSITE_GREMLINS.md`.
 
 ### Check what still needs attention
 
-Start with `_internal/content-needed.md` for active missing items and `WEBSITE_GREMLINS.md` for layout, link, image, and launch-readiness notes.
+Start with `WEBSITE_GREMLINS.md` for layout, link, image, content, and launch-readiness notes.
 
 ## Public Content Rules
 
@@ -84,7 +84,7 @@ The site uses a few labels to show what still needs attention:
 - `IMAGE NEEDED` means the page still needs final art or a photo.
 - `CONTENT SOURCE NEEDED` means the page still needs real source material before it can be finished.
 
-These notes are tracked in `_internal/content-needed.md` and `WEBSITE_GREMLINS.md`. Some pages also use partial-page front matter so unfinished content is clear on the site itself.
+These notes are tracked in `WEBSITE_GREMLINS.md`. Some pages also use partial-page front matter so unfinished content is clear on the site itself.
 
 ## Local Preview
 
@@ -124,10 +124,10 @@ www.yujingakuenpto.com
 - The wording is clear and specific.
 - No private or invented information is visible.
 - Images have suitable alt text or an intentional review note.
-- Any unfinished items are recorded in `_internal/content-needed.md` or `WEBSITE_GREMLINS.md`.
+- Any unfinished items are recorded in `WEBSITE_GREMLINS.md`.
 
 ## When Something Feels Confusing
 
-If you are not sure where an item belongs, start with the page file, then check the shared data file it uses, then look at `_internal/content-needed.md` and `WEBSITE_GREMLINS.md`.
+If you are not sure where an item belongs, start with the page file, then check the shared data file it uses, then look at `WEBSITE_GREMLINS.md`.
 
 That usually points you to the right place fast.
