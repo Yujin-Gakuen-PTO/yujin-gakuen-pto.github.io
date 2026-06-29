@@ -148,3 +148,7 @@ _site/
 .bundle/
 vendor/
 Gemfile.lock
+
+# Local editor notes and internal planning files
+_internal/
+docs/internal/
