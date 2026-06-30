@@ -1,0 +1,4 @@
+# Optional image-icon overrides.
+# Keep this list intentionally short: regular inline SVG icons remain the default.
+# Add a key only when a Hanacon is clearly better in context and still reads at icon size.
+{}

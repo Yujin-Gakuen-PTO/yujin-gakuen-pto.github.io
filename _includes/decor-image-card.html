@@ -1,0 +1,10 @@
+{% assign decor_tone = include.tone | default: "sage" %}
+{% assign decor_alt = include.alt | default: "" %}
+<aside class="decor-image-card decor-image-card--{{ decor_tone }}">
+  <img src="{{ include.src | relative_url }}" alt="{{ decor_alt }}">
+  <div>
+    {% if include.label %}<p class="eyebrow">{{ include.label }}</p>{% endif %}
+    {% if include.title %}<h3>{{ include.title }}</h3>{% endif %}
+    {% if include.text %}<p>{{ include.text }}</p>{% endif %}
+  </div>
+</aside>

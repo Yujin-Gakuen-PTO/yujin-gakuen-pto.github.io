@@ -33,13 +33,12 @@ pending_items:
 
 There is no confirmed 2027 Field Day date yet.
 
-{% include image-placeholder.html
-  purpose="Small Field Day visual: schoolyard activity detail or outdoor school-event image without identifiable student faces"
-  ratio="4:3"
-  filename="assets/images/field-day-schoolyard-detail-4x3.jpg"
-  dimensions="1200 x 900 px"
-  alt="Field Day activity materials or outdoor YG school-event setup"
-  compact=true
+{% include decor-image-card.html
+  src="/assets/images/decorations/playground.png"
+  alt=""
+  label="School-day event"
+  title="Volunteer details will come from school staff"
+  text="PTO will share timing and signup information when it is available."
 %}
 
 <div id="volunteer-information" class="action-band">

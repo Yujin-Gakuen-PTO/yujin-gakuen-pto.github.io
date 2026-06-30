@@ -105,14 +105,14 @@ staff_cards:
       <li><strong>Projects</strong><span>Ask whether a school project needs funds, volunteers, website visibility, or committee structure.</span></li>
     </ul>
 
-    {% include image-placeholder.html
-      purpose="Staff Hub visual: PTO/staff reference detail, school-community workspace, or non-identifying YG support image"
-      ratio="4:3"
-      filename="assets/images/staff-hub-reference-4x3.jpg"
-      dimensions="1200 x 900 px"
-      alt="YG staff and PTO materials arranged for a meeting or school support planning, no identifiable students"
-      compact=true
-    %}
+    <aside class="staff-reference-note">
+      <span aria-hidden="true">{% include action-icon.html icon="report" %}</span>
+      <div>
+        <p class="eyebrow">Reference</p>
+        <h3>Reports can be short</h3>
+        <p>A few useful sentences are enough when staff want something on PTO's radar.</p>
+      </div>
+    </aside>
   </div>
 </section>
 

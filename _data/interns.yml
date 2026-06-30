@@ -3,14 +3,17 @@ cycles:
     length: 4-5 weeks
     timing: Starts near the end of August
     accent: fall
+    decoration: /assets/images/decorations/autumn-bunny.png
   - title: Spring Program
     length: 4-5 weeks
     timing: Starts around the middle of February
     accent: spring
+    decoration: /assets/images/decorations/sakura-branch.png
   - title: 9-Month Intern
     length: School-year placement
     timing: One host family, or divided among 2-3 families
     accent: year
+    decoration: /assets/images/decorations/teru-teru-bozu.png
 
 application:
   label: Complete the host-family application

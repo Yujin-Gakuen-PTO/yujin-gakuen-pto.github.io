@@ -15,6 +15,7 @@ section_links_intro: Find the next meeting, agendas, approved minutes, annual bu
     <h2>Do I have to attend?</h2>
     <p>No. Joining the PTO does not require regular meeting attendance. Meetings are where members can ask questions, understand decisions, bring ideas, offer help, and take part in PTO business when they want to.</p>
   </div>
+  <span class="action-band__icon" aria-hidden="true">{% include action-icon.html icon="meeting" %}</span>
   <a class="button button--primary" href="{{ '/meetings/upcoming/' | relative_url }}">View upcoming meetings</a>
 </section>
 

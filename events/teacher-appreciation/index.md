@@ -35,13 +35,13 @@ pending_items:
   <p>Plans may include optional contributions, notes, food, supplies, or volunteer help. The PTO will post specific requests only after staff preferences, timing, and logistics are confirmed.</p>
 </div>
 
-{% include image-placeholder.html
-  purpose="Small appreciation visual: thank-you notes, flowers, or supplies without identifiable people"
-  ratio="4:3"
-  filename="assets/images/staff-appreciation-detail-4x3.jpg"
-  dimensions="1200 x 900 px"
-  alt="Appreciation notes or supplies for YG teachers and staff"
-  compact=true
+{% include decor-image-card.html
+  src="/assets/images/decorations/apple.png"
+  alt=""
+  label="Appreciation"
+  title="Specific requests will be posted later"
+  text="Plans may include notes, food, supplies, or other optional ways to help."
+  tone="terra"
 %}
 
 {% include event-list.html id="classified-appreciation-dates" title="Classified Staff Appreciation Week" event_id="classified-staff-appreciation-2027" hide_detail="true" %}

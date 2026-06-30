@@ -48,7 +48,9 @@ wide_content: true
           <h2 id="uo-games-title">UO Games Volunteer Opportunities</h2>
           <p>Every home game needs at least 21 OLCC-permitted adult volunteers.</p>
         </div>
-        <span class="calendar-panel-heading__art calendar-panel-heading__art--hands">{% include calendar-icon.html icon="hands" %}</span>
+        <span class="calendar-panel-heading__art calendar-panel-heading__art--hanacon" aria-hidden="true">
+          <img src="{{ '/assets/images/hanacons/new/green/volunteer-green184.png' | relative_url }}" alt="" loading="lazy">
+        </span>
       </div>
       <ul class="calendar-uo-list">
         {% for event_id in site.data.calendar.uo_games %}

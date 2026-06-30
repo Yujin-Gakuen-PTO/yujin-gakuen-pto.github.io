@@ -5,7 +5,15 @@
   {% if event.type == "appreciation" %}{% assign icon = "heart" %}{% endif %}
   {% if event.category == "Prospective Families" %}{% assign icon = "school" %}{% endif %}
   <li class="calendar-highlight-row">
-    {% if event.artwork %}
+    {% if event.calendar_decoration %}
+      <img class="calendar-highlight-row__decoration" src="{{ event.calendar_decoration | relative_url }}" alt="" loading="lazy">
+    {% elsif event.calendar_icon_image %}
+      <span class="calendar-highlight-row__icon calendar-highlight-row__icon--hanacon">
+        <img class="site-icon-image" src="{{ event.calendar_icon_image | relative_url }}" alt="" loading="lazy">
+      </span>
+    {% elsif event.calendar_icon %}
+      <span class="calendar-highlight-row__icon">{% include calendar-icon.html icon=event.calendar_icon %}</span>
+    {% elsif event.artwork %}
       <img class="calendar-highlight-row__art" src="{{ event.artwork | relative_url }}" alt="">
     {% else %}
       <span class="calendar-highlight-row__icon">{% include calendar-icon.html icon=icon %}</span>

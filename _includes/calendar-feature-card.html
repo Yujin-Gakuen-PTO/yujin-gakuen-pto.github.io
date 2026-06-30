@@ -1,8 +1,12 @@
 {% assign event = site.data.events | where: "id", include.item.event_id | first %}
 {% if event %}
   <article class="calendar-feature-card calendar-feature-card--{{ include.item.tone }}">
-    <div class="calendar-feature-card__icon">
-      {% include calendar-icon.html icon=include.item.icon %}
+    <div class="calendar-feature-card__icon{% if include.item.decoration %} calendar-feature-card__icon--decor{% endif %}">
+      {% if include.item.decoration %}
+        <img class="calendar-feature-card__decor" src="{{ include.item.decoration | relative_url }}" alt="" loading="lazy">
+      {% else %}
+        {% include calendar-icon.html icon=include.item.icon %}
+      {% endif %}
     </div>
     <div class="calendar-feature-card__body">
       <span class="badge">{{ event.category }}</span>

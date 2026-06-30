@@ -23,11 +23,12 @@ PTO support reaches classrooms, interns, cultural events, school traditions, sta
 
 ## Get PTO emails
 
-<div class="content-callout">
+<div class="content-callout content-callout--decor">
   <div>
     <h3>Sign up to receive PTO emails</h3>
     <p>School enrollment does not add adults to PTO membership or communication lists. Complete the PTO form to receive event information, volunteer opportunities, meeting reminders, agendas, and other updates.</p>
   </div>
+  <span class="content-callout__icon" aria-hidden="true">{% include action-icon.html icon="mail" %}</span>
   <a class="button button--primary" href="{{ site.data.links.join_form.url }}">Sign up for PTO emails</a>
 </div>
 

@@ -1,10 +1,18 @@
 - id: oshogatsu
   label: Recruiting next
   title: Oshogatsu Committee
+  url: /events/oshogatsu/
+  cta: Oshogatsu details
+  icon: crane
+  accent: red
   timing: Roles introduced September 17, 2026
   commitment: Seasonal planning from fall through January
   summary: Plan YG's Japanese New Year celebration, coordinate event teams, and carry the work through festival day.
   recruiting: true
+  highlights:
+    - Plan festival structure
+    - Coordinate planning teams
+    - Support a memorable celebration
   roles:
     - Committee Chair
     - Volunteer Coordinator
@@ -20,33 +28,66 @@
 - id: kodomo-no-hi
   label: Cultural event
   title: Kodomo no Hi Committee
+  url: /events/kodomo-no-hi/
+  cta: Kodomo no Hi details
+  icon: book
+  accent: gold
   timing: Planning begins in winter
   commitment: Seasonal planning through the spring festival
   summary: Plan activities, family communication, supplies, cultural coordination, and event operations for Children's Day.
-
-- id: volunteer-coordination
-  label: Year-round committee
-  title: Volunteer and Event Committee
-  timing: Throughout the school year
-  commitment: Ongoing coordination
-  summary: Build signup plans, coordinate event volunteer coverage, welcome volunteers, and help event teams understand what staffing they need.
-  lead: Tess Snook-Louie, Volunteer Coordinator
+  highlights:
+    - Support cultural learning
+    - Plan family activities
+    - Coordinate event needs
 
 - id: finance
   label: PTO operations
   title: Finance Committee
+  url: /get-involved/committees/
+  cta: Ask about finance
+  icon: report
+  accent: blue
   timing: Periodic work throughout the year
   commitment: Financial review and annual budget work
   summary: Support budget preparation, financial review, and responsible stewardship of PTO funds.
+  highlights:
+    - Review financial materials
+    - Support budget planning
+    - Help steward PTO funds
   members:
     - Hannah Felton
     - Ariann Harrelson
     - Sean Fontenot
 
-- id: bylaws-review
-  label: Governance
-  title: Bylaw Review Committee
-  timing: As review work is scheduled
-  commitment: Short-term review project
-  summary: Review PTO bylaws and governance materials before recommendations are brought forward.
-  note: Membership is under review. Volunteers with legal, governance, or bylaws experience are especially welcome.
+- id: volunteer
+  label: Year-round committee
+  title: Volunteer Committee
+  url: /get-involved/committees/
+  cta: Ask about volunteering
+  icon: hands-heart
+  accent: green
+  timing: Throughout the school year
+  commitment: Ongoing coordination
+  summary: Build signup plans, coordinate event volunteer coverage, welcome volunteers, and help event teams understand what staffing they need.
+  highlights:
+    - Match volunteers to needs
+    - Support event staffing
+    - Welcome new helpers
+  lead: Tess Snook-Louie, Volunteer Coordinator
+
+- id: garden
+  label: Featured committee
+  title: Garden Committee
+  contact_name: Kelly-Sensei
+  contact_email: stroh_k@4j.lane.edu
+  icon: basket
+  accent: garden
+  timing: Throughout the school year
+  commitment: Seasonal garden and outdoor-space support
+  summary: We care for the school garden and outdoor spaces where students learn, play, and grow. From planting and maintenance to outdoor classroom projects, our work helps Yujin Gakuen bloom in every season.
+  tagline: Cultivating beauty, learning, and community.
+  highlights:
+    - Maintain gardens & school grounds
+    - Create outdoor learning spaces
+    - Build community through nature
+  note: Your support helps us buy plants, tools, soil, and materials to keep our garden growing!

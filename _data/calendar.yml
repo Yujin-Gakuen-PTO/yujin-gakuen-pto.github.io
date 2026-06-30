@@ -1,9 +1,11 @@
 featured:
   - event_id: asian-celebration-2026
-    icon: lantern
+    decoration: /assets/images/decorations/asian-lantern.png
+    icon: calendar
     tone: terracotta
   - event_id: obon-taiko-festival-2026
-    icon: drum
+    decoration: /assets/images/decorations/taiko-drum.png
+    icon: calendar
     tone: gold
   - event_id: first-pto-meeting-2026
     icon: meeting

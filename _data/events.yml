@@ -91,6 +91,7 @@
   type: meeting
   category: Meeting
   calendar_section: meetings
+  calendar_icon: meeting
   date: 2026-09-17
   time: 6:30 PM - 7:30 PM
   summary: The first PTO meeting of the school year.
@@ -114,6 +115,7 @@
   type: event
   category: Community
   calendar_section: soon
+  calendar_decoration: /assets/images/decorations/picnic-basket.png
   location: Yujin Gakuen
   date: 2026-09-25
   summary: Families can sign up to help with the Back to School Picnic.
@@ -137,6 +139,7 @@
   type: meeting
   category: Meeting
   calendar_section: meetings
+  calendar_icon: meeting
   date: 2026-10-15
   time: 6:30 PM - 7:30 PM
   summary: October PTO general assembly meeting.
@@ -184,6 +187,7 @@
   type: meeting
   category: Meeting
   calendar_section: meetings
+  calendar_icon: meeting
   date: 2026-11-19
   time: 6:30 PM - 7:30 PM
   summary: November PTO general assembly meeting.
@@ -207,6 +211,8 @@
   type: event
   category: Prospective Families
   calendar_section: highlights
+  calendar_icon: school
+  calendar_icon_image: /assets/images/hanacons/new/green/education-green184.png
   date: 2027-01-22
   time: 5:00 PM - 5:30 PM
   summary: School choice presentation and tour before Oshogatsu.
@@ -218,9 +224,10 @@
   type: event
   category: Cultural Event
   calendar_section: highlights
+  calendar_decoration: /assets/images/decorations/kagami-mochi.png
   location: Yujin Gakuen
   parking_notice: true
-  artwork: /assets/images/oshogatsu-2027-banner.png
+  artwork: /assets/images/event-art/heroes/oshogatsu-hero.png
   date: 2027-01-22
   time: 5:30 PM - 7:30 PM
   summary: Yujin Gakuen's Oshogatsu celebration.
@@ -232,6 +239,7 @@
   type: appreciation
   category: Appreciation
   calendar_section: appreciation
+  calendar_decoration: /assets/images/decorations/apple.png
   date: 2027-03-01
   end_date: 2027-03-05
   summary: Classified Staff Appreciation Week.
@@ -243,9 +251,10 @@
   type: event
   category: Cultural Event
   calendar_section: highlights
+  calendar_decoration: /assets/images/decorations/kodomo-fish-priority.png
   location: Yujin Gakuen
   parking_notice: true
-  artwork: /assets/images/kodomo-no-hi-2027-banner.png
+  artwork: /assets/images/event-art/heroes/kodomo-no-hi-hero.png
   date: 2027-04-30
   time: 5:00 PM - 7:00 PM
   summary: Yujin Gakuen's Kodomo no Hi celebration.
@@ -257,6 +266,7 @@
   type: appreciation
   category: Appreciation
   calendar_section: appreciation
+  calendar_decoration: /assets/images/decorations/apple.png
   date: 2027-05-03
   end_date: 2027-05-07
   summary: A week to recognize Yujin Gakuen teachers and staff.
