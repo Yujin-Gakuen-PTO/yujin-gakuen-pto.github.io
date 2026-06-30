@@ -2908,27 +2908,26 @@ button {
 }
 
 .calendar-highlight-group--fall h3 {
-  border-left: 4px solid var(--color-accent);
-  background: #fbede5;
-}
-
-.calendar-highlight-group--fall::after {
-  width: 218.5px;
-  height: 218.5px;
-  background-image: url("../images/decorations/seasonal/oak-leaves-corner-left-large.png");
-  transform: scale(-1, -1);
-}
-
-.calendar-highlight-group--winter h3 {
   border-left: 4px solid var(--color-gold);
   background: #f8edce;
 }
 
+.calendar-highlight-group--fall::after {
+  width: 40%;
+  height: 40%;
+  background-image: url("../images/backgrounds/fall-seasonal-topper.png");
+}
+
+.calendar-highlight-group--winter h3 {
+  border-left: 4px solid var(--color-focus);
+  background: #e3e6ee;
+}
+
 .calendar-highlight-group--winter::after {
-  width: 288.1px;
-  height: 288.1px;
-  background-image: url("../images/decorations/seasonal/plum-blossom-right-large.png");
-  transform: rotate(-55.2deg);
+  width: 50%;
+  height: 40%;
+  background-image: url("../images/backgrounds/winter-plum-topper.png");
+  transform: rotate(55.2deg);
 }
 
 .calendar-highlight-group--spring h3 {
@@ -2936,10 +2935,10 @@ button {
 }
 
 .calendar-highlight-group--spring::after {
-  width: 358px;
-  height: 358px;
-  background-image: url("../images/decorations/seasonal/sakura-blossom-right-large.png");
-  transform: rotate(-19.2deg);
+  width: 50%;
+  height: 40%;
+  background-image: url("../images/backgrounds/spring-sakura-topper.png");
+  transform: rotate(19.2deg);
 }
 
 .calendar-highlight-row {
