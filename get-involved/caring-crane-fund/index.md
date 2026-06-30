@@ -6,7 +6,7 @@ section: Get Involved
 section_url: /get-involved/
 hero_label: Confidential, community-based support
 summary: Confidential, need-based support for students and families in the Yujin Gakuen community.
-hero_image: /assets/images/caring-crane-fund-banner.png
+hero_image: /assets/images/caring-crane/caring-crane-hero-banner.png
 hero_body:
   - The Caring Crane Fund is a charitable fund created by the YG PTO to provide confidential, need-based support to students and families in our Yujin Gakuen community. 100% of donations to the Caring Crane Fund stay within our school community and are used only for this purpose. The Caring Crane Fund is maintained separately from the PTO's operating budget.
   - Thank you for helping our community care for one another with dignity, privacy, and real practical support.
@@ -35,16 +35,15 @@ status: published
     <p>Caring Crane Fund assistance is intended to reduce stress and support basic needs.</p>
   </div>
   <ul class="support-examples">
-    <li><span class="support-examples__icon support-examples__icon--green" aria-hidden="true">{% include action-icon.html icon="basket" %}</span><strong>Grocery or gas cards</strong></li>
-    <li><span class="support-examples__icon support-examples__icon--terra" aria-hidden="true">{% include action-icon.html icon="bag" %}</span><strong>Help obtaining essential items</strong></li>
-    <li><span class="support-examples__icon support-examples__icon--gold" aria-hidden="true">{% include action-icon.html icon="hands-heart" %}</span><strong>Other needed support as determined by YG administration</strong></li>
+    <li><span class="support-examples__icon support-examples__icon--hanacon support-examples__icon--green" aria-hidden="true"><img class="support-examples__hanacon" src="{{ '/assets/images/hanacons/new/green/groceries-green184.png' | relative_url }}" alt="" loading="lazy"></span><strong>Grocery or gas cards</strong></li>
+    <li><span class="support-examples__icon support-examples__icon--hanacon support-examples__icon--terra" aria-hidden="true"><img class="support-examples__hanacon support-examples__hanacon--bags" src="{{ '/assets/images/hanacons/new/red/shopping-bags-red184.png' | relative_url }}" alt="" loading="lazy"></span><strong>Help obtaining essential items</strong></li>
+    <li><span class="support-examples__icon support-examples__icon--hanacon support-examples__icon--gold" aria-hidden="true"><img class="support-examples__hanacon" src="{{ '/assets/images/hanacons/new/gold/charity-hands-gold184.png' | relative_url }}" alt="" loading="lazy"></span><strong>Other needed support as determined by YG administration</strong></li>
   </ul>
 </section>
 
 <section class="privacy-panel" aria-labelledby="privacy-title">
   <div class="privacy-panel__art" aria-hidden="true">
-    <span class="privacy-panel__shield">{% include action-icon.html icon="lock" %}</span>
-    <img src="{{ '/assets/images/yg-pto-crane-sun-logo.png' | relative_url }}" alt="">
+    <img class="privacy-panel__security" src="{{ '/assets/images/caring-crane/crane-security-background.png' | relative_url }}" alt="">
   </div>
   <div>
     <h2 id="privacy-title">How do we maintain privacy?</h2>
@@ -70,7 +69,9 @@ status: published
 </section>
 
 <section class="crane-donate" aria-labelledby="crane-donate-title">
-  <div class="crane-donate__mark" aria-hidden="true">{% include action-icon.html icon="hands-heart" %}</div>
+  <div class="crane-donate__mark" aria-hidden="true">
+    <img src="{{ '/assets/images/hanacons/new/green/charity-hands-red-heart-green184.png' | relative_url }}" alt="" loading="lazy">
+  </div>
   <div>
     <p class="eyebrow">Keep support available</p>
     <h2 id="crane-donate-title">Donations are always appreciated</h2>

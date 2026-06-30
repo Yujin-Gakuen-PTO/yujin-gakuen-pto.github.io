@@ -11,13 +11,11 @@
       <path d="M3.5 19c.7-3 2.6-5 5.5-5s4.8 2 5.5 5"></path>
       <path d="M13.5 18.5c.5-2.2 1.8-3.6 3.8-3.6 1.9 0 3.2 1.4 3.7 3.6"></path>
     {% when "volunteer" %}
-      <path d="M7 12.5 12 18l5-5.5a3.1 3.1 0 0 0-4.5-4.2L12 8.8l-.5-.5A3.1 3.1 0 0 0 7 12.5Z"></path>
-      <path d="M4 19h16"></path>
-    {% when "calendar" or "meeting" %}
-      <rect x="4" y="5" width="16" height="15" rx="2"></rect>
-      <path d="M8 3v4"></path>
-      <path d="M16 3v4"></path>
-      <path d="M4 10h16"></path>
+      <path d="M12 20 5.5 13.7a4.2 4.2 0 0 1 6-5.9L12 8.3l.5-.5a4.2 4.2 0 0 1 6 5.9L12 20Z"></path>
+    {% when "calendar" %}
+      <path d="M7 3v3M17 3v3M4 9h16M8 13h3M13 13h3M8 17h3M6 5h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2Z"></path>
+    {% when "meeting" %}
+      <path d="M7 3v3M17 3v3M4 9h16M6 5h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2Z"></path>
     {% when "report" or "decisions" %}
       <path d="M8 4h8l1 2h2v15H5V6h2l1-2Z"></path>
       <path d="M9 11h6"></path>
@@ -69,6 +67,14 @@
     {% when "apple" %}
       <path d="M12 7c3.8-2 7 1 6 5.5C17.2 16.2 15 20 12 20s-5.2-3.8-6-7.5C5 8 8.2 5 12 7Z"></path>
       <path d="M12 7c.2-2 1.2-3.2 3-3.8"></path>
+    {% when "map" %}
+      <path d="M4 6.5 9.5 4l5 2.2L20 4v13.5L14.5 20l-5-2.2L4 20V6.5Z"></path>
+      <path d="M9.5 4v13.8"></path>
+      <path d="M14.5 6.2V20"></path>
+      <circle cx="12" cy="11" r="2"></circle>
+    {% when "location" %}
+      <path d="M12 21s6-5.2 6-11a6 6 0 0 0-12 0c0 5.8 6 11 6 11Z"></path>
+      <circle cx="12" cy="10" r="2.2"></circle>
     {% when "playground" %}
       <path d="M4 19h16"></path>
       <path d="M7 19V9l5-4 5 4v10"></path>

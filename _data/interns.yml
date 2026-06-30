@@ -8,12 +8,12 @@ cycles:
     length: 4-5 weeks
     timing: Starts around the middle of February
     accent: spring
-    decoration: /assets/images/decorations/sakura-branch.png
+    decoration: /assets/images/decorations/seasonal/sakura-blossom-bunch-large.png
   - title: 9-Month Intern
     length: School-year placement
     timing: One host family, or divided among 2-3 families
     accent: year
-    decoration: /assets/images/decorations/teru-teru-bozu.png
+    decoration: /assets/images/decorations/committees/heart-large.png
 
 application:
   label: Complete the host-family application

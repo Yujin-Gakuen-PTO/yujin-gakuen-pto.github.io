@@ -45,13 +45,13 @@ pending_items:
   </div>
 </section>
 
-{% include image-placeholder.html
-  purpose="Small Jikyuso visual: running, reading, or fundraising-campaign detail without identifiable student faces"
-  ratio="4:3"
-  filename="assets/images/jikyuso-campaign-detail-4x3.jpg"
-  dimensions="1200 x 900 px"
-  alt="Students' Jikyuso materials, running course detail, or reading challenge items"
-  compact=true
+{% include decor-image-card.html
+  src="/assets/images/decorations/playground.png"
+  alt=""
+  label="Challenge options"
+  title="Move, read, or pledge"
+  text="The next schedule and pledge link will be added when school staff confirm them."
+  tone="gold"
 %}
 
 ## Volunteering {#volunteering}

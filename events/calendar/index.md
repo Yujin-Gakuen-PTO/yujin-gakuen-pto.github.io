@@ -29,7 +29,6 @@ wide_content: true
         <p class="eyebrow">Next dates</p>
         <h2 id="coming-up-title">Coming Up Soon</h2>
       </div>
-      <span class="calendar-panel-heading__art">{% include calendar-icon.html icon="calendar" %}</span>
     </div>
     <div class="calendar-feature-grid">
       {% for item in site.data.calendar.featured %}

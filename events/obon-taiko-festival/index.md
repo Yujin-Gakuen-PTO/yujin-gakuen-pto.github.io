@@ -22,12 +22,13 @@ hero_actions:
 wide_content: true
 ---
 
-{% include image-placeholder.html
-  purpose="Obon and Taiko visual: festival atmosphere, lanterns, taiko, or children's-section setup"
-  ratio="16:9"
-  filename="assets/images/obon-taiko-festival-atmosphere-16x9.jpg"
-  dimensions="1600 x 900 px"
-  alt="Obon and Taiko Festival atmosphere or children's-section setup"
+{% include decor-image-card.html
+  src="/assets/images/decorations/taiko-drum.png"
+  alt=""
+  label="Festival support"
+  title="YG helps with the children's section"
+  text="Volunteer shifts support family activities during the JAA Obon and Taiko Festival."
+  tone="terra"
 %}
 
 ## What this event is

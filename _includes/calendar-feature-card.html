@@ -1,9 +1,14 @@
 {% assign event = site.data.events | where: "id", include.item.event_id | first %}
 {% if event %}
-  <article class="calendar-feature-card calendar-feature-card--{{ include.item.tone }}">
+  <article class="calendar-feature-card calendar-feature-card--{{ include.item.tone }}{% if include.item.decoration %} calendar-feature-card--has-decor{% endif %}{% if include.item.accent_decoration %} calendar-feature-card--has-accent{% endif %}">
+    {% if include.item.accent_decoration %}
+      <img class="calendar-feature-card__accent" src="{{ include.item.accent_decoration | relative_url }}" alt="" loading="lazy">
+    {% endif %}
     <div class="calendar-feature-card__icon{% if include.item.decoration %} calendar-feature-card__icon--decor{% endif %}">
       {% if include.item.decoration %}
         <img class="calendar-feature-card__decor" src="{{ include.item.decoration | relative_url }}" alt="" loading="lazy">
+      {% elsif include.item.icon_image %}
+        <img class="site-icon-image" src="{{ include.item.icon_image | relative_url }}" alt="" loading="lazy">
       {% else %}
         {% include calendar-icon.html icon=include.item.icon %}
       {% endif %}

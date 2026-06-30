@@ -82,8 +82,8 @@ status: published
   }
 
   .donation-icon svg {
-    width: var(--icon-art-ratio);
-    height: var(--icon-art-ratio);
+    width: 54%;
+    height: 54%;
     fill: none;
     stroke: currentColor;
     stroke-width: 1.6;
@@ -92,8 +92,8 @@ status: published
   }
 
   .donation-icon .site-icon-image {
-    width: var(--icon-image-ratio);
-    height: var(--icon-image-ratio);
+    width: 56%;
+    height: 56%;
   }
 
   .donation-impact__item h3 {
@@ -184,8 +184,8 @@ status: published
   }
 
   .donation-destination .donation-icon svg {
-    width: var(--icon-art-ratio);
-    height: var(--icon-art-ratio);
+    width: 54%;
+    height: 54%;
   }
 
   .donation-embed {

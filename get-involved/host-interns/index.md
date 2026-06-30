@@ -7,12 +7,7 @@ section_url: /get-involved/
 hero_label: Get Involved
 summary: Learn what is involved in hosting a Yujin Gakuen classroom intern.
 wide_content: true
-status: partial
-pending_title: Hosting details are still being confirmed
-pending_intro: "Program coordinators will follow up with current requirements. This page still needs:"
-pending_items:
-  - A clear list of what host families provide
-  - Matching steps and current school or district requirements
+status: published
 ---
 
 PTO support helps Yujin Gakuen welcome classroom interns from Japan during the school year. Host families make those programs possible and give interns a closer connection to daily life in the YG community.
@@ -32,20 +27,21 @@ PTO support helps Yujin Gakuen welcome classroom interns from Japan during the s
   <div class="intern-program__cards">
     {% for cycle in site.data.interns.cycles %}
       <article class="intern-cycle intern-cycle--{{ cycle.accent }}">
-        <span class="intern-cycle__mark" aria-hidden="true"></span>
         <h3>{{ cycle.title }}</h3>
         <strong>{{ cycle.length }}</strong>
         <p>{{ cycle.timing }}</p>
+        {% if cycle.decoration %}
+          <img class="intern-cycle__decor" src="{{ cycle.decoration | relative_url }}" alt="" loading="lazy">
+        {% endif %}
       </article>
     {% endfor %}
   </div>
 </section>
 
 <section class="intern-apply">
-  <div class="intern-apply__icon" aria-hidden="true">↗</div>
   <div>
     <h2>How to apply</h2>
-    <p>Complete the Google Form application to get started. Sending the form starts the conversation; it does not invent a placement or skip the coordinator follow-up.</p>
+    <p>Complete the Google Form application to get started. The intern coordinator will follow up about fit, timing, and next steps.</p>
     <a class="button button--primary" href="{{ site.data.links.intern_application.url }}">Open the host-family application</a>
   </div>
 </section>

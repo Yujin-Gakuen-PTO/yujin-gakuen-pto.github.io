@@ -8,6 +8,7 @@ featured:
     icon: calendar
     tone: gold
   - event_id: first-pto-meeting-2026
+    decoration: /assets/images/decorations/seasonal/autumn-bunny-large.png
     icon: meeting
     tone: green
 

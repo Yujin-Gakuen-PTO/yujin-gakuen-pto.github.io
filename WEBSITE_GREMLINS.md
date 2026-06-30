@@ -18,7 +18,7 @@ This is a practical review inventory for layout, content, links, images, and lau
 | Page or component | Type | Description | Owner | Severity | Blocks Comms review? | Blocks public launch? |
 | --- | --- | --- | --- | --- | --- | --- |
 | Staff Hub | REVIEW | Staff Hub now uses the supplied checklist icon as a reference visual. Review later if a real non-identifying staff/PTO photo becomes available. | Hannah / Comms | minor | no | no |
-| Caring Crane Fund | REVIEW | Hero and body now use the available crane artwork and guide-inspired structure. In a later visual pass, test the security card as a full background image with the text on the right half. | Hannah / Comms | minor | no | no |
+| Caring Crane Fund | REVIEW | Hero and body now use the available crane artwork and guide-inspired structure. The security card uses the crane security image as a background with text on the right; review on real devices before launch. | Hannah / Comms | minor | no | no |
 | Obon & Taiko Festival | REVIEW | Obon now uses supplied Taiko art as a visual anchor. Review later if a final festival photo or poster becomes available. | Hannah / Event committee | minor | no | no |
 | Jikyuso | REVIEW | Jikyuso now uses supplied playground art as a temporary visual anchor. Review after school confirms the next event materials. | Staff / Hannah | minor | no | no |
 | Teacher & Staff Appreciation | REVIEW | Appreciation now uses the supplied apple decoration as a visual anchor. Review once appreciation plans and requested contributions are confirmed. | Hannah / Comms | minor | no | no |
@@ -27,14 +27,14 @@ This is a practical review inventory for layout, content, links, images, and lau
 | Shared icons | REVIEW | Pass 2 compared local icons against the live GitHub Pages reference and restored shared icon container sizing to the live-reference scale. `_data/icon_overrides.yml` is now an empty testing hook for future one-at-a-time Hanacon trials. | Hannah / Comms | minor | no | no |
 | Targeted Hanacons | REVIEW | Caring Crane support examples, the UO Games calendar panel, and the School Choice calendar row now use targeted Hanacons where they read better than generic SVG icons. Caring Crane uses larger in-circle Hanacons matched to each card tone. Review in browser before expanding this pattern elsewhere. | Hannah / Comms | minor | no | no |
 | Image asset cleanup | REVIEW | Decoration, background, hero, logo, Caring Crane, and Hanacon assets now have clearer folder groups. Archived source uploads and zip exports should be reviewed before any deletion from GitHub. | Hannah / Comms | minor | no | no |
-| Calendar | REVIEW | Calendar still needs a later visual QA pass for overlap, decoration scaling, UO icon choice, and seasonal highlight art. See `_internal/image-replacement-map.md`. | Hannah / Comms | moderate | no | no |
+| Calendar | REVIEW | Pass 4 fixed the obvious decoration/text overlap, widened reserved icon space, clarified the Emerald Park meetup address, and updated seasonal highlight art. Review the fall decoration choice and final mobile spacing in browser before launch. | Hannah / Comms | minor | no | no |
 
 ## Page-Specific Content
 
 | Page or component | Type | Description | Owner | Severity | Blocks Comms review? | Blocks public launch? |
 | --- | --- | --- | --- | --- | --- | --- |
 | Host Interns | CONTENT SOURCE NEEDED | Placement dates, matching steps, host-family expectations, deadlines, and current requirements still need confirmation. | Intern coordinator / Hannah | moderate | no | no |
-| Host Interns | REVIEW | Keep fall bunny. Test `sakura-blossom-bunch-large` for spring and `heart-large` for the year-round card in a future art pass. | Hannah | minor | no | no |
+| Host Interns | REVIEW | Fall bunny, spring sakura bunch, and year-round heart decorations are in place. Review later only if a stronger intern-specific visual set becomes available. | Hannah | minor | no | no |
 | Oshogatsu | CONTENT SOURCE NEEDED | Final schedule, activities, visiting organizations, mission links, family instructions, accessibility notes, and signup/contribution links are still needed. | Oshogatsu committee / Hannah | moderate | yes | yes |
 | Oshogatsu | REVIEW | Extra art candidates are now organized for later testing, including horse, daruma-horse, oshogatsu-decoration, and larger seasonal accents. See `_internal/image-replacement-map.md`. | Hannah / Comms | minor | no | no |
 | Kodomo no Hi | CONTENT SOURCE NEEDED | Final activities, family instructions, accessibility notes, signup links, contribution links, and public event contact are still needed. | Kodomo no Hi committee / Hannah | moderate | yes | yes |
