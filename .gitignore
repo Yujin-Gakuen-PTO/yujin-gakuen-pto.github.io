@@ -152,3 +152,6 @@ Gemfile.lock
 # Local editor notes and internal planning files
 _internal/
 docs/internal/
+
+# Local source uploads kept for reference after web-safe copies are made
+assets/images/source-uploads/
