@@ -31,14 +31,6 @@ hero_actions:
 hero_callout:
   title: School Choice Presentation and Tour
   text: 5:00-5:30 PM before the festival.
-status: partial
-pending_title: Final 2027 festival details are still being confirmed
-pending_intro: "The date, location, and planned grade performances are available. The event team still needs to publish:"
-pending_items:
-  - Final performance times and locations
-  - Confirmed activities and visiting organizations
-  - Accessibility information and family instructions
-  - Volunteer roles, signup link, and contribution requests
 ---
 
 <section class="festival-fact-strip" aria-label="Oshogatsu event notes">
@@ -64,15 +56,13 @@ pending_items:
   </div>
 </section>
 
-<div class="festival-overview-grid">
+<div class="festival-overview-grid festival-overview-grid--oshogatsu">
   <section class="festival-story" aria-labelledby="oshogatsu-about-title">
-    <p class="eyebrow">About the festival</p>
     <h2 id="oshogatsu-about-title">About Oshogatsu</h2>
     <p>Oshogatsu is Yujin Gakuen's annual Japanese New Year celebration. It is a time for YG families, students, staff, and friends to come together, honor traditions, and enjoy student performances and community activities.</p>
   </section>
 
   <section class="festival-expect" aria-labelledby="oshogatsu-expect-title">
-    <p class="eyebrow">What to expect</p>
     <h2 id="oshogatsu-expect-title">What to expect</h2>
     <div class="festival-expect__grid">
       <span><img src="{{ '/assets/images/decorations/torii-gate.png' | relative_url }}" alt="" loading="lazy"><strong>Cultural traditions</strong></span>
@@ -86,66 +76,109 @@ pending_items:
 
 <section class="festival-help" aria-labelledby="oshogatsu-help-title">
   <div class="festival-help__intro">
-    <p class="eyebrow">Ways to help</p>
-    <h2 id="oshogatsu-help-title">Help plan Oshogatsu</h2>
-    <p>The committee will be introduced at the first PTO meeting on September 17, 2026. Families may ask about planning roles now.</p>
+    <div>
+      <h2 id="oshogatsu-help-title">Ways to Help</h2>
+      <p>Many hands make this celebration possible. Planning roles are available through the Oshogatsu Committee.</p>
+    </div>
+    <div class="button-row">
+      <a class="button button--primary" href="{{ '/get-involved/committees/' | relative_url }}">Join the Oshogatsu Committee</a>
+      <!-- Future swap: replace the committee link above with a confirmed event-day volunteer signup link when the committee publishes shifts. -->
+    </div>
   </div>
-  <div class="festival-help__roles">
-    <span><strong>Site logistics</strong><small>Setup, takedown, safety, and flow</small></span>
-    <span><strong>Activities and crafts</strong><small>Lead crafts and kids' activities</small></span>
-    <span><strong>Communications</strong><small>Promote the event and create materials</small></span>
-    <span><strong>Food and vendors</strong><small>Support food service and vendor areas</small></span>
-    <span><strong>Cultural traditions</strong><small>Share and support traditional activities</small></span>
-    <span><strong>Volunteer team</strong><small>Recruit, check in, and support volunteers</small></span>
+  <div class="festival-help__main">
+    <div class="festival-help__roles">
+      <span><i aria-hidden="true">{% include action-icon.html icon="location" %}</i><strong>Site &amp; Logistics</strong><small>Setup, takedown, safety, and flow</small></span>
+      <span><i aria-hidden="true"><img src="{{ '/assets/images/decorations/origami-crane.png' | relative_url }}" alt="" loading="lazy"></i><strong>Activities and Crafts</strong><small>Plan game and activity stations</small></span>
+      <span><i aria-hidden="true">{% include action-icon.html icon="committee" %}</i><strong>Staff Liaison</strong><small>Staff member responsible for staff/committee coordination</small></span>
+      <span><i aria-hidden="true"><img src="{{ '/assets/images/decorations/onigiri-happy.png' | relative_url }}" alt="" loading="lazy"></i><strong>Food/Drink</strong><small>Support food service and drink areas</small></span>
+      <span><i aria-hidden="true">{% include action-icon.html icon="mail" %}</i><strong>Decorations &amp; Signage</strong><small>Create signs and event decorations</small></span>
+      <span><i aria-hidden="true"><img src="{{ '/assets/images/decorations/torii-gate.png' | relative_url }}" alt="" loading="lazy"></i><strong>Culture/Traditions</strong><small>Share and support traditional activities</small></span>
+    </div>
+    <aside class="festival-thanks">
+      <div>
+        <p>Every volunteer helps make Oshogatsu memorable. Thank you.</p>
+      </div>
+      <img src="{{ '/assets/images/event-art/Oshogastu/Year of the Horse/oshogatsu-horse.png' | relative_url }}" alt="" loading="lazy">
+    </aside>
   </div>
-  <aside class="festival-thanks">
-    <p>Every volunteer helps make Oshogatsu memorable. Thank you.</p>
-    <img src="{{ '/assets/images/decorations/kagami-mochi.png' | relative_url }}" alt="" loading="lazy">
-  </aside>
 </section>
 
-<div class="festival-plan-grid">
-  {% include event-schedule-card.html id="oshogatsu-schedule-title" badge="Evening at a glance" title="Oshogatsu schedule" text="Times and locations will be added when they are confirmed." items=page.performance_schedule note="Locations will be added when they are confirmed." %}
+<div class="festival-plan-grid festival-plan-grid--oshogatsu">
+  <section class="oshogatsu-evening" aria-labelledby="oshogatsu-schedule-title">
+    <div class="oshogatsu-evening__heading">
+      <h2 id="oshogatsu-schedule-title">Evening at a Glance</h2>
+    </div>
+    <ol class="oshogatsu-evening__timeline">
+      <li>
+        <span class="oshogatsu-evening__dot" aria-hidden="true">
+          {% include action-icon.html icon="school" %}
+        </span>
+        <time>5:00 - 5:30 PM</time>
+        <div>
+          <strong>School Choice Presentation &amp; Tour</strong>
+          <p>Learn about Yujin Gakuen and take a campus tour.</p>
+        </div>
+      </li>
+      <li>
+        <span class="oshogatsu-evening__dot" aria-hidden="true">
+          <img src="{{ '/assets/images/decorations/asian-lantern.png' | relative_url }}" alt="" loading="lazy">
+        </span>
+        <time>5:30 PM</time>
+        <div>
+          <strong>Festival opens</strong>
+          <p>Oshogatsu begins.</p>
+        </div>
+      </li>
+      <li>
+        <span class="oshogatsu-evening__dot" aria-hidden="true">
+          <img src="{{ '/assets/images/decorations/committees/uchiwa-festival-fan-large.png' | relative_url }}" alt="" loading="lazy">
+        </span>
+        <time>5:30 - 7:30 PM</time>
+        <div>
+          <strong>Activities, Community &amp; Celebration</strong>
+          <p>Student performances, traditions, crafts, food, and gathering. Performance times TBA.</p>
+        </div>
+      </li>
+      <li>
+        <span class="oshogatsu-evening__dot" aria-hidden="true">
+          <img src="{{ '/assets/images/decorations/1000-yen-cute.png' | relative_url }}" alt="" loading="lazy">
+        </span>
+        <time>Throughout the evening</time>
+        <div>
+          <strong>Fundraising table</strong>
+          <p>Support PTO programs and future events.</p>
+        </div>
+      </li>
+    </ol>
+  </section>
 
-  <section class="festival-visit" aria-labelledby="oshogatsu-visit-title">
-    <div>
-      <p class="eyebrow">Plan your visit</p>
+  <section class="festival-visit festival-visit--oshogatsu" aria-labelledby="oshogatsu-visit-title">
+    <div class="festival-visit__content">
       <h2 id="oshogatsu-visit-title">Plan your visit</h2>
-      <ul>
-        <li><strong>Dress for the season.</strong> This is a winter evening event.</li>
-        <li><strong>Outdoor comfort.</strong> Outdoor areas and food lines may be cold.</li>
-        <li><strong>Parking.</strong> Please leave close parking for accessibility needs and elders.</li>
+      <ul class="festival-visit__list">
+        <li><span aria-hidden="true">{% include action-icon.html icon="heart" %}</span><div><strong>Dress for the season</strong><p>It is a winter evening event. Pack an extra warm layer.</p></div></li>
+        <li><span aria-hidden="true">{% include action-icon.html icon="volunteer" %}</span><div><strong>Outdoor comfort</strong><p>Outdoor areas and food lines may be cold. Dress for ease and comfort.</p></div></li>
+        <li><span aria-hidden="true">{% include action-icon.html icon="location" %}</span><div><strong>Parking</strong><p>Leave close parking for accessibility needs and elders.</p></div></li>
+        <li><span aria-hidden="true">{% include action-icon.html icon="community" %}</span><div><strong>All are welcome</strong><p>This is a family-friendly event, welcoming friends and neighbors.</p></div></li>
       </ul>
     </div>
-    <img src="{{ '/assets/images/decorations/torii-gate.png' | relative_url }}" alt="" loading="lazy">
+    <div class="festival-visit__art" aria-hidden="true">
+      <img class="festival-visit__fan" src="{{ '/assets/images/decorations/committees/uchiwa-festival-fan-large.png' | relative_url }}" alt="" loading="lazy">
+      <img class="festival-visit__decor" src="{{ '/assets/images/event-art/Oshogastu/oshogatsu-decoration.png' | relative_url }}" alt="" loading="lazy">
+    </div>
   </section>
 </div>
-
-<section class="recruitment-hero">
-  <div>
-    <span class="badge badge--gold">Committee recruitment</span>
-    <h2>Help plan Oshogatsu</h2>
-    <p>The committee will be introduced at the first PTO meeting on September 17, 2026. Families may ask about planning roles now.</p>
-  </div>
-  <a class="button button--primary" href="mailto:info@yujingakuenpto.com?subject=Oshogatsu%20Committee%20interest">Ask about a committee role</a>
-</section>
-
-## Activities and community partners
-
-Past celebrations have included yukata, taiko, origami, calligraphy, traditional games, and food demonstrations. These are examples from previous years, not a confirmed 2027 activity list.
-
-Confirmed visiting organizations will be listed with a brief description of their work once participation is finalized.
-
-## Volunteer and contribution opportunities
-
-Planning roles are available through the Oshogatsu Committee. Event-day shifts and requested contributions will be posted separately after the committee confirms what is needed.
 
 {% include parking-notice.html %}
 
 <section class="festival-bottom-cta">
-  <p><strong>Let’s celebrate the new year together.</strong> Attend with your family, invite a friend, and consider helping make this event possible.</p>
-  <div class="button-row">
-    <a class="button button--primary" href="mailto:info@yujingakuenpto.com?subject=Oshogatsu%20Committee%20interest">Ask about planning</a>
-    <a class="button button--secondary" href="{{ '/events/calendar/' | relative_url }}">See full calendar</a>
+  <img class="festival-bottom-cta__plum" src="{{ '/assets/images/decorations/seasonal/plum-blossom-left-large.png' | relative_url }}" alt="" loading="lazy">
+  <div class="festival-bottom-cta__content">
+    <img class="festival-bottom-cta__heart" src="{{ '/assets/images/decorations/committees/heart-large.png' | relative_url }}" alt="" loading="lazy">
+    <p><strong>Let’s celebrate the new year together.</strong> Attend with your family, invite a friend, and consider helping make this event possible.</p>
+    <div class="button-row">
+      <a class="button button--primary" href="mailto:info@yujingakuenpto.com?subject=Oshogatsu%20Committee%20interest"><span aria-hidden="true">{% include action-icon.html icon="heart" %}</span>Ask about planning</a>
+      <a class="button button--secondary" href="{{ '/events/calendar/' | relative_url }}">See full calendar</a>
+    </div>
   </div>
 </section>

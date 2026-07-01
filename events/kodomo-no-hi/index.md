@@ -28,14 +28,6 @@ hero_actions:
     url: "mailto:info@yujingakuenpto.com?subject=Kodomo%20no%20Hi%20Committee%20interest"
   - label: Details
     url: "#kodomo-schedule-title"
-status: partial
-pending_title: Final 2027 festival details are still being confirmed
-pending_intro: "The date, location, and planned grade performances are available. The event team still needs to publish:"
-pending_items:
-  - Final performance times and locations
-  - Confirmed activities and family instructions
-  - Accessibility information
-  - Volunteer roles, signup link, and contribution requests
 ---
 
 <section class="festival-fact-strip festival-fact-strip--kodomo" aria-label="Kodomo no Hi event notes">
@@ -61,21 +53,13 @@ pending_items:
   </div>
 </section>
 
-<div class="kodomo-accent-row" aria-hidden="true">
-  <img src="{{ '/assets/images/event-art/kodomo-no-hi-koi-01.png' | relative_url }}" alt="">
-  <img src="{{ '/assets/images/event-art/kodomo-no-hi-koi-02.png' | relative_url }}" alt="">
-  <img src="{{ '/assets/images/event-art/kodomo-no-hi-koi-03.png' | relative_url }}" alt="">
-</div>
-
-<div class="festival-overview-grid">
+<div class="festival-overview-grid festival-overview-grid--kodomo">
   <section class="festival-story" aria-labelledby="kodomo-about-title">
-    <p class="eyebrow">About the festival</p>
     <h2 id="kodomo-about-title">About Kodomo no Hi</h2>
     <p>Kodomo no Hi honors children's health, growth, and happiness. At Yujin Gakuen, the celebration centers students, performances, and family cultural activities.</p>
   </section>
 
   <section class="festival-expect" aria-labelledby="kodomo-expect-title">
-    <p class="eyebrow">What to expect</p>
     <h2 id="kodomo-expect-title">What to expect</h2>
     <div class="festival-expect__grid">
       <span><img src="{{ '/assets/images/decorations/kodomo-fish-priority.png' | relative_url }}" alt="" loading="lazy"><strong>Koinobori</strong></span>
@@ -89,47 +73,109 @@ pending_items:
 
 <section class="festival-help" aria-labelledby="kodomo-help-title">
   <div class="festival-help__intro">
-    <p class="eyebrow">Ways to help</p>
-    <h2 id="kodomo-help-title">Help with the celebration</h2>
-    <p>Committee planning and event-day volunteer opportunities will be listed separately as soon as the event team confirms roles, shifts, and requested contributions.</p>
+    <div>
+      <h2 id="kodomo-help-title">Ways to Help</h2>
+      <p>Committee planning and event-day volunteer opportunities will be listed separately as soon as the event team confirms roles, shifts, and requested contributions.</p>
+    </div>
+    <div class="button-row">
+      <a class="button button--primary" href="{{ '/get-involved/committees/' | relative_url }}">Join the Kodomo no Hi Committee</a>
+      <!-- Future swap: replace the committee link above with a confirmed event-day volunteer signup link when the committee publishes shifts. -->
+    </div>
   </div>
-  <div class="festival-help__roles">
-    <span><strong>Site logistics</strong><small>Setup, takedown, safety, and flow</small></span>
-    <span><strong>Activities and crafts</strong><small>Support family activity stations</small></span>
-    <span><strong>Communications</strong><small>Share updates and event materials</small></span>
-    <span><strong>Performance support</strong><small>Help families find where to go</small></span>
-    <span><strong>Culture and traditions</strong><small>Support respectful celebration details</small></span>
-    <span><strong>Volunteer team</strong><small>Recruit, check in, and support volunteers</small></span>
+  <div class="festival-help__main">
+    <div class="festival-help__roles">
+      <span><i aria-hidden="true">{% include action-icon.html icon="location" %}</i><strong>Site logistics</strong><small>Setup, takedown, safety, and flow</small></span>
+      <span><i aria-hidden="true"><img src="{{ '/assets/images/decorations/origami-crane.png' | relative_url }}" alt="" loading="lazy"></i><strong>Activities and crafts</strong><small>Support family activity stations</small></span>
+      <span><i aria-hidden="true">{% include action-icon.html icon="mail" %}</i><strong>Communications</strong><small>Share updates and event materials</small></span>
+      <span><i aria-hidden="true">{% include action-icon.html icon="school" %}</i><strong>Performance support</strong><small>Help families find where to go</small></span>
+      <span><i aria-hidden="true"><img src="{{ '/assets/images/decorations/seasonal/kabuto-helmet-large.png' | relative_url }}" alt="" loading="lazy"></i><strong>Culture and traditions</strong><small>Support respectful celebration details</small></span>
+      <span><i aria-hidden="true">{% include action-icon.html icon="committee" %}</i><strong>Volunteer team</strong><small>Recruit, check in, and support volunteers</small></span>
+    </div>
+    <aside class="festival-thanks festival-thanks--kodomo">
+      <div>
+        <p>Every helper supports a calmer, happier celebration for students and families.</p>
+      </div>
+      <img src="{{ '/assets/images/decorations/kodomo-fish-priority.png' | relative_url }}" alt="" loading="lazy">
+    </aside>
   </div>
-  <aside class="festival-thanks festival-thanks--kodomo">
-    <p>Every helper supports a calmer, happier celebration for students and families.</p>
-    <img src="{{ '/assets/images/decorations/kodomo-fish-priority.png' | relative_url }}" alt="" loading="lazy">
-  </aside>
 </section>
 
-<div class="festival-plan-grid">
-  {% include event-schedule-card.html id="kodomo-schedule-title" badge="Evening at a glance" title="Kodomo no Hi schedule" text="Times and locations will be added when they are confirmed." items=page.performance_schedule note="Locations will be added when they are confirmed." %}
+<div class="festival-plan-grid festival-plan-grid--kodomo">
+  <section class="kodomo-evening" aria-labelledby="kodomo-schedule-title">
+    <div class="kodomo-evening__heading">
+      <h2 id="kodomo-schedule-title">Evening at a Glance</h2>
+    </div>
+    <ol class="kodomo-evening__timeline">
+      <li>
+        <span class="kodomo-evening__dot" aria-hidden="true">
+          {% include action-icon.html icon="school" %}
+        </span>
+        <time>5:00 PM</time>
+        <div>
+          <strong>Festival opens</strong>
+          <p>Kodomo no Hi begins.</p>
+        </div>
+      </li>
+      <li>
+        <span class="kodomo-evening__dot" aria-hidden="true">
+          <img src="{{ '/assets/images/decorations/kodomo-fish-priority.png' | relative_url }}" alt="" loading="lazy">
+        </span>
+        <time>Times TBA</time>
+        <div>
+          <strong>Student performances</strong>
+          <p>First-grade songs, third-grade taiko, and fourth-grade songs.</p>
+        </div>
+      </li>
+      <li>
+        <span class="kodomo-evening__dot" aria-hidden="true">
+          <img src="{{ '/assets/images/decorations/seasonal/kabuto-helmet-large.png' | relative_url }}" alt="" loading="lazy">
+        </span>
+        <time>5:00 - 7:00 PM</time>
+        <div>
+          <strong>Activities, Community &amp; Celebration</strong>
+          <p>Family cultural activities and gathering. Final activity details TBA.</p>
+        </div>
+      </li>
+      <li>
+        <span class="kodomo-evening__dot" aria-hidden="true">
+          <img src="{{ '/assets/images/decorations/1000-yen-cute.png' | relative_url }}" alt="" loading="lazy">
+        </span>
+        <time>Throughout the evening</time>
+        <div>
+          <strong>Contribution needs</strong>
+          <p>Requested contributions will be shared when confirmed.</p>
+        </div>
+      </li>
+    </ol>
+  </section>
 
-  <section class="festival-visit" aria-labelledby="kodomo-visit-title">
-    <div>
-      <p class="eyebrow">Plan your visit</p>
+  <section class="festival-visit festival-visit--kodomo" aria-labelledby="kodomo-visit-title">
+    <div class="festival-visit__content">
       <h2 id="kodomo-visit-title">Plan your visit</h2>
-      <ul>
-        <li><strong>Performance details.</strong> Final times and locations will be added when confirmed.</li>
-        <li><strong>Activities.</strong> The 2027 activity list is still being planned.</li>
-        <li><strong>Parking.</strong> Please leave close parking for accessibility needs and elders.</li>
+      <ul class="festival-visit__list">
+        <li><span aria-hidden="true">{% include action-icon.html icon="school" %}</span><div><strong>Performance details</strong><p>Final times and locations will be added when confirmed.</p></div></li>
+        <li><span aria-hidden="true">{% include action-icon.html icon="heart" %}</span><div><strong>Activities</strong><p>The 2027 activity list is still being planned.</p></div></li>
+        <li><span aria-hidden="true">{% include action-icon.html icon="location" %}</span><div><strong>Parking</strong><p>Leave close parking for accessibility needs and elders.</p></div></li>
+        <li><span aria-hidden="true">{% include action-icon.html icon="community" %}</span><div><strong>All are welcome</strong><p>This is a student-centered celebration for the YG community.</p></div></li>
       </ul>
     </div>
-    <img src="{{ '/assets/images/decorations/kodomo-fish-priority.png' | relative_url }}" alt="" loading="lazy">
+    <div class="festival-visit__art" aria-hidden="true">
+      <img class="festival-visit__fan" src="{{ '/assets/images/event-art/kodomo-no-hi-koi-02.png' | relative_url }}" alt="" loading="lazy">
+      <img class="festival-visit__decor" src="{{ '/assets/images/event-art/kodomo-no-hi-koi-03.png' | relative_url }}" alt="" loading="lazy">
+    </div>
   </section>
 </div>
 
 {% include parking-notice.html %}
 
 <section class="festival-bottom-cta festival-bottom-cta--kodomo">
-  <p><strong>Celebrate students together.</strong> Attend with your family and check back as committee roles, volunteer shifts, and family instructions are confirmed.</p>
-  <div class="button-row">
-    <a class="button button--primary" href="mailto:info@yujingakuenpto.com?subject=Kodomo%20no%20Hi%20Committee%20interest">Ask about planning</a>
-    <a class="button button--secondary" href="{{ '/events/calendar/' | relative_url }}">See full calendar</a>
+  <img class="festival-bottom-cta__plum" src="{{ '/assets/images/event-art/kodomo-no-hi-koi-01.png' | relative_url }}" alt="" loading="lazy">
+  <div class="festival-bottom-cta__content">
+    <img class="festival-bottom-cta__heart" src="{{ '/assets/images/decorations/kodomo-fish-priority.png' | relative_url }}" alt="" loading="lazy">
+    <p><strong>Celebrate students together.</strong> Attend with your family and check back as committee roles, volunteer shifts, and family instructions are confirmed.</p>
+    <div class="button-row">
+      <a class="button button--primary" href="mailto:info@yujingakuenpto.com?subject=Kodomo%20no%20Hi%20Committee%20interest"><span aria-hidden="true">{% include action-icon.html icon="heart" %}</span>Ask about planning</a>
+      <a class="button button--secondary" href="{{ '/events/calendar/' | relative_url }}">See full calendar</a>
+    </div>
   </div>
 </section>

@@ -3097,19 +3097,6 @@ button {
   font-size: 0.94rem;
 }
 
-.kodomo-accent-row {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.65rem;
-  align-items: center;
-  margin-top: -0.35rem;
-}
-
-.kodomo-accent-row img {
-  width: clamp(2.4rem, 7vw, 4rem);
-  filter: drop-shadow(0 3px 8px rgba(37, 48, 43, 0.12));
-}
-
 .simple-event-overview {
   display: grid;
   gap: 1rem;
@@ -3394,51 +3381,138 @@ button {
   line-height: 1.15;
 }
 
+:is(.festival-overview-grid--oshogatsu, .festival-overview-grid--kodomo) .festival-story,
+:is(.festival-overview-grid--oshogatsu, .festival-overview-grid--kodomo) .festival-expect {
+  padding: clamp(0.78rem, 1.7vw, 1rem);
+}
+
+:is(.festival-overview-grid--oshogatsu, .festival-overview-grid--kodomo) .festival-story p {
+  margin-top: 0.5rem;
+  line-height: 1.5;
+}
+
+:is(.festival-overview-grid--oshogatsu, .festival-overview-grid--kodomo) .festival-expect__grid {
+  grid-template-columns: repeat(auto-fit, minmax(88px, 1fr));
+  gap: 0.5rem;
+  margin-top: 0.55rem;
+}
+
+:is(.festival-overview-grid--oshogatsu, .festival-overview-grid--kodomo) .festival-expect__grid span {
+  gap: 0.28rem;
+  min-height: 6.1rem;
+  align-content: center;
+  padding: 0.58rem 0.45rem;
+}
+
+:is(.festival-overview-grid--oshogatsu, .festival-overview-grid--kodomo) .festival-expect__grid img,
+:is(.festival-overview-grid--oshogatsu, .festival-overview-grid--kodomo) .festival-expect__grid svg {
+  width: 2.55rem;
+  height: 2.55rem;
+}
+
 .festival-help {
   display: grid;
-  gap: 0.9rem;
+  gap: 1rem;
+  overflow: hidden;
   background:
-    linear-gradient(135deg, rgba(255, 255, 255, 0.94), rgba(255, 248, 237, 0.88)),
+    radial-gradient(circle at 94% 12%, rgba(216, 168, 70, 0.18) 0 0.38rem, transparent 0.42rem),
+    linear-gradient(135deg, rgba(255, 255, 255, 0.95), rgba(255, 248, 237, 0.88)),
     var(--color-surface);
 }
 
 .festival-help__intro {
-  max-width: 620px;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 1rem;
+  align-items: center;
+}
+
+.festival-help__intro p:not(.eyebrow) {
+  max-width: 640px;
+}
+
+.festival-help__intro .button-row {
+  justify-content: end;
+  margin: 0;
+}
+
+.festival-help__main {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(210px, 0.35fr);
+  gap: 1rem;
+  align-items: stretch;
 }
 
 .festival-help__roles {
   display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 0.65rem;
 }
 
 .festival-help__roles span {
   display: grid;
-  gap: 0.15rem;
+  grid-template-columns: 2.65rem minmax(0, 1fr);
+  gap: 0.12rem 0.6rem;
+  align-items: center;
   border: 1px solid var(--color-border-soft);
   border-radius: var(--radius-small);
   background: rgba(255, 255, 255, 0.86);
-  padding: 0.68rem 0.75rem;
+  padding: 0.62rem 0.7rem;
+}
+
+.festival-help__roles i {
+  display: grid;
+  grid-row: span 2;
+  width: 2.35rem;
+  height: 2.35rem;
+  place-items: center;
+  border-radius: 50%;
+  background: #eef3e7;
+  color: var(--color-primary);
+  font-style: normal;
+}
+
+.festival-help__roles i img,
+.festival-help__roles i svg {
+  width: 72%;
+  height: 72%;
+  object-fit: contain;
+}
+
+.festival-help__roles i svg {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.8;
 }
 
 .festival-help__roles strong {
   color: var(--color-primary-hover);
+  font-size: 0.92rem;
+  line-height: 1.12;
 }
 
 .festival-help__roles small {
   color: var(--color-muted);
-  line-height: 1.25;
+  font-size: 0.8rem;
+  line-height: 1.22;
 }
 
 .festival-thanks {
   display: grid;
-  gap: 0.5rem;
+  position: relative;
+  gap: 0.3rem;
   align-content: center;
   justify-items: center;
+  overflow: hidden;
+  min-height: 100%;
   border-radius: var(--radius);
   background:
-    radial-gradient(circle at 15% 92%, rgba(216, 168, 70, 0.16) 0 0.4rem, transparent 0.44rem),
+    url("../images/backgrounds/corner-circle-pattern.png") left bottom / 130px auto no-repeat,
+    linear-gradient(135deg, rgba(255, 248, 237, 0.9), rgba(238, 243, 231, 0.74)),
     var(--color-surface-soft);
-  padding: 0.9rem;
+  padding: 0.9rem 0.85rem 0.6rem;
   text-align: center;
 }
 
@@ -3446,10 +3520,20 @@ button {
   margin: 0;
   color: var(--color-primary-hover);
   font-weight: 700;
+  font-size: 0.92rem;
+  line-height: 1.25;
 }
 
 .festival-thanks img {
-  width: min(100%, 7rem);
+  width: min(100%, 10.5rem);
+  max-height: 8.6rem;
+  object-fit: contain;
+  object-position: center bottom;
+}
+
+.festival-thanks--kodomo img {
+  width: min(100%, 9.2rem);
+  max-height: 8rem;
 }
 
 .festival-visit {
@@ -3473,19 +3557,969 @@ button {
   width: min(100%, 8rem);
 }
 
+.festival-plan-grid--oshogatsu,
+.festival-plan-grid--kodomo {
+  align-items: stretch;
+}
+
+.oshogatsu-evening,
+.kodomo-evening {
+  display: grid;
+  gap: 0.78rem;
+  border: 1px solid rgba(49, 92, 69, 0.14);
+  border-radius: var(--radius);
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.96), rgba(255, 248, 237, 0.82)),
+    var(--color-surface);
+  box-shadow: var(--shadow-soft);
+  padding: clamp(0.78rem, 1.8vw, 1.05rem) clamp(1rem, 2.5vw, 1.4rem);
+}
+
+.oshogatsu-evening h2,
+.kodomo-evening h2 {
+  margin: 0;
+  color: var(--color-primary-hover);
+  font-family: var(--font-heading);
+  font-size: 1.45rem;
+  line-height: 1.14;
+}
+
+.oshogatsu-evening__timeline,
+.kodomo-evening__timeline {
+  display: grid;
+  gap: 0.28rem;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.oshogatsu-evening__timeline::before,
+.kodomo-evening__timeline::before {
+  position: absolute;
+  top: 1.2rem;
+  bottom: 1.2rem;
+  left: 1.08rem;
+  width: 2px;
+  border-radius: 999px;
+  background: var(--color-primary);
+  content: "";
+}
+
+.oshogatsu-evening__timeline li,
+.kodomo-evening__timeline li {
+  display: grid;
+  grid-template-columns: 2.2rem minmax(5.9rem, 0.38fr) minmax(0, 1fr);
+  gap: 0.7rem;
+  align-items: center;
+  min-height: 3.62rem;
+}
+
+.oshogatsu-evening__dot,
+.kodomo-evening__dot {
+  display: grid;
+  position: relative;
+  z-index: 1;
+  width: 2.2rem;
+  height: 2.2rem;
+  place-items: center;
+  border-radius: 50%;
+  background: var(--color-surface);
+}
+
+.oshogatsu-evening__dot::before,
+.kodomo-evening__dot::before {
+  position: absolute;
+  width: 0.48rem;
+  height: 0.48rem;
+  border-radius: 50%;
+  background: var(--color-primary);
+  content: "";
+}
+
+.oshogatsu-evening__dot img,
+.oshogatsu-evening__dot svg,
+.kodomo-evening__dot img,
+.kodomo-evening__dot svg {
+  position: relative;
+  z-index: 1;
+  width: 1.55rem;
+  height: 1.55rem;
+  object-fit: contain;
+  color: var(--color-primary);
+}
+
+.oshogatsu-evening__dot svg,
+.kodomo-evening__dot svg {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.8;
+}
+
+.oshogatsu-evening time,
+.kodomo-evening time {
+  color: var(--color-primary-hover);
+  font-weight: 800;
+  font-size: 0.86rem;
+  line-height: 1.22;
+}
+
+.oshogatsu-evening strong,
+.kodomo-evening strong {
+  color: var(--color-primary-hover);
+  font-size: 0.9rem;
+  line-height: 1.15;
+}
+
+.oshogatsu-evening p,
+.kodomo-evening p {
+  margin: 0.12rem 0 0;
+  color: var(--color-muted);
+  font-size: 0.78rem;
+  line-height: 1.25;
+}
+
+.festival-visit.festival-visit--oshogatsu,
+.festival-visit.festival-visit--kodomo {
+  position: relative;
+  grid-template-columns: minmax(0, 0.92fr) minmax(12rem, 0.62fr);
+  align-self: stretch;
+  align-items: start;
+  overflow: hidden;
+  padding-block: clamp(0.78rem, 1.8vw, 1.05rem);
+  background:
+    url("../images/backgrounds/bottom-circle-pattern.png") left bottom / 100% auto no-repeat,
+    radial-gradient(circle at 77% 63%, rgba(216, 168, 70, 0.18) 0 0.26rem, transparent 0.29rem),
+    radial-gradient(circle at 88% 42%, rgba(216, 168, 70, 0.24) 0 0.2rem, transparent 0.23rem),
+    linear-gradient(135deg, rgba(255, 255, 255, 0.94), rgba(255, 248, 237, 0.8)),
+    var(--color-surface);
+}
+
+.festival-visit--oshogatsu .festival-visit__content,
+.festival-visit--kodomo .festival-visit__content {
+  position: relative;
+  z-index: 1;
+  max-width: 26rem;
+}
+
+.festival-visit--oshogatsu .festival-visit__list,
+.festival-visit--kodomo .festival-visit__list {
+  display: grid;
+  gap: 0.28rem;
+  margin: 0.78rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.festival-visit--oshogatsu .festival-visit__list li,
+.festival-visit--kodomo .festival-visit__list li {
+  display: grid;
+  grid-template-columns: 2rem minmax(0, 1fr);
+  gap: 0.55rem;
+  align-items: center;
+  min-height: 3.62rem;
+}
+
+.festival-visit--oshogatsu .festival-visit__list span,
+.festival-visit--kodomo .festival-visit__list span {
+  display: grid;
+  width: 1.8rem;
+  height: 1.8rem;
+  place-items: center;
+  color: var(--color-primary);
+}
+
+.festival-visit--oshogatsu .festival-visit__list svg,
+.festival-visit--kodomo .festival-visit__list svg {
+  width: 1.42rem;
+  height: 1.42rem;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.8;
+}
+
+.festival-visit--oshogatsu .festival-visit__list strong,
+.festival-visit--kodomo .festival-visit__list strong {
+  display: block;
+  color: var(--color-primary-hover);
+  font-size: 0.88rem;
+  line-height: 1.15;
+}
+
+.festival-visit--oshogatsu .festival-visit__list p,
+.festival-visit--kodomo .festival-visit__list p {
+  margin: 0.1rem 0 0;
+  color: var(--color-muted);
+  font-size: 0.78rem;
+  line-height: 1.25;
+}
+
+.festival-visit--oshogatsu .festival-visit__art,
+.festival-visit--kodomo .festival-visit__art {
+  display: grid;
+  position: relative;
+  z-index: 1;
+  align-self: stretch;
+  justify-self: stretch;
+  min-height: 13.5rem;
+}
+
+.festival-visit--oshogatsu .festival-visit__decor,
+.festival-visit--kodomo .festival-visit__decor {
+  position: absolute;
+  right: 0.25rem;
+  bottom: -0.12rem;
+  align-self: end;
+  justify-self: end;
+  width: min(100%, 13.2rem);
+  height: auto;
+  max-height: 13.2rem;
+  object-fit: contain;
+  object-position: right bottom;
+}
+
+.festival-visit--oshogatsu .festival-visit__fan,
+.festival-visit--kodomo .festival-visit__fan {
+  position: absolute;
+  right: 8.4rem;
+  bottom: 0.1rem;
+  width: 5.6rem;
+  height: auto;
+  max-height: 5.6rem;
+  object-fit: contain;
+  transform: rotate(-8deg);
+}
+
+.festival-visit--kodomo .festival-visit__decor {
+  width: min(100%, 11.8rem);
+  max-height: 11.8rem;
+  transform: rotate(4deg);
+}
+
+.festival-visit--kodomo .festival-visit__fan {
+  right: 8rem;
+  width: 5.8rem;
+  max-height: 5.8rem;
+  transform: rotate(-11deg);
+}
+
+@media (max-width: 760px) {
+  .oshogatsu-evening__timeline li,
+  .kodomo-evening__timeline li {
+    grid-template-columns: 2.2rem minmax(0, 1fr);
+    gap: 0.35rem 0.65rem;
+    align-items: start;
+    padding: 0.2rem 0;
+  }
+
+  .oshogatsu-evening time,
+  .kodomo-evening time {
+    grid-column: 2;
+  }
+
+  .oshogatsu-evening__timeline li > div,
+  .kodomo-evening__timeline li > div {
+    grid-column: 2;
+  }
+
+  .festival-visit.festival-visit--oshogatsu,
+  .festival-visit.festival-visit--kodomo {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .festival-visit--oshogatsu .festival-visit__art,
+  .festival-visit--kodomo .festival-visit__art {
+    min-height: 8.8rem;
+  }
+
+  .festival-visit--oshogatsu .festival-visit__decor,
+  .festival-visit--kodomo .festival-visit__decor {
+    width: min(50vw, 9rem);
+  }
+
+  .festival-visit--oshogatsu .festival-visit__fan,
+  .festival-visit--kodomo .festival-visit__fan {
+    right: min(38vw, 7.2rem);
+    width: min(22vw, 4.2rem);
+  }
+}
+
 .festival-bottom-cta {
   display: grid;
-  gap: 0.8rem;
+  position: relative;
+  gap: 0;
   justify-items: center;
+  overflow: hidden;
   background:
-    url("../images/backgrounds/corner-circle-pattern.png") left bottom / 160px auto no-repeat,
-    linear-gradient(135deg, rgba(255, 248, 237, 0.96), rgba(238, 243, 231, 0.8));
+    linear-gradient(rgba(255, 248, 237, 0.1), rgba(255, 248, 237, 0.1)),
+    url("../images/backgrounds/kagami-mochi.png") center bottom / 100% auto no-repeat,
+    #fff8ed;
+  min-height: 8.2rem;
+  padding: clamp(1rem, 2.4vw, 1.35rem) clamp(1rem, 3vw, 1.8rem) clamp(1.05rem, 2.6vw, 1.45rem);
   text-align: center;
 }
 
-.festival-bottom-cta p {
+.festival-bottom-cta__content {
+  display: grid;
+  position: relative;
+  z-index: 1;
+  gap: 0.56rem;
+  justify-items: center;
   max-width: 720px;
+}
+
+.festival-bottom-cta__heart {
+  width: 1.35rem;
+  height: 1.35rem;
+  object-fit: contain;
+  margin-bottom: -0.15rem;
+}
+
+.festival-bottom-cta p {
   margin: 0;
+  color: var(--color-ink);
+  font-size: clamp(1rem, 1.7vw, 1.16rem);
+  line-height: 1.38;
+}
+
+.festival-bottom-cta p strong {
+  color: var(--color-primary-hover);
+}
+
+.festival-bottom-cta .button-row {
+  justify-content: center;
+  margin: 0;
+}
+
+.festival-bottom-cta .button--primary {
+  background: var(--color-accent);
+  border-color: var(--color-accent);
+  color: #fff;
+}
+
+.festival-bottom-cta .button--primary:hover,
+.festival-bottom-cta .button--primary:focus-visible {
+  background: #96382f;
+  border-color: #96382f;
+  color: #fff;
+}
+
+.festival-bottom-cta .button--primary span,
+.festival-bottom-cta .button--primary svg {
+  display: inline-grid;
+  width: 1rem;
+  height: 1rem;
+  place-items: center;
+}
+
+.festival-bottom-cta .button--primary svg {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 2;
+}
+
+.festival-bottom-cta__plum {
+  position: absolute;
+  bottom: 0.35rem;
+  left: 0.45rem;
+  z-index: 0;
+  width: clamp(6.8rem, 16vw, 11rem);
+  opacity: 0.92;
+  pointer-events: none;
+}
+
+.festival-bottom-cta--kodomo {
+  background:
+    linear-gradient(rgba(255, 248, 237, 0.14), rgba(255, 248, 237, 0.14)),
+    url("../images/backgrounds/kodomonohi.png") center bottom / 100% auto no-repeat,
+    #fff8ed;
+}
+
+.festival-bottom-cta--kodomo .festival-bottom-cta__plum {
+  bottom: 0.25rem;
+  left: 0.8rem;
+  width: clamp(5.8rem, 13vw, 9rem);
+  opacity: 0.88;
+  transform: rotate(-8deg);
+}
+
+.festival-bottom-cta--kodomo .festival-bottom-cta__heart {
+  width: 1.55rem;
+  height: 1.55rem;
+}
+
+@media (max-width: 640px) {
+  .festival-bottom-cta {
+    background:
+      linear-gradient(rgba(255, 248, 237, 0.2), rgba(255, 248, 237, 0.2)),
+      url("../images/backgrounds/kagami-mochi.png") center bottom / 150% auto no-repeat,
+      #fff8ed;
+    min-height: 0;
+    padding: 1rem 0.95rem 1.1rem;
+  }
+
+  .festival-bottom-cta__content {
+    gap: 0.62rem;
+  }
+
+  .festival-bottom-cta__plum {
+    width: 5.2rem;
+    opacity: 0.36;
+  }
+
+.festival-bottom-cta--kodomo {
+    background:
+      linear-gradient(rgba(255, 248, 237, 0.2), rgba(255, 248, 237, 0.2)),
+      url("../images/backgrounds/kodomonohi.png") center bottom / 150% auto no-repeat,
+      #fff8ed;
+  }
+}
+
+.jikyuso-intro {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(320px, 0.84fr);
+  gap: clamp(1.2rem, 4vw, 2.6rem);
+  align-items: center;
+}
+
+.jikyuso-intro__copy {
+  max-width: 650px;
+}
+
+.jikyuso-intro__copy h2,
+.jikyuso-triathlon h2,
+.jikyuso-info-card h2,
+.jikyuso-panel h2,
+.jikyuso-volunteer-band h2 {
+  margin: 0;
+  color: var(--color-primary-hover);
+  font-family: var(--font-heading);
+  line-height: 1.12;
+}
+
+.jikyuso-intro__copy h2 {
+  font-size: clamp(1.7rem, 3vw, 2.25rem);
+}
+
+.jikyuso-intro__copy p:not(.eyebrow) {
+  max-width: 54ch;
+  margin: 0.55rem 0 0;
+  color: var(--color-ink);
+  font-size: clamp(1rem, 1.5vw, 1.08rem);
+}
+
+.jikyuso-fact-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  border-block: 1px solid var(--color-border-soft);
+}
+
+.jikyuso-fact {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: 0.75rem;
+  align-items: center;
+  border-bottom: 1px solid var(--color-border-soft);
+  padding: 0.85rem clamp(0.8rem, 2vw, 1.05rem);
+}
+
+.jikyuso-fact:nth-last-child(-n + 2) {
+  border-bottom: 0;
+}
+
+.jikyuso-fact:nth-child(odd) {
+  border-right: 1px solid var(--color-border-soft);
+}
+
+.jikyuso-fact svg,
+.jikyuso-fact img {
+  width: 2.7rem;
+  height: 2.7rem;
+  object-fit: contain;
+}
+
+.jikyuso-fact svg {
+  border-radius: 50%;
+  background: rgba(238, 243, 231, 0.92);
+  color: var(--color-primary-hover);
+  padding: 0.62rem;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.8;
+}
+
+.jikyuso-fact span {
+  color: var(--color-primary-hover);
+  font-weight: 800;
+  line-height: 1.22;
+}
+
+.jikyuso-triathlon {
+  display: grid;
+  position: relative;
+  gap: clamp(0.7rem, 2vw, 1rem);
+  overflow: hidden;
+  border: 1px solid rgba(216, 168, 70, 0.36);
+  border-radius: var(--radius);
+  background:
+    linear-gradient(rgba(255, 248, 237, 0.54), rgba(255, 248, 237, 0.54)),
+    url("../images/backgrounds/jikyuso-track-swoosh.svg") center calc(100% - 0.55rem) / 106% auto no-repeat,
+    var(--color-surface);
+  padding: clamp(1rem, 2.4vw, 1.45rem) clamp(0.8rem, 2.4vw, 1.2rem) clamp(1.15rem, 3vw, 1.75rem);
+}
+
+.jikyuso-triathlon h2 {
+  justify-self: center;
+  text-align: center;
+  font-size: clamp(1.35rem, 2.4vw, 1.72rem);
+}
+
+.jikyuso-triathlon__track {
+  display: grid;
+  grid-template-columns: 1.08fr 0.82fr 1.08fr 0.9fr 1.08fr 0.9fr 1.02fr 0.86fr;
+  gap: clamp(0.55rem, 1.5vw, 0.9rem);
+  align-items: center;
+}
+
+.jikyuso-effort-card {
+  display: grid;
+  gap: 0.38rem;
+  min-width: 0;
+}
+
+.jikyuso-effort-card--image {
+  justify-items: center;
+}
+
+.jikyuso-effort-card--image img {
+  width: min(100%, 9.2rem);
+  max-height: 8.2rem;
+  object-fit: contain;
+  filter: drop-shadow(0 0.35rem 0.65rem rgba(42, 37, 30, 0.12));
+}
+
+.jikyuso-effort-card__label {
+  display: flex;
+  gap: 0.42rem;
+  align-items: center;
+  color: var(--color-primary-hover);
+}
+
+.jikyuso-effort-card__label svg {
+  width: 1.35rem;
+  height: 1.35rem;
+  flex: 0 0 auto;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.9;
+}
+
+.jikyuso-effort-card__label span {
+  display: inline-grid;
+  width: 1.35rem;
+  height: 1.35rem;
+  place-items: center;
+  color: var(--color-primary-hover);
+  font-weight: 900;
+}
+
+.jikyuso-effort-card p {
+  margin: 0;
+  color: var(--color-ink);
+  font-size: 0.94rem;
+  line-height: 1.45;
+}
+
+.jikyuso-support-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.9rem;
+}
+
+.jikyuso-info-card,
+.jikyuso-panel,
+.jikyuso-volunteer-band,
+.jikyuso-final-cta {
+  border: 1px solid var(--color-border-soft);
+  border-radius: var(--radius);
+  background: rgba(255, 255, 255, 0.76);
+  box-shadow: var(--shadow-soft);
+}
+
+.jikyuso-info-card {
+  display: grid;
+  gap: 0.7rem;
+  min-height: 100%;
+  padding: clamp(0.85rem, 2vw, 1rem);
+}
+
+.jikyuso-info-card > img,
+.jikyuso-info-card > svg {
+  width: clamp(3.2rem, 7vw, 4.6rem);
+  height: clamp(3.2rem, 7vw, 4.6rem);
+  object-fit: contain;
+}
+
+.jikyuso-info-card > svg {
+  border-radius: 50%;
+  background: rgba(255, 248, 237, 0.9);
+  color: var(--color-accent);
+  padding: 0.75rem;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.8;
+}
+
+.jikyuso-info-card h2 {
+  font-size: 1.18rem;
+}
+
+.jikyuso-info-card p {
+  margin: 0.4rem 0 0;
+  color: var(--color-ink);
+  font-size: 0.96rem;
+}
+
+.jikyuso-practical-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 1rem;
+}
+
+.jikyuso-panel {
+  display: grid;
+  position: relative;
+  gap: 0.9rem;
+  overflow: hidden;
+  padding: clamp(1rem, 2.4vw, 1.35rem);
+}
+
+.jikyuso-panel h2 {
+  text-align: center;
+  font-size: clamp(1.28rem, 2.2vw, 1.55rem);
+}
+
+.jikyuso-pledge-table {
+  display: grid;
+  border: 1px solid var(--color-border-soft);
+  border-radius: calc(var(--radius) - 2px);
+  background: rgba(255, 255, 255, 0.7);
+  overflow: hidden;
+}
+
+.jikyuso-pledge-table div {
+  display: grid;
+  grid-template-columns: 2.1rem minmax(9rem, 0.55fr) minmax(0, 1fr);
+  gap: 0.65rem;
+  align-items: center;
+  border-top: 1px solid var(--color-border-soft);
+  padding: 0.62rem 0.78rem;
+}
+
+.jikyuso-pledge-table div:first-child {
+  border-top: 0;
+}
+
+.jikyuso-pledge-table svg,
+.jikyuso-kanji-icon {
+  width: 1.55rem;
+  height: 1.55rem;
+  color: var(--color-primary-hover);
+}
+
+.jikyuso-pledge-table svg {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.9;
+}
+
+.jikyuso-kanji-icon {
+  display: inline-grid;
+  place-items: center;
+  border: 1px solid currentColor;
+  border-radius: 0.24rem;
+  font-weight: 900;
+  line-height: 1;
+}
+
+.jikyuso-pledge-table strong {
+  color: var(--color-ink);
+}
+
+.jikyuso-pledge-table span:last-child {
+  color: var(--color-muted);
+}
+
+.jikyuso-note {
+  margin: 0;
+  border-radius: calc(var(--radius) - 2px);
+  background: rgba(238, 243, 231, 0.72);
+  color: var(--color-primary-hover);
+  font-weight: 700;
+  padding: 0.72rem 0.85rem;
+  text-align: center;
+}
+
+.jikyuso-share-panel {
+  grid-template-columns: minmax(0, 1fr) minmax(8rem, 0.42fr);
+  align-items: center;
+}
+
+.jikyuso-share-panel__content {
+  display: grid;
+  gap: 0.9rem;
+  min-width: 0;
+}
+
+.jikyuso-share-list {
+  display: grid;
+  gap: 0;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.jikyuso-share-list li {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: 0.72rem;
+  align-items: start;
+  padding: 0.55rem 0;
+}
+
+.jikyuso-share-list svg {
+  width: 2.45rem;
+  height: 2.45rem;
+  border-radius: 50%;
+  background: rgba(238, 243, 231, 0.88);
+  color: var(--color-primary-hover);
+  padding: 0.58rem;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.8;
+}
+
+.jikyuso-share-list strong,
+.jikyuso-share-list span {
+  display: block;
+}
+
+.jikyuso-share-list strong {
+  color: var(--color-ink);
+}
+
+.jikyuso-share-list span {
+  color: var(--color-muted);
+  font-size: 0.94rem;
+  line-height: 1.42;
+}
+
+.jikyuso-share-panel__decor {
+  width: min(100%, 12rem);
+  align-self: end;
+  justify-self: end;
+  opacity: 0.88;
+}
+
+.jikyuso-volunteer-band {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) minmax(220px, 0.58fr) auto;
+  gap: clamp(0.85rem, 2.4vw, 1.25rem);
+  align-items: center;
+  overflow: hidden;
+  background:
+    radial-gradient(circle at 97% 72%, rgba(216, 168, 70, 0.16) 0 0.32rem, transparent 0.34rem),
+    linear-gradient(90deg, rgba(255, 248, 237, 0.95), rgba(248, 238, 224, 0.78));
+  padding: clamp(0.9rem, 2.4vw, 1.15rem);
+}
+
+.jikyuso-volunteer-band__art {
+  display: flex;
+  gap: 0.35rem;
+  align-items: center;
+}
+
+.jikyuso-volunteer-band__art img:first-child {
+  width: clamp(4.2rem, 9vw, 5.7rem);
+}
+
+.jikyuso-volunteer-band__art img:last-child {
+  width: clamp(3.2rem, 7vw, 4.6rem);
+  margin-left: -0.8rem;
+  margin-top: 1rem;
+}
+
+.jikyuso-volunteer-band h2 {
+  font-size: clamp(1.15rem, 2vw, 1.35rem);
+}
+
+.jikyuso-volunteer-band p {
+  margin: 0.35rem 0 0;
+  color: var(--color-ink);
+}
+
+.jikyuso-volunteer-band__action {
+  display: grid;
+  gap: 0.65rem;
+  align-content: center;
+  border-left: 1px solid rgba(216, 168, 70, 0.34);
+  padding-left: clamp(0.85rem, 2vw, 1.2rem);
+}
+
+.jikyuso-volunteer-band__action p {
+  font-weight: 700;
+}
+
+.jikyuso-volunteer-band__action .button {
+  justify-self: start;
+  cursor: default;
+}
+
+.jikyuso-volunteer-band__flag {
+  width: clamp(4.4rem, 8vw, 6rem);
+}
+
+.jikyuso-final-cta {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  gap: 1rem;
+  align-items: center;
+  overflow: hidden;
+  background:
+    linear-gradient(90deg, rgba(255, 239, 230, 0.94), rgba(255, 248, 237, 0.86)),
+    var(--color-surface);
+  padding: 0.85rem clamp(0.9rem, 2.4vw, 1.25rem);
+}
+
+.jikyuso-final-cta img {
+  width: clamp(3.3rem, 7vw, 4.8rem);
+  transform: scaleX(-1);
+}
+
+.jikyuso-final-cta p {
+  margin: 0;
+  color: var(--color-accent);
+  font-family: var(--font-heading);
+  font-size: clamp(1.1rem, 2vw, 1.35rem);
+  line-height: 1.18;
+  text-align: center;
+}
+
+.jikyuso-final-cta .button-row {
+  margin: 0;
+  justify-content: end;
+}
+
+.jikyuso-final-cta .button--primary {
+  background: var(--color-accent);
+  border-color: var(--color-accent);
+}
+
+@media (max-width: 980px) {
+  .jikyuso-intro,
+  .jikyuso-practical-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .jikyuso-triathlon__track {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .jikyuso-support-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .jikyuso-volunteer-band {
+    grid-template-columns: auto minmax(0, 1fr);
+  }
+
+  .jikyuso-volunteer-band__action {
+    grid-column: 1 / -1;
+    border-left: 0;
+    border-top: 1px solid rgba(216, 168, 70, 0.34);
+    padding: 0.8rem 0 0;
+  }
+
+  .jikyuso-volunteer-band__flag {
+    display: none;
+  }
+}
+
+@media (max-width: 640px) {
+  .jikyuso-fact-grid,
+  .jikyuso-support-grid,
+  .jikyuso-share-panel,
+  .jikyuso-final-cta {
+    grid-template-columns: 1fr;
+  }
+
+  .jikyuso-fact:nth-child(odd) {
+    border-right: 0;
+  }
+
+  .jikyuso-fact:nth-last-child(2) {
+    border-bottom: 1px solid var(--color-border-soft);
+  }
+
+  .jikyuso-triathlon {
+    background:
+      linear-gradient(rgba(255, 248, 237, 0.72), rgba(255, 248, 237, 0.72)),
+      url("../images/backgrounds/jikyuso-track-swoosh.svg") center bottom / 180% auto no-repeat,
+      var(--color-surface);
+  }
+
+  .jikyuso-triathlon__track {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .jikyuso-effort-card--image img {
+    max-height: 6.6rem;
+  }
+
+  .jikyuso-pledge-table div {
+    grid-template-columns: 1.8rem minmax(0, 1fr);
+  }
+
+  .jikyuso-pledge-table span:last-child {
+    grid-column: 2;
+  }
+
+  .jikyuso-share-panel__decor {
+    width: min(62vw, 10rem);
+  }
+
+  .jikyuso-volunteer-band {
+    grid-template-columns: 1fr;
+  }
+
+  .jikyuso-volunteer-band__art {
+    justify-content: center;
+  }
+
+  .jikyuso-final-cta {
+    justify-items: center;
+    text-align: center;
+  }
+
+  .jikyuso-final-cta .button-row {
+    justify-content: center;
+  }
 }
 
 .campaign-intro {
@@ -4405,6 +5439,10 @@ button {
     grid-template-columns: minmax(0, 1fr) minmax(240px, 0.68fr);
   }
 
+  .festival-help__roles {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
   .feature-hero__trust {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
@@ -4455,21 +5493,6 @@ button {
   .festival-plan-grid {
     grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr);
     align-items: start;
-  }
-
-  .festival-help {
-    grid-template-columns: minmax(0, 1fr) minmax(220px, 0.38fr);
-  }
-
-  .festival-help__intro,
-  .festival-help__roles {
-    grid-column: 1;
-  }
-
-  .festival-thanks {
-    grid-column: 2;
-    grid-row: 1 / span 2;
-    align-self: stretch;
   }
 
   .festival-visit {
@@ -4720,6 +5743,20 @@ button {
 
   .content-callout--decor .button {
     grid-column: 1 / -1;
+  }
+
+  .festival-help__intro,
+  .festival-help__main,
+  .festival-help__roles {
+    grid-template-columns: 1fr;
+  }
+
+  .festival-help__intro .button-row {
+    justify-content: start;
+  }
+
+  .festival-thanks {
+    min-height: 180px;
   }
 
   .content-callout__art,
