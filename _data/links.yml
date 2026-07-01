@@ -1,7 +1,7 @@
 join_form:
   label: Join the PTO
-  url: "https://forms.gle/KqZonJcfHbNkQBJn8"
-  description: YG families are not automatically added to PTO communications. Sign up in order to receive PTO emails, event information, and volunteer updates.
+  url: /get-involved/join/
+  description: YG families and staff are not automatically added to PTO communications. Join the PTO to receive emails, event information, and volunteer updates.
 
 contact:
   label: Contact PTO

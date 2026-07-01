@@ -28,6 +28,13 @@ PTO emails include meeting information, agendas, event updates, volunteer opport
 
 Joining does not obligate you to attend meetings, volunteer, serve on a committee, donate, or take on a leadership role. Those choices remain optional.
 
-<p><a class="button button--primary" href="{{ site.data.links.join_form.url }}">Join the PTO</a></p>
+<section class="mailchimp-signup-panel" aria-labelledby="membership-form-title">
+  <div class="mailchimp-signup-panel__intro">
+    <h2 id="membership-form-title">Join the PTO</h2>
+    <p>The current membership form takes about two to three minutes and should be completed once per adult.</p>
+  </div>
 
-<p class="small-note">The current membership form takes about two to three minutes and should be completed once per adult.</p>
+  {% include mailchimp-membership-form.html %}
+
+  <p class="mailchimp-signup-panel__fallback">Having trouble with the form? <a href="https://mailchi.mp/yujingakuenpto/ptomembership">Use the backup signup page.</a></p>
+</section>

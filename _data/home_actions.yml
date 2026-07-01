@@ -1,7 +1,6 @@
 - title: Join the PTO
   text: Sign up to receive PTO emails, event information, and volunteer updates.
-  url: "https://forms.gle/KqZonJcfHbNkQBJn8"
-  external: true
+  url: /get-involved/join/
   icon: join
   color: green
 
