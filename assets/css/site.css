@@ -2759,79 +2759,62 @@ button {
 
 .calendar-everyone-meetup {
   display: grid;
-  grid-template-columns: 66px minmax(0, 1fr);
-  gap: 1rem;
+  grid-template-columns: 64px minmax(0, 1fr);
+  gap: 1.05rem;
   align-items: center;
-  margin-top: 0.9rem;
-  border: 1px solid rgba(216, 168, 70, 0.45);
+  margin-top: 0.85rem;
+  border: 1px solid rgba(216, 168, 70, 0.5);
   border-radius: var(--radius);
-  background:
-    radial-gradient(circle at 96% 20%, rgba(216, 168, 70, 0.22) 0 0.45rem, transparent 0.48rem),
-    linear-gradient(135deg, rgba(255, 248, 237, 0.98), rgba(238, 243, 231, 0.82)),
-    var(--color-surface);
-  box-shadow: 0 0.55rem 1.25rem rgba(37, 48, 43, 0.08);
-  padding: 0.95rem;
+  background: rgba(255, 253, 248, 0.78);
+  box-shadow: none;
+  padding: 0.75rem 0.9rem;
 }
 
-.calendar-everyone-meetup__icon {
-  display: grid;
-  width: 62px;
-  height: 62px;
-  place-items: center;
-  border-radius: 50%;
-  border: 1px solid rgba(216, 168, 70, 0.38);
-  background: #fff7dc;
-  color: #7a4e2d;
-  padding: 0;
-  box-shadow: 0 0.45rem 0.9rem rgba(37, 48, 43, 0.1);
-}
-
-.calendar-everyone-meetup__decor {
-  width: 3.6rem;
-  height: 3.6rem;
+.calendar-everyone-meetup__tree {
+  width: 58px;
+  height: 58px;
   object-fit: contain;
-  filter: drop-shadow(0 0.3rem 0.6rem rgba(37, 48, 43, 0.12));
 }
 
-.calendar-everyone-meetup span,
+.calendar-everyone-meetup__content {
+  text-align: left;
+}
+
 .calendar-everyone-meetup strong {
   display: block;
 }
 
-.calendar-everyone-meetup span {
-  display: inline-flex;
-  width: fit-content;
-  align-items: center;
-  border: 1px solid rgba(49, 92, 69, 0.14);
-  border-radius: 999px;
-  background: rgba(255, 253, 248, 0.82);
-  color: var(--color-primary);
-  font-size: 0.76rem;
-  font-weight: 700;
-  padding: 0.18rem 0.48rem;
-  text-transform: uppercase;
-}
-
 .calendar-everyone-meetup strong {
-  margin-top: 0.35rem;
   color: var(--color-primary-hover);
   font-family: var(--font-heading);
-  font-size: 1.08rem;
+  font-size: 1.02rem;
   line-height: 1.16;
 }
 
 .calendar-everyone-meetup p {
-  margin: 0.15rem 0 0;
+  margin: 0.16rem 0 0;
 }
 
 .calendar-everyone-meetup__address {
   display: inline-flex;
   width: fit-content;
-  border-radius: 999px;
-  background: rgba(255, 253, 248, 0.7);
+  gap: 0.35rem;
+  align-items: center;
   color: var(--color-primary-hover);
   font-weight: 700;
-  padding: 0.14rem 0.45rem;
+}
+
+.calendar-everyone-meetup__address span {
+  display: inline-flex;
+  width: 1.15rem;
+  height: 1.15rem;
+  color: var(--color-muted);
+}
+
+.calendar-everyone-meetup__address svg {
+  width: 100%;
+  height: 100%;
+  stroke-width: 2;
 }
 
 .calendar-uo-row {
@@ -2883,8 +2866,8 @@ button {
 
 .calendar-highlight-group::after {
   position: absolute;
-  right: -0.15rem;
-  top: -2.35rem;
+  right: 0.35rem;
+  top: -1.65rem;
   z-index: 2;
   width: clamp(9.2rem, 15vw, 12.5rem);
   height: clamp(6rem, 10vw, 8.25rem);
@@ -2913,9 +2896,12 @@ button {
 }
 
 .calendar-highlight-group--fall::after {
+  right: -0.15rem;
+  top: -1.95rem;
   width: 40%;
   height: 40%;
   background-image: url("../images/backgrounds/fall-seasonal-topper.png");
+  content: none;
 }
 
 .calendar-highlight-group--winter h3 {
@@ -2924,9 +2910,12 @@ button {
 }
 
 .calendar-highlight-group--winter::after {
+  right: 0.35rem;
+  top: -4.55rem;
   width: 50%;
   height: 40%;
   background-image: url("../images/backgrounds/winter-plum-topper.png");
+  content: none;
   transform: rotate(55.2deg);
 }
 
@@ -2935,9 +2924,12 @@ button {
 }
 
 .calendar-highlight-group--spring::after {
+  right: 0.75rem;
+  top: -2.45rem;
   width: 50%;
   height: 40%;
   background-image: url("../images/backgrounds/spring-sakura-topper.png");
+  content: none;
   transform: rotate(19.2deg);
 }
 
@@ -4950,8 +4942,8 @@ button {
   }
 
   .calendar-highlight-group::after {
-    right: -0.1rem;
-    top: -1.35rem;
+    right: 0.2rem;
+    top: -1.05rem;
     width: 6.7rem;
     height: 4.8rem;
     opacity: 0.72;

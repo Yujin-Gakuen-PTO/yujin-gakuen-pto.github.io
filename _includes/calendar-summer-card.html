@@ -44,13 +44,12 @@
   </div>
 
   <aside class="calendar-everyone-meetup">
-    <span class="calendar-everyone-meetup__icon" aria-hidden="true">{% include calendar-icon.html icon="map" %}</span>
-    <div>
+    <img class="calendar-everyone-meetup__tree" src="{{ '/assets/images/decorations/fir-trees.png' | relative_url }}" alt="" aria-hidden="true">
+    <div class="calendar-everyone-meetup__content">
       {% assign everyone = summer.sessions | where: "group", "Everyone" | first %}
-      <span>Offsite Meetup</span>
       <strong>Everyone Meetup: {{ everyone.date | date: "%A, %B %-d, %Y" }}</strong>
       <p>{{ everyone.time }} at {{ everyone.location }}</p>
-      <p class="calendar-everyone-meetup__address">{{ everyone.address }}</p>
+      <p class="calendar-everyone-meetup__address"><span aria-hidden="true">{% include calendar-icon.html icon="location" %}</span>{{ everyone.address }}</p>
     </div>
   </aside>
 </section>
