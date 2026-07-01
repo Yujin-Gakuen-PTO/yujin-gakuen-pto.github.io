@@ -18,7 +18,7 @@ wide_content: true
 
   <div class="jikyuso-fact-grid" aria-label="Jikyuso quick facts">
     <div class="jikyuso-fact">
-      {% include action-icon.html icon="apple" %}
+      <img src="{{ '/assets/images/decorations/seasonal/sakura-blossom-bunch-large.png' | relative_url }}" alt="" loading="lazy">
       <span>Spring event</span>
     </div>
     <div class="jikyuso-fact">
@@ -168,7 +168,6 @@ wide_content: true
         </li>
       </ol>
     </div>
-    <img class="jikyuso-share-panel__decor" src="{{ '/assets/images/decorations/sakura-branch-spring.png' | relative_url }}" alt="" loading="lazy">
   </section>
 </div>
 
