@@ -2034,44 +2034,44 @@ button {
   color: var(--color-muted);
 }
 
-.mailchimp-signup {
+.pto-membership-form {
   max-width: 100%;
 }
 
-.mailchimp-signup form,
-.mailchimp-signup #mc_embed_signup_scroll {
+.pto-membership-form form,
+.pto-membership-form .pto-membership-form__fields {
   display: grid;
   gap: 0.95rem;
 }
 
-.mailchimp-signup .indicates-required {
+.pto-membership-form .indicates-required {
   color: var(--color-muted);
   font-size: 0.9rem;
 }
 
-.mailchimp-signup .asterisk {
+.pto-membership-form .asterisk {
   color: var(--color-accent);
   font-weight: 800;
 }
 
-.mailchimp-signup__name-row {
+.pto-membership-form__name-row {
   display: grid;
   gap: 0.8rem;
 }
 
-.mailchimp-signup .mc-field-group {
+.pto-membership-form .mc-field-group {
   display: grid;
   gap: 0.35rem;
 }
 
-.mailchimp-signup label,
-.mailchimp-signup .input-group strong {
+.pto-membership-form label,
+.pto-membership-form .input-group strong {
   color: var(--color-ink);
   font-weight: 800;
 }
 
-.mailchimp-signup input[type="email"],
-.mailchimp-signup input[type="text"] {
+.pto-membership-form input[type="email"],
+.pto-membership-form input[type="text"] {
   width: 100%;
   border: 1px solid var(--color-border-soft);
   border-radius: calc(var(--radius) - 2px);
@@ -2081,22 +2081,22 @@ button {
   padding: 0.7rem 0.78rem;
 }
 
-.mailchimp-signup input[type="email"]:focus,
-.mailchimp-signup input[type="text"]:focus,
-.mailchimp-signup input[type="checkbox"]:focus-visible,
-.mailchimp-signup input[type="submit"]:focus-visible {
+.pto-membership-form input[type="email"]:focus,
+.pto-membership-form input[type="text"]:focus,
+.pto-membership-form input[type="checkbox"]:focus-visible,
+.pto-membership-form input[type="submit"]:focus-visible {
   outline: 3px solid rgba(216, 168, 70, 0.36);
   outline-offset: 2px;
 }
 
-.mailchimp-signup .input-group {
+.pto-membership-form .input-group {
   border: 1px solid var(--color-border-soft);
   border-radius: calc(var(--radius) - 2px);
   background: rgba(255, 255, 255, 0.68);
   padding: 0.85rem;
 }
 
-.mailchimp-signup .input-group ul {
+.pto-membership-form .input-group ul {
   display: grid;
   gap: 0.55rem;
   margin: 0.45rem 0 0;
@@ -2104,25 +2104,25 @@ button {
   list-style: none;
 }
 
-.mailchimp-signup .mailchimp-signup__checks {
+.pto-membership-form .pto-membership-form__checks {
   grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
 }
 
-.mailchimp-signup .input-group li {
+.pto-membership-form .input-group li {
   display: grid;
   grid-template-columns: auto minmax(0, 1fr);
   gap: 0.45rem;
   align-items: start;
 }
 
-.mailchimp-signup input[type="checkbox"] {
+.pto-membership-form input[type="checkbox"] {
   width: 1.05rem;
   height: 1.05rem;
   accent-color: var(--color-primary-hover);
   margin-top: 0.18rem;
 }
 
-.mailchimp-signup input[type="submit"] {
+.pto-membership-form input[type="submit"] {
   border: 1px solid var(--color-primary-hover);
   border-radius: calc(var(--radius) - 2px);
   background: var(--color-primary-hover);
@@ -2133,31 +2133,31 @@ button {
   padding: 0.78rem 1.05rem;
 }
 
-.mailchimp-signup input[type="submit"]:hover {
+.pto-membership-form input[type="submit"]:hover {
   background: var(--color-primary);
 }
 
-.mailchimp-signup #mce-responses {
+.pto-membership-form #pto-membership-responses {
   display: grid;
   gap: 0.55rem;
 }
 
-.mailchimp-signup .response {
+.pto-membership-form .response {
   border-radius: calc(var(--radius) - 2px);
   padding: 0.7rem 0.8rem;
 }
 
-.mailchimp-signup #mce-error-response {
+.pto-membership-form #pto-membership-error-response {
   background: rgba(188, 67, 43, 0.1);
   color: var(--color-accent);
 }
 
-.mailchimp-signup #mce-success-response {
+.pto-membership-form #pto-membership-success-response {
   background: rgba(238, 243, 231, 0.9);
   color: var(--color-primary-hover);
 }
 
-.mailchimp-signup__bot-field {
+.pto-membership-form__bot-field {
   position: absolute;
   left: -5000px;
 }
@@ -5641,7 +5641,7 @@ button {
   }
 
   .join-explainer,
-  .mailchimp-signup__name-row,
+  .pto-membership-form__name-row,
   .access-support,
   .campaign-intro {
     grid-template-columns: minmax(0, 1.15fr) minmax(230px, 0.85fr);
